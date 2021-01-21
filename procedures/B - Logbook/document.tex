@@ -1,0 +1,138 @@
+\documentclass[openany]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}
+\usepackage{amsmath}
+\usepackage{mathtools}  
+\mathtoolsset{showonlyrefs} 
+\usepackage{graphicx}
+\usepackage{mdframed}
+\usepackage{lipsum}
+\usepackage{cancel}
+\usepackage{systeme}
+\usepackage{pgfplots}
+\usepackage{enumitem}
+\usepackage{textcomp}
+\usepackage{geometry}
+\usepackage{siunitx}
+\usepackage{gensymb}  % Symbol for degrees
+\usepackage{wrapfig}  %floating options using wrapfigure enviroment
+\usetikzlibrary{arrows}
+\geometry{a4paper}
+\graphicspath{ {./res/} }
+\usepackage{float}
+\restylefloat{table}
+\newcommand{\comment}[1]{%
+	\text{\phantom{(#1)}} \tag{#1}
+}
+ \title{\line(1,0){450}\\An AI-assisted decision making system for thyroid nodule classification \\ Meetings Logbook \\ \footnotesize University of Reading  \\\line(1,0){450}}
+\usepackage{pgfplots}
+\author{Stefanos Stefanou}
+
+\begin{document}
+	\maketitle
+	\section{Brief Table}
+		\begin{table}[H]
+			\begin{tabular}{lllll}
+				29/09/2020 & Initial comments on PID &  &  &  \\
+				6/10/2020  & Final Comments on PID (title)&  &  &  \\
+				13/10/2020 & Literature report and setting goals&  &  &  \\
+				20/10/2020 & Comments on the literature report/Are the DDIT a suitable dataset?&  &  &  \\
+				27/10/2020 & First results, DDIT problems and solutions, next target: TDID and formal classification process&  &  &  \\
+				03/11/2020 & Week 6, No meeting was held&  &  &  \\
+				10/11/2020 & Multiple objectives achieved, promising results, objective towards service/UI perspective set&  &  &  \\
+				17/11/2020 & Not Perfomed Due to personal reasons&  &  &  \\
+				24/11/2020 & Multiple objectives achieved, promising results, objective towards service/UI perspective set&  &  &  \\				
+				1/12/2020  & Not Performed/No updates, Develepoment of the platform continues on schedule&  &  &  \\				
+				1/12/2020  & Minor delays in delivery of Frontend, developement resumes as normal, Top priority the presentation and the Frontend&  &  &  \\				
+				
+			\end{tabular}
+		\end{table}
+	\section{Analytic Report}
+		\subsection{29/09/2020}
+			Some advice on good report writing is given by the supervisor, Mrs. Liang. Additionally, some typos regarding the PID draft and some clarification on the various subsections of PID Template are also given. Some questions on context and expectations are also answered.
+		\subsection{6/10/2020}
+			Some final comments on PID regarding the title and the type of the system (web or standalone) are given. The PID is now at the 'Ready' state and gets approval from Mrs. Liang.
+		\subsection{13/10/2020}
+			Some information regarding the literature report is discussed, and short term goals are set. The first goal is to perform some minor transformations into the DDIT dataset and building the first classifier in python and various technologies. The study-first-write-later approach to this project is agreed. Under this approach, a period of non-rapid progress will exist. The aforementioned approach will allow the student to properly study the underlying subject and its mathematical formalism before he engages with the topic.
+		\subsection{20/10/2020}
+			Some guidance regarding the literature report and how it needs to be more 'research-based' was given. Additionally, we discussed the importance of proving that DDIT is a suitable database for our needs. Plan on how we will prove it based on a simple python-classifier. This goal is to be met by our next meeting.
+		\subsection{27/10/2020}
+			The first results regarding the viability of the DDIT dataset are discussed. The integration library is tested, and the first classifier using scikit-learn is implemented. 97/98 of samples can be successfully predicted using this approach. Some significant problems are also pointed out, as the inconsistency of the dataset in certain areas and the very few valid points that can be used. The fact that maybe more datasets are needed is pointed out. The next target is defined. Next week, the TDID dataset needs to be tested, and the formal classification process needs to be followed, splitting our data points in an 80-20\% setup.
+		\subsection{03/11/2020}
+			Week 6, No meeting was held.
+		\subsection{10/11/2020}
+			Opening, the results of the two previous weeks are being presented.
+			\begin{itemize}
+				\item Integrate TDID into the codebase
+				\item 80-20 setup : 75-80 \%accuracy
+				\item Study : Complete Revision of : Probability and Statistics
+				\item Progress on the topics study
+				\item 5 papers found, studied, and added in literature report
+				\item TIRADS idea, multiple labels classification. Is it viable?
+			\end{itemize}	
+			After the initial presentation, some feedback in the proccess is given, and the next objectives are set, namely
+			\begin{itemize}
+				\item Try different classifiers ,variance of with parameters, compare results
+				\item Multiple label classification. Compare results
+				\item Introduction of complex image filters. Compare results
+				\item Paper prototype, what are the features that we want to support?
+				\item Define a draft of Use cases, Interactions
+				\item Service perspective of the project, maybe a mock of UI
+				\item What are the end users?
+			\end{itemize}
+		\subsection{17/11/2020}
+			No meeting was held due to personal reasons
+		\subsection{24/11/2020}
+			What objectives have been completed?
+			\begin{itemize}
+				\item Try different classifiers ,variance of with parameters, compare results(NO)
+				\item Multiple label classification. Compare results(NO)
+				\item Introduction of complex image filters. Compare results(NO)
+				\item Paper prototype, what are the features that we want to support?(YES)
+				\item Define a draft of Use cases, Interactions(YES)
+				\item Service perspective of the project, maybe a mock of UI(YES)
+				\item What are the end users?(YES)
+			\end{itemize}
+			Some notes from the supervisor. 
+			\begin{itemize}
+				\item Paper prototype:align with the universitys report template
+				\item Define a draft of Use cases, Interactions :Write for those in the report
+				\item Service perspective of the project: Architecture okay, create a mini presentation for the doctors, we need feedback
+				\item What are the end users: only hospitals, agreed :) 
+			\end{itemize}
+			Next time objectives
+			\begin{itemize}
+				\item Align with the universitys report termplate
+				\item mini presentation
+				\item write about the user interactions
+				\item write about the softwares architecture in the report
+				\item minimal functional version of the software
+				\item (carryover) Try different classifiers ,variance of with parameters, compare results
+				\item (carryover)Multiple label classification. Compare results
+				\item (carryover)Introduction of complex image filters. Compare results
+			\end{itemize}
+		\subsection{1/12/2020}
+			No Meeting was held, because of no further updates. System develepoment continues on plan
+			with a demo scheduled for the next meeting
+		\subsection{8/12/2020}
+			Objectives
+			\begin{itemize}
+				\item (1)Align with the universitys report termplate(DONE)
+				\item (2)mini presentation(To be completed)
+				\item (3)write about the user interactions (DONE)
+				\item (4)write about the softwares architecture in the report(DONE)
+				\item (5)minimal functional version of the software(In progress)
+				\item (6)(carryover) Try different classifiers ,variance of with parameters, compare results (Postponed)
+				\item (7)(carryover)Multiple label classification. Compare results(Postponed)
+				\item (8)(carryover)Introduction of complex image filters. Compare results(Postponed)
+			\end{itemize}
+			Because of university deadlines, the develepoment of a minimal functional version of the software is postponed untill 22th of december.
+			Presentation to be completed by the next meeting, Tasks (1),(3),(4) are completed and tasks (6),(7),(8) are postponed untill next year.
+			Top priority, the delivery of the frontend for the next few weeks.
+			Next time's tasks
+			\begin{itemize}
+				\item (1)mini presentation
+			\end{itemize}
+\end{document}
+

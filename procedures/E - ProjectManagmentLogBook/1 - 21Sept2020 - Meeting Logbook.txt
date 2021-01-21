@@ -1,0 +1,7 @@
+1.  Explain the idea
+2.  Do we need approval? Research ethic issues
+    Refers to -> 'all projects that involve the taking of biometric readings or subjecting bodies to physical shocks of any kind
+3.  Legal + Social issues?'
+    will align with GDPR-> ' Appropriate handling of any sensitive data e.g. personal or financial information.'
+4.  Risk Assessment? Deep learning is a probabilistic model, it can be used as reliable source of data, we need to include this
+3.  Timetable

@@ -1,0 +1,34 @@
+
+
+
+due to several deadlines approaching (Image Analysis,Pat Solo,Pat Group,Python)
+	deadline for mini functional workable version pushed 2 weeks after (18th/Dec)
+
+Tasks for this time...
+
+
+* Align with the universitys report termplate(OK)										(have a quick look)
+• mini presentation(NO)																	(have a quick look)
+• write about the user interactions(OK)													(have a quick look)	
+• write about the softwares architecture in the report (OK)								(have a quick look)
+• minimal functional version of the software(Some progress, disquss about the stack)	(lets have a look at the stack?)
+• (carryover) Try different classifiers ,variance of with parameters, compare results • (carryover)Multiple label classification. Compare results
+• (carryover)Introduction of complex image filters. Compare results(NO)
+
+
+
+stack frontend
+	Static 
+		HTML/CSS/Material UI
+	Dynamic Interpreter
+		React.js
+	Containerization
+		Docker + Docker Compose
+	Automation
+		Circle CI
+stack backend
+	Python + Diango
+
+
+
+mini presentation doc top priority and finalize 
