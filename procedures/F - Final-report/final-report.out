@@ -1,52 +1,48 @@
 \BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 3
-\BOOKMARK [1][-]{section.2.1}{Brief Table of books}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.2}{Brief Table of papers}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.3}{Analytic Report: Books}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.3.1}{Learning Path Visualised}{section.2.3}% 7
-\BOOKMARK [2][-]{subsection.2.3.2}{\(Probability/Statistics\)ST1PS-18-9A: Probability and Statistics \(2018/19\)}{section.2.3}% 8
-\BOOKMARK [2][-]{subsection.2.3.3}{\(Linear Algebra\)Linear Algebra and Its Applications}{section.2.3}% 9
-\BOOKMARK [2][-]{subsection.2.3.4}{\(Image Analysis\)Digital Image Processing Author\(s\): Rafael C. Gonzalez, Richard E. Woods + CS3IA16-20-1A: Image Analysis \(2020/21\)}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.5}{\(Machine Learning\)Deep Learning Book by Aaron Courville, Ian Goodfellow, and Yoshua Bengio}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.6}{\(Techniques\)Deep Learning for Medical Image Analysis}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.7}{\(ToolStack\)Hands-On Machine Learning with Scikit-Learn and TensorFlow: }{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.8}{Papers}{section.2.3}% 14
-\BOOKMARK [0][-]{chapter.3}{Users Perspective}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Our Users}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.3}{Our Users}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{Abstracted View of the System}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Frontend Web App}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.2}{Backend}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.2.1}{Information Backend}{section.4.2}% 22
-\BOOKMARK [2][-]{subsection.4.2.2}{Task Backend}{section.4.2}% 23
-\BOOKMARK [2][-]{subsection.4.2.3}{Classification Backend}{section.4.2}% 24
-\BOOKMARK [0][-]{chapter.5}{The Frontend}{}% 25
-\BOOKMARK [1][-]{subsection.5.0.1}{Technology Stack}{chapter.5}% 26
-\BOOKMARK [0][-]{chapter.6}{The Backend}{}% 27
-\BOOKMARK [1][-]{section.6.1}{...}{chapter.6}% 28
-\BOOKMARK [1][-]{section.6.2}{...}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.2.1}{...}{section.6.2}% 30
-\BOOKMARK [1][-]{section.6.3}{Summary}{chapter.6}% 31
-\BOOKMARK [0][-]{chapter.7}{The Service}{}% 32
-\BOOKMARK [1][-]{section.7.1}{...}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.2}{...}{chapter.7}% 34
-\BOOKMARK [2][-]{subsection.7.2.1}{...}{section.7.2}% 35
-\BOOKMARK [1][-]{section.7.3}{Summary}{chapter.7}% 36
-\BOOKMARK [0][-]{chapter.8}{Discussion, Conclusion and Future work}{}% 37
-\BOOKMARK [1][-]{section.8.1}{...}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.2}{...}{chapter.8}% 39
-\BOOKMARK [2][-]{subsection.8.2.1}{...}{section.8.2}% 40
-\BOOKMARK [1][-]{section.8.3}{Summary}{chapter.8}% 41
-\BOOKMARK [0][-]{chapter.9}{Reflection}{}% 42
-\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 43
-\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 44
-\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 45
-\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 46
-\BOOKMARK [0][-]{section*.17}{Appendices}{}% 47
-\BOOKMARK [0][-]{appendix.1.A}{Technology Stack}{}% 48
-\BOOKMARK [1][-]{section.1.A.1}{...}{appendix.1.A}% 49
-\BOOKMARK [1][-]{section.1.A.2}{...}{appendix.1.A}% 50
-\BOOKMARK [2][-]{subsection.1.A.2.1}{...}{section.1.A.2}% 51
-\BOOKMARK [1][-]{section.1.A.3}{Summary}{appendix.1.A}% 52
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Brief Table of books}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.3}{Brief Table of papers}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{Requirement Analysis}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{Entity Relation Analysis}{}% 9
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{Entities}{chapter.4}% 11
+\BOOKMARK [2][-]{subsection.4.2.1}{Scan}{section.4.2}% 12
+\BOOKMARK [2][-]{subsection.4.2.2}{Patient}{section.4.2}% 13
+\BOOKMARK [2][-]{subsection.4.2.3}{Doctor}{section.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.2.4}{Notification}{section.4.2}% 15
+\BOOKMARK [1][-]{section.4.3}{Entity Relations}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Users Perspective}{}% 17
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 18
+\BOOKMARK [1][-]{section.5.2}{Our Users}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.3}{Our Users}{chapter.5}% 20
+\BOOKMARK [0][-]{chapter.6}{Abstracted View of the System}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Frontend Web App}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.2}{Backend}{chapter.6}% 23
+\BOOKMARK [2][-]{subsection.6.2.1}{Information Backend}{section.6.2}% 24
+\BOOKMARK [2][-]{subsection.6.2.2}{Task Backend}{section.6.2}% 25
+\BOOKMARK [2][-]{subsection.6.2.3}{Classification Backend}{section.6.2}% 26
+\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 27
+\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 28
+\BOOKMARK [0][-]{chapter.8}{The Backend}{}% 29
+\BOOKMARK [1][-]{section.8.1}{...}{chapter.8}% 30
+\BOOKMARK [1][-]{section.8.2}{...}{chapter.8}% 31
+\BOOKMARK [2][-]{subsection.8.2.1}{...}{section.8.2}% 32
+\BOOKMARK [1][-]{section.8.3}{Summary}{chapter.8}% 33
+\BOOKMARK [0][-]{chapter.9}{The Service}{}% 34
+\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 35
+\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 36
+\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 37
+\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 38
+\BOOKMARK [0][-]{chapter.10}{Discussion, Conclusion and Future work}{}% 39
+\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 40
+\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 41
+\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 42
+\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 43
+\BOOKMARK [0][-]{chapter.11}{Reflection}{}% 44
+\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 45
+\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 46
+\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 47
+\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 48

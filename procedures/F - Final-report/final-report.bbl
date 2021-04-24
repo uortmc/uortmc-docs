@@ -1,13 +1,36 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{Gudeliauskas}{2019}{gudeliauskas_2019}
-Gudeliauskas, D.  \harvardyearleft 2019\harvardyearright , `The basics of
-  hypertext markup language'.
-\newline\harvardurl{https://www.hostinger.co.uk/tutorials/what-is-html}
+\harvarditem{Eun Ju~Ha}{2021}{ai-applications}
+Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
+  applications of machine learning and deep learning to thyroid imaging: where
+  do we stand? ultrasonography. 2021 jan;40(1):23-29. doi: 10.14366/usg.20068.
+  epub 2020 jul 3. pmid: 32660203; pmcid: Pmc7758100.'.
+\newline\harvardurl{https://pubmed.ncbi.nlm.nih.gov/32660203/}
 
-\harvarditem{Morris}{2020}{morris_2020}
-Morris, S.  \harvardyearleft 2020\harvardyearright , `What is css, how does it
-  work and what is it used for?'.
-\newline\harvardurl{https://skillcrush.com/blog/css/}
+\harvarditem{{\em Fine Needle Aspiration Biopsy of Thyroid
+  Nodules}}{2019}{fna-proccess}
+{\em Fine Needle Aspiration Biopsy of Thyroid Nodules}  \harvardyearleft
+  2019\harvardyearright .
+\newline\harvardurl{https://www.thyroid.org/fna-thyroid-nodules/>}
+
+\harvarditem{Leach}{2005}{rfc4122}
+Leach, P.  \harvardyearleft 2005\harvardyearright , `{A Universally Unique
+  IDentifier (UUID) URN Namespace}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc4122}
+
+\harvarditem{Manber}{1996}{MANBER1996171}
+Manber, U.  \harvardyearleft 1996\harvardyearright , `A simple scheme to make
+  passwords based on one-way functions much harder to crack', {\em Computers
+  and Security} {\bf 15}(2),~171--176.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/016740489600003X}
+
+\harvarditem{{\em National Insurance Manual}}{2021}{nino-format}
+{\em National Insurance Manual}  \harvardyearleft 2021\harvardyearright .
+\newline\harvardurl{https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110}
+
+\harvarditem{Rivest}{1992}{rfc1321}
+Rivest, R.  \harvardyearleft 1992\harvardyearright , `{The MD5 Message-Digest
+  Algorithm}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc1321}
 
 \end{thebibliography}

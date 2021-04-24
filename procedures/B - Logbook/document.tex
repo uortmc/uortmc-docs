@@ -1,258 +1,455 @@
-\documentclass[openany]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                           %%
+%%   Stefanos Stefanou    													 %%
+%%   ID : 27020363                                                           %%
+%%   Department of Computer Science                                          %% 
+%%   University of Reading, UK                                               %%
+%%                                                                           %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%----------------------------------------------------------------------------------
+% DO NOT Change this is the required setting A4 page, 11pt, onside print, book-style
+%%----------------------------------------------------------------------------------
+\documentclass[a4paper,11pt,oneside]{book} 
 
+%%-------------------------------------
+%% Page margin settings - % half-inch margin all sides (recommended)
+%%-------------------------------------
+\usepackage[margin=0.8in]{geometry} 
+
+%%-------------------------------------
+%% Font settings - % CM San or Arial (recommended)
+%%-------------------------------------
+% Switch the following two line off: to revert back to defult LaTex font (NOT recomended)
+\usepackage{amsfonts}
+\renewcommand*\familydefault{\sfdefault}
+
+
+%%-------------------------------------
+%% Diagrams
+%%-------------------------------------
+\usepackage{tikz}
+
+
+%%-------------------------------------
+%% Math/Defination/Theorem/Algorithm packages settings 
+%%-------------------------------------
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newtheorem{mydef}{Definition}
+\newtheorem{mytherm}{Theorem}
+
+%%-------------------------------------
+%% Algorithms/Code Listing environment settings  - 
+%% Please do not change these settings
+%%-------------------------------------
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
 \usepackage[utf8]{inputenc}
-\usepackage{dirtytalk}
-\usepackage{amsmath}
-\usepackage{mathtools}  
-\mathtoolsset{showonlyrefs} 
-\usepackage{graphicx}
-\usepackage{mdframed}
-\usepackage{lipsum}
-\usepackage{cancel}
-\usepackage{systeme}
-\usepackage{pgfplots}
-\usepackage{enumitem}
-\usepackage{textcomp}
-\usepackage{geometry}
-\usepackage{siunitx}
-\usepackage{gensymb}  % Symbol for degrees
-\usepackage{wrapfig}  %floating options using wrapfigure enviroment
-\usetikzlibrary{arrows}
-\geometry{a4paper}
-\graphicspath{ {./res/} }
-\usepackage{float}
-\restylefloat{table}
-\newcommand{\comment}[1]{%
-	\text{\phantom{(#1)}} \tag{#1}
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0.1}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codeblue}{rgb}{0.10,0.00,1.00}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{1.0,1.0,1.0}
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{codeblue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                        
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	frame=none
 }
- \title{\line(1,0){450}\\An AI-assisted decision making system for thyroid nodule classification \\ Meetings Logbook \\ \footnotesize University of Reading  \\\line(1,0){450}}
-\usepackage{pgfplots}
-\author{Stefanos Stefanou}
+\lstset{style=mystyle}
 
+%%-------------------------------------
+%% Graphics/Figures environment settings
+%%-------------------------------------
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{lipsum}
+
+%%-------------------------------------
+%% Table environment settings
+%%-------------------------------------
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{makecell}
+\usepackage{booktabs}
+%\usepackage{longtable,booktabs}
+
+%%-------------------------------------
+%% List of Abbreviations settings
+%%-------------------------------------
+\usepackage{enumitem}
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+%%-------------------------------------
+%% bibliography/References settings   - Harvard Style was used in this report
+%%-------------------------------------
+\usepackage[hidelinks]{hyperref}
+\usepackage[comma,authoryear]{natbib}
+\renewcommand{\bibname}{References} % DO NOT remove or switch of 
+
+%%-------------------------------------
+%% Appendix settings     
+%%-------------------------------------
+\usepackage[toc]{appendix}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%     SETTING ENDS  %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-	\maketitle
+	
+	\captionsetup[figure]{margin=1.5cm,font=small,name={Figure},labelsep=colon}
+	\captionsetup[table]{margin=1.5cm,font=small,name={Table},labelsep=colon}
+	\setlipsumdefault{1}
+	
+	\frontmatter
+	
+	\begin{titlepage}      
+		\begin{center}
+			\includegraphics[width=3cm]{res/uorlogo.png}\\[0.5cm]
+			{\LARGE University of Reading\\[0.5cm]
+				Department of Computer Science}\\[2cm]
+			%{\color{blue} \rule{\textwidth}{1pt}}
+			
+			% -------------------------------
+			% You need to edit some details here
+			% -------------------------------  
+			
+			%------------------------------  An AI-assisted decision-making system for thyroid nodule classification ----------------------------------%
+			% change the following line
+			\linespread{1.2}\huge {An AI-assisted decision-making system for thyroid nodule classification}
+			
+			% chnage the following line
+			\linespread{1.2}\huge {Project Logbook}
+			
+			\linespread{1}~\\[2cm]
+			%{\color{blue} \rule{\textwidth}{1pt}}
+			
+			%------------------------------  Your Name  -------------------------------%
+			{\Large Stefanos Stefanou}\\[1cm] 
+			
+			%-------------------------- Your Superviosr's name(s) ---------------------%
+			% chnage the following line
+			{\large \emph{Supervisor:} Huizhi Liang}\\[1cm] % if applicable
+			
+			% PLEASE DO NOT CHANGE THIS TEXT %
+			\large A report submitted in partial fulfilment of the requirements of\\the University of Reading for the degree of\\ Bachelor of Science in \textit{Computer Science}\\[0.3cm] 
+			\vfill
+			
+			
+			April, 2021% Please update this date you can use \date{April 2020} for fixed date
+		\end{center}
+	\end{titlepage}
+	\newpage
+	\section{Introduction}
+	The develepoment of this project was inspired by the Agile develepoment practices, and was split in periods of approximate 1.5 week (~11 days) each(this is an
+	approximation as this was dynamic, and varied depending on the university workload). In the end of each period or 'spring' a meeting was held with the projects supervisor for
+	an update on the project, as well as for guidance and support. Below there is two sections. One section is a descriptive or brief section that outlines the progress on a particular
+	period, and the second part, is a descriptive part that has details on the develepoment proccess and the problems encountered.
 	\section{Brief Table}
-		\begin{table}[H]
-			\begin{tabular}{lllll}
-				29/09/2020 & Initial comments on PID &  &  &  \\
-				6/10/2020  & Final Comments on PID (title)&  &  &  \\
-				13/10/2020 & Literature report and setting goals&  &  &  \\
-				20/10/2020 & Comments on the literature report/Are the DDIT a suitable dataset?&  &  &  \\
-				27/10/2020 & First results, DDIT problems and solutions, next target: TDID and formal classification process&  &  &  \\
-				03/11/2020 & Week 6, No meeting was held&  &  &  \\
-				10/11/2020 & Multiple objectives achieved, promising results, objective towards service/UI perspective set&  &  &  \\
-				17/11/2020 & Not Perfomed Due to personal reasons&  &  &  \\
-				24/11/2020 & Multiple objectives achieved, promising results, objective towards service/UI perspective set&  &  &  \\				
-				1/12/2020  & Not Performed/No updates, Develepoment of the platform continues on schedule&  &  &  \\				
-				1/12/2020  & No Meeting was held, because of no further updates. System develepoment continues on planwith a demo scheduled for the next meeting&  &  &  \\				
-				8/12/2020  & Minor delays in delivery of Frontend, developement resumes as normal, xmas objectives agreed, Top priority the presentation and the Frontend&  &  &  \\				
-				11/01/2021 & Frontend is ready, and the majority of the study for start developing backend is done, some rescheduling done, some tasks will be pushed back	&  &  &  \\				
-				25/01/2021 & Part of the backend is ready, develepoment continues on plan	&  &  &  \\				
+	\begin{table}[H]
+		\begin{tabular}{lllll}
+			29/09/2020 & Initial comments on PID &  &  &  \\
+			6/10/2020  & Final Comments on PID (title)&  &  &  \\
+			13/10/2020 & Literature report and setting goals&  &  &  \\
+			20/10/2020 & Comments on the literature report/is DDIT a suitable dataset?&  &  &  \\
+			27/10/2020 & DDIT problems and solutions, next target: TDID and formal classification process&  &  &  \\
+			03/11/2020 & Week 6, No meeting was held&  &  &  \\
+			10/11/2020 & Promising results, objective towards service/UI perspective set&  &  &  \\
+			17/11/2020 & Not Perfomed Due to personal reasons&  &  &  \\
+			24/11/2020 & Promising results, Work continous on schedule&  &  &  \\				
+			1/12/2020  & Not Performed/No updates, Develepoment of the platform continues on schedule&  &  &  \\				
+			1/12/2020  & System develepoment continues on plan with a demo scheduled for the next meeting&  &  &  \\				
+			8/12/2020  & Minor delays in delivery of Frontend, Top priority the presentation and the Frontend&  &  &  \\				
+			11/01/2021 & Frontend is ready, and the majority of the study for start developing backend is done	&  &  &  \\				
+			25/01/2021 & Part of the backend is ready, develepoment continues on plan, demo of the completed features	&  &  &  \\				
+			01/02/2021 & The information backend is ready. Profile/Notifications/Login/Support NINO	&  &  &  \\		
+			08/02/2021 & Migration FE-BE ready, meeting with researcher held, SVC model ready	&  &  &  \\	
+			16/02/2021 & Full FE cycle + use cases ready on schedule. Task-Backend(Predictor) starts on schedule. 	&  &  &  \\	
+			23/02/2021 & Meeting with doctors from RBH. Much appreciation and potential. Great ideas for future work 	&  &  &  \\		
+			29/03/2021 & Task-Backend(Predictor) ready on schedule. SVC Works, issue with ResNet migration. 	&  &  &  \\	
+			12/04/2021 & ResNet migration completed and software ready. Extensive testing and presentation left 	&  &  &  \\	
+			19/04/2021 & Testing and video presentation completed successfuly. Final progress meeting for TMC Project. 	&  &  &  \\		
 			
 		\end{tabular}
-		\end{table}
+	\end{table}
 	\section{Analytic Report}
-		\subsection{29/09/2020}
-			Some advice on good report writing is given by the supervisor, Mrs. Liang. Additionally, some typos regarding the PID draft and some clarification on the various subsections of PID Template are also given. Some questions on context and expectations are also answered.
-		\subsection{6/10/2020}
-			Some final comments on PID regarding the title and the type of the system (web or standalone) are given. The PID is now at the 'Ready' state and gets approval from Mrs. Liang.
-		\subsection{13/10/2020}
-			Some information regarding the literature report is discussed, and short term goals are set. The first goal is to perform some minor transformations into the DDIT dataset and building the first classifier in python and various technologies. The study-first-write-later approach to this project is agreed. Under this approach, a period of non-rapid progress will exist. The aforementioned approach will allow the student to properly study the underlying subject and its mathematical formalism before he engages with the topic.
-		\subsection{20/10/2020}
-			Some guidance regarding the literature report and how it needs to be more 'research-based' was given. Additionally, we discussed the importance of proving that DDIT is a suitable database for our needs. Plan on how we will prove it based on a simple python-classifier. This goal is to be met by our next meeting.
-		\subsection{27/10/2020}
-			The first results regarding the viability of the DDIT dataset are discussed. The integration library is tested, and the first classifier using scikit-learn is implemented. 97/98 of samples can be successfully predicted using this approach. Some significant problems are also pointed out, as the inconsistency of the dataset in certain areas and the very few valid points that can be used. The fact that maybe more datasets are needed is pointed out. The next target is defined. Next week, the TDID dataset needs to be tested, and the formal classification process needs to be followed, splitting our data points in an 80-20\% setup.
-		\subsection{03/11/2020}
-			Week 6, No meeting was held.
-		\subsection{10/11/2020}
-			Opening, the results of the two previous weeks are being presented.
-			\begin{itemize}
-				\item Integrate TDID into the codebase
-				\item 80-20 setup : 75-80 \%accuracy
-				\item Study : Complete Revision of : Probability and Statistics
-				\item Progress on the topics study
-				\item 5 papers found, studied, and added in literature report
-				\item TIRADS idea, multiple labels classification. Is it viable?
-			\end{itemize}	
-			After the initial presentation, some feedback in the proccess is given, and the next objectives are set, namely
-			\begin{itemize}
-				\item Try different classifiers ,variance of with parameters, compare results
-				\item Multiple label classification. Compare results
-				\item Introduction of complex image filters. Compare results
-				\item Paper prototype, what are the features that we want to support?
-				\item Define a draft of Use cases, Interactions
-				\item Service perspective of the project, maybe a mock of UI
-				\item What are the end users?
-			\end{itemize}
-		\subsection{17/11/2020}
-			No meeting was held due to personal reasons
-		\subsection{24/11/2020}
-			What objectives have been completed?
-			\begin{itemize}
-				\item Try different classifiers ,variance of with parameters, compare results(NO)
-				\item Multiple label classification. Compare results(NO)
-				\item Introduction of complex image filters. Compare results(NO)
-				\item Paper prototype, what are the features that we want to support?(YES)
-				\item Define a draft of Use cases, Interactions(YES)
-				\item Service perspective of the project, maybe a mock of UI(YES)
-				\item What are the end users?(YES)
-			\end{itemize}
-			Some notes from the supervisor. 
-			\begin{itemize}
-				\item Paper prototype:align with the universitys report template
-				\item Define a draft of Use cases, Interactions :Write for those in the report
-				\item Service perspective of the project: Architecture okay, create a mini presentation for the doctors, we need feedback
-				\item What are the end users: only hospitals, agreed :) 
-			\end{itemize}
-			Next time objectives
-			\begin{itemize}
-				\item Align with the universitys report termplate
-				\item mini presentation
-				\item write about the user interactions
-				\item write about the softwares architecture in the report
-				\item minimal functional version of the software
-				\item (carryover) Try different classifiers ,variance of with parameters, compare results
-				\item (carryover)Multiple label classification. Compare results
-				\item (carryover)Introduction of complex image filters. Compare results
-			\end{itemize}
-		\subsection{1/12/2020}
-			No Meeting was held, because of no further updates. System develepoment continues on plan
-			with a demo scheduled for the next meeting
-		\subsection{8/12/2020}
-			Objectives
-			\begin{itemize}
-				\item (1)Align with the universitys report termplate(DONE)
-				\item (2)mini presentation(To be completed)
-				\item (3)write about the user interactions (DONE)
-				\item (4)write about the softwares architecture in the report(DONE)
-				\item (5)minimal functional version of the software(In progress)
-				\item (6)(carryover) Try different classifiers ,variance of with parameters, compare results (Postponed)
-				\item (7)(carryover)Multiple label classification. Compare results(Postponed)
-				\item (8)(carryover)Introduction of complex image filters. Compare results(Postponed)
-			\end{itemize}
-			Because of university deadlines, the develepoment of a minimal functional version of the software is postponed untill 22th of december.
-			Presentation to be completed by the next meeting, Tasks (1),(3),(4) are completed and tasks (6),(7),(8) are postponed untill next year.
-			Top priority, the delivery of the frontend for the next few weeks.
-			
-		\subsection{11/01/2021}
-			Things Achieved on christmas
-			
-			\begin{itemize}
-				\item minimal functional version of frontend
-			\end{itemize}
-			Frontend is ready, and the majority of the study for start developing backend is done. for the next few weeks the first microservice(backend-1) will be developed. 
-			With the new scheduling, tasks(6),(7) and (8) will be postponed untill after the end of the develepoment of backend-2.
-		\subsection{25/01/2021}
-			Part of the backend is ready, develepoment continues on plan,20 Tasks are complete, demo of the following
-			\begin{itemize}
-				\item Login System
-				\item Signup System
-				\item Profile Endpoint
-				\item Django endpoint
-				\item Heroku deployment
-				\item Split into multiple projects for ease of use and proffesionalism
-			\end{itemize}
-			The following plan was aggreed
-			\begin{itemize}
-				\item 20-30 Jan: 				Backend Microservice 1 (Information) + Migration FE/BE
-				\item 1-10 Feb:  				Backend Microservice 2 (Task)+Migration
-				\item 10 Feb-15 March: 		    Study of machine learning patterns + University Deadlines
-				\item 15 March - 15 April:      Complex models,image filters+prediction focused period
-				\item 15 April-20April:         Presentation work and safety padding
-			\end{itemize}
-		\subsection{01-02}
-			\begin{itemize}
-				\item All the required functionality of Information Backend is ready(demostration performed),
-				\item Part of FE-BE Migration is ready. Develepoment continues on plan
-				\item Profile Section Implemented
-				\item Notifications System Implemented
-				\item Login System Implemented
-				\item Nessesary study materials completed
-				\item Support NINO on patients
-			\end{itemize}
-			Targets for next week
-			\begin{itemize}
-				\item Information Backend Ready
-				\item Migration Complete
-				\item The basic model to be runnable, and shuffling mechanism to be implemented and tested. 
-				\item PostDoc meeting to be held next week with advices on improving the model
-				\item Doctors meeting to be scheduled
-			\end{itemize}
-		\subsection{08-02}
-			\begin{itemize}
-				
-				\item Information Backend is ready on schedule
-				\item Migration FE-BE is ready on schedule(Demostration performed)
-				\item The basic model to be runnable, and shuffling mechanism implemented
-				\item PostDoc meeting held. Introduction to the system, we disqussed various approaches on enchacing the system
-				\item Doctors meeting for feedback to be done in 2 weeks time
-			\end{itemize}
-			Some notable tasks following
-			\begin{itemize}
-				\item Comments on patient (comments on scan will follow later)
-				\item Search by nino
-				\item About page
-				\item Title+logo
-				\item Error handling
-				\item Refactoring
-				\item Patient add
-				\item Patient list
-				\item Notifications pill
-				\item Profile username upper left
-				\item Contract testing
-				\item Shufflng mechanism on the basic model
-				\item + 2 bugs fixed
-			\end{itemize}
-			For Next week
-			\begin{itemize}
-				\item Task-Backend to be implemented
-				\item Task-Backend - FE Migration to be performed
-				\item Finalization of user interactions
-				\item Start working on the Doctors presentation
-				\item Start working on the Project poster presentation for February 26th
-			\end{itemize}
-		\subsection{16-02}
-			25 Completed Tasks
-			\begin{itemize}
-				\item Full Cycle is implemented
-				\item All interactions are implemented
-				\item Comments on Patient and on Scan
-				\item Patient View and Scan view
-				\item View All scans for a given patient
-				\item Form alignment and Table alignment, all is uniform 
-				\item Notification system completed
-				\item Change ST marys hospityal to RBH
-			\end{itemize}
-			Whats Left
-			\begin{itemize}
-				\item Image upload and storange on TE (mocked)
-				\item Classification Handling on TE (will use thespian actors for those)
-				\item Putting an actual model
-				\item Studing my last 2 books
-				\item Complex models migration
-				\item Update the final report
-			\end{itemize}
-			
-			How? 
-			from now untill 15 march, will go to low-productivity mode
-			1) Will finish poster video
-			2) Will finish presentation
-			3) Will Implement 1,2,3,6,4
-			
-			Those to be expected by 15 march, by implementing those i will have 4 weeks for 
-			complex model and finish the project(quite good programme)
-			
-			What low-productivity means?
-			instead of 5*7 = 35hrs/week
-			2*7 = 14hrs/week
-			
-			Some Suggestions have been given by Mrs Liang
-			\begin{itemize}
-				\item Implement Hint's for making the system user friendly
-				\item Better Logo and Naming
-				\item Agree/Disagree functionality
-			\end{itemize}
-			Those Has been agreed to have been implemented by the next week.
-			Additionally, the next week, a doctors meeting will be held and i will present my work for receiving useful feedback
+	\subsection{29/09/2020}
+	Some advice on good report writing is given by the supervisor, Mrs. Liang. 
+	Additionally, some typos regarding the PID draft and some clarification on the various subsections of the PID Template are also given. 
+	Some questions on context and expectations are also answered.
+	\subsection{6/10/2020}
+	Some final comments on PID regarding the title and the type of the system (web or standalone) are given. 
+	The PID is now at the 'Ready' state and gets approval from Mrs. Liang.
+	\subsection{13/10/2020}
+	Some information regarding the literature report is discussed, and short-term goals are set. The first goal is to
+	perform some minor transformations into the DDIT dataset and building the first classifier in python 
+	and various technologies. The study-first-write-later approach to this project is agreed upon. 
+	Under this approach, a period of non-rapid progress will exist. The approach, as mentioned earlier, 
+	will allow the student to properly study the underlying subject and its mathematical formalism before engaging with the topic.
+	\subsection{20/10/2020}
+	Some guidance regarding the literature report and how it needs to be more 'research-based was given. Additionally, we discussed 
+	the importance of proving that DDIT is a suitable database for our needs. Plan on how we will prove it based on a simple 
+	python-classifier. This goal is to be met by our next meeting.
+	\subsection{27/10/2020}
+	The first results regarding the viability of the DDIT dataset are discussed. The integration library is tested, 
+	and the first classifier using scikit-learn is implemented. 97/98 of samples can be successfully predicted using this approach. 
+	Some significant problems are also pointed out, as the inconsistency of the dataset in certain areas and the very few valid points
+	that can be used. The fact that maybe more datasets are needed is pointed out. The next target is defined. Next week, 
+	the TDID dataset needs to be tested, and the formal classification process needs to be followed, splitting our data points in an 
+	80-20\% setup.
+	\subsection{03/11/2020}
+	Week 6, No meeting was held.
+	\subsection{10/11/2020}
+	Opening, the results of the two previous weeks are being presented.
+	\begin{itemize}
+		\item Integrate TDID into the codebase.
+		\item 80-20 setup : 75-80 \%accuracy.
+		\item Study: Complete Revision of Probability and Statistics.
+		\item Progress on the study of the topic.
+		\item Five papers were found, studied, and added to the literature report.
+		\item TIRADS idea, multiple labels classification. Is it viable?
+	\end{itemize}	
+	After the initial presentation, some feedback in the process is given, and the next objectives are set, namely...
+	\begin{itemize}
+		\item Try different classifiers, with different hyperparameters, compare results.
+		\item Multiple label classification. Compare results.
+		\item Introduction of complex image filters. Compare results.
+		\item Paper prototype, what are the features that we want to support?
+		\item Define a draft of Use cases, Interactions.
+		\item Service perspective of the project, maybe a mock of UI.
+		\item What are the end-users?
+	\end{itemize}
+	\subsection{17/11/2020}
+	No meeting was held due to personal reasons.
+	\subsection{24/11/2020}
+	Completed objectives are stated in the following list
+	\begin{itemize}
+		\item Try different classifiers with different hyperparameters, compare results.
+		\item Paper prototype, what are the features that we want to support?.
+		\item Define a draft of Use cases, Interactions.
+		\item Service perspective of the project, maybe a mock of UI.
+		\item What are the end-users?.
+	\end{itemize}
+	Not completed objectives are stated below.
+	\begin{itemize}
+		\item Multiple label classification. Compare results.
+		\item Introduction of complex image filters. Compare results.
+	\end{itemize}
+	Some notes from the supervisor. 
+	\begin{itemize}
+		\item Paper prototype: align with the universitys report template
+		\item Define a draft of Use cases, Interactions : Write for those in the report
+		\item Service perspective of the project: Architecture okay, create a mini presentation for the doctors, feedback is needed
+		\item What are the end users: only hospitals? needs to be investigated.
+	\end{itemize}
+	Next time objectives
+	\begin{itemize}
+		\item Align with the universitys report termplate.
+		\item Mini presentation.
+		\item Write about the user interactions.
+		\item Write about the softwares architecture in the report.
+		\item Minimal functional version of the software.
+		\item Multiple label classification. Compare results.
+		\item Introduction of complex image filters. Compare results.
+	\end{itemize}
+	\subsection{1/12/2020}
+	No Meeting was held, because of no further updates. System develepoment continues on plan
+	with a demo scheduled for the next meeting
+	\subsection{8/12/2020}
+	Objectives
+	\begin{itemize}
+		\item (1)Align with the universitys report termplate (DONE)
+		\item (2)Mini presentation (To be completed)
+		\item (3)Write about the user interactions (DONE)
+		\item (4)Write about the softwares architecture in the report (DONE)
+		\item (5)Minimal functional version of the software (In progress)
+		\item (6)(carryover) Try different classifiers ,variance of with parameters, compare results (Postponed)
+		\item (7)(carryover)Multiple label classification. Compare results (Postponed)
+		\item (8)(carryover)Introduction of complex image filters. Compare results (Postponed)
+	\end{itemize}
+	Because of university deadlines, the development of a minimally functional version of the software is postponed until the 22nd of December.
+	Presentation to be completed by the next meeting, Tasks (1),(3),(4) are completed, and tasks (6),(7),(8) are postponed until next year.
+	Top priority, the delivery of the frontend for the next few weeks.
+	
+	\subsection{11/01/2021}
+	Things Achieved on Christmas
+	
+	\begin{itemize}
+		\item Minimal functional version of frontend
+	\end{itemize}
+	The front end is ready, and most of the study to start developing the backend is done. For the next few weeks, the first 
+	microservice(backend-1) will be developed. with the new scheduling, tasks(6),(7), and (8) will be postponed until after
+	AAkm£)the end of the development of backend-2.
+	\subsection{25/01/2021}
+	Part of the backend is ready, develepoment continues on plan, 20 Tasks are complete, demo of the following
+	\begin{itemize}
+		\item Login System
+		\item Signup System
+		\item Profile Endpoint
+		\item Django endpoint
+		\item Heroku deployment
+		\item Split into multiple projects for ease of use and proffesionalism
+	\end{itemize}
+	The following plan was aggreed
+	\begin{itemize}
+		\item 20-30 Jan: 				Backend Microservice 1 (Information) + Migration FE/BE
+		\item 1-10 Feb:  				Backend Microservice 2 (Task)+Migration
+		\item 10 Feb-15 March: 		    Study of machine learning patterns + University Deadlines
+		\item 15 March - 15 April:      Complex models,image filters+prediction focused period
+		\item 15 April-20April:         Presentation work and safety padding
+	\end{itemize}
+	\subsection{01-02}
+	\begin{itemize}
+		\item All the required functionality of Information Backend is ready(demostration performed),
+		\item Part of FE-BE Migration is ready. Develepoment continues on plan.
+		\item Profile Section Implemented.
+		\item Notifications System Implemented.
+		\item Login System Implemented.
+		\item Nessesary study materials completed.
+		\item Support NINO on patients.
+	\end{itemize}
+	Targets for next week
+	\begin{itemize}
+		\item Information Backend Ready
+		\item Migration Complete
+		\item The basic model to be runnable, and shuffling mechanism to be implemented and tested. 
+		\item PostDoc meeting to be held next week with advices on improving the model
+		\item Doctors meeting to be scheduled
+	\end{itemize}
+	\subsection{08-02}
+	\begin{itemize}
+		
+		\item Information Backend is ready on schedule
+		\item Migration FE-BE is ready on schedule(Demostration performed)
+		\item The basic model to be runnable, and shuffling mechanism implemented
+		\item PostDoc meeting held. Introduction to the system, we disqussed various approaches on enchacing the system
+		\item Doctors meeting for feedback to be done in 2 weeks time
+	\end{itemize}
+	Some notable tasks following
+	\begin{itemize}
+		\item Comments on patient (comments on scan will follow later)
+		\item Search by nino
+		\item About page
+		\item Title+logo
+		\item Error handling
+		\item Refactoring
+		\item Patient add
+		\item Patient list
+		\item Notifications pill
+		\item Profile username upper left
+		\item Contract testing
+		\item Shufflng mechanism on the basic model
+		\item + 2 bugs fixed
+	\end{itemize}
+	For Next week
+	\begin{itemize}
+		\item Task-Backend to be implemented
+		\item Task-Backend - FE Migration to be performed
+		\item Finalization of user interactions
+		\item Start working on the Doctors presentation
+		\item Start working on the Project poster presentation for February 26th
+	\end{itemize}
+	\subsection{16-02}
+	25 Completed Tasks
+	\begin{itemize}
+		\item Full Cycle is implemented
+		\item All interactions are implemented
+		\item Comments on Patient and on Scan
+		\item Patient View and Scan view
+		\item View All scans for a given patient
+		\item Form alignment and Table alignment, all is uniform 
+		\item Notification system completed
+		\item Change ST marys hospityal to RBH
+	\end{itemize}
+	Whats Left
+	\begin{itemize}
+		\item Image upload and storange on TE (mocked)
+		\item Classification Handling on TE (will use pykka actors for those)
+		\item Putting an actual model
+		\item Studing my last 2 books
+		\item Complex models migration
+		\item Update the final report
+	\end{itemize}
+	
+	How? 
+	from now untill 29th march, will go to low-productivity mode
+	1) Will finish poster video
+	2) Will finish presentation
+	3) Will Implement 1,2,3,6,4
+	
+	Those to be expected by 29th march; by implementing those, i will have three weeks for 
+	complex model and finish the project(manageable)
+	
+	What low-productivity means?
+	instead of 5*7 = 35hrs/week
+	2*7 = 14hrs/week
+	
+	Some Suggestions have been given by Mrs Liang
+	\begin{itemize}
+		\item Implement Hint's for making the system user friendly
+		\item Better Logo and Naming
+		\item Agree/Disagree functionality
+	\end{itemize}
+	Those Have been agreed to have been implemented by the next week.
+	Additionally, the next week, a doctors meeting will be held, and I will present my work for receiving useful feedback
+	\subsection{23-02}
+	The meeting with the doctors was an absolute success, where the potential of the project was outlined. Some useful feedback and relevant
+	software was mentioned for me to be inspired and get ideas. Great for future development of the project.
+	
+	\subsection{29-03}
+	52 Completed Tasks, most notable changes include...
+	\begin{itemize}
+		\item Image upload and storange on Task Backend (Base64 Encoding) 
+		\item Classification Handling on TE (will use pykka actors for those)
+		\item Putting an actual model, the SVC Model works.
+		\item The nessesary books has been studied.
+		\item Complex model migration still under construction
+		\item Work on final report
+	\end{itemize}
+	Numerous issues were discussed, the most difficult one is the fact that the complex model, provided by the post-doc researcher uses
+	the torch package. py-torch(the python version of torch) is a very heavy library in terms of storage. Heroku(our deployment service) 
+	has a maximum limit of the size per project(500mb). A workaround may be possible, if the more lightweight cpu-only version is used, i will
+	have a look at the next week for that.
+	Work on final report continous on schedule.
+	\subsection{12-04}
+	36 Completed tasks. most notable changes include
+	\begin{itemize}
+		\item Complex model works according to plan.
+		\item Work on final report continous on schedule.
+	\end{itemize}
+	The problem with the maximum size per project was resolved by creating a different requirements.txt, one for my local machine(Mac OS) and one
+	using a virtual machine for Linux x86-64 (using VirtualBox). The plan worked perfectly, and now it uses the -CPU packages instead of GPU-CUDA ones.
+	this needs to be fixed if this project tends to go on production, probably we can deploy this service separately into a dedicated server with GPUS available
+	for the models to utilize.
+	For the final demostration, the following things needs to be done.
+	\begin{itemize}
+		\item Final E2E testing.
+		\item Extensive writing of unit tests.
+		\item Video script and video editiong of the final presentation.
+	\end{itemize}
+	\subsection{19-04}
+	The final meeting before the delivery of the video presentation. Some minor changes were proposed by Mrs. Liang. Implemented, and the video was submitted on the 19th.
+	
+	
+	
+	
 \end{document}
-

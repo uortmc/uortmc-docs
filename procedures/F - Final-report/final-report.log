@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  25 JAN 2021 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  24 APR 2021 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,12 +791,6 @@ LaTeX Warning: Label `ch:lit_rev' multiply defined.
 
 LaTeX Warning: Label `ch:lit_rev' multiply defined.
 
-
-LaTeX Warning: Label `ch:lit_rev' multiply defined.
-
-
-LaTeX Warning: Label `ch:lit_rev' multiply defined.
-
 )
 \openout1 = `final-report.aux'.
 
@@ -915,7 +909,7 @@ Package lipsum Warning: \setlipsumdefault on line 121
 (lipsum)                \setlipsumdefault  should be substituted by
 (lipsum)                \SetLipsumDefault .
 
-<figures/uorlogo.png, id=216, 513.92pt x 513.92pt>
+<figures/uorlogo.png, id=199, 513.92pt x 513.92pt>
 File: figures/uorlogo.png Graphic file (type png)
 <use figures/uorlogo.png>
 Package pdftex.def Info: figures/uorlogo.png  used on input line 127.
@@ -952,143 +946,161 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (4.93695pt too wide) in paragraph at lines 10--10
- [][] [][]\OT1/cmss/m/n/10.95 (Probability/Statistics)ST1PS-18-9A: Prob-a-bil-i
-ty and Statis-tics (2018/19)[] [][]  
- []
-
-[3
+) [3
 
 ])
 \tf@toc=\write5
 \openout5 = `final-report.toc'.
 
- [4] (./chapters/0B-Acknowledgments.tex) (./chapters/1-Introduction.tex
-[1
+ [4]
+(./chapters/0B-Acknowledgments.tex) (./chapters/1-Introduction.tex [1
 
 
 ]
 Chapter 1.
+LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 8.
 ) (./chapters/2-Literature Review.tex [2
 
 ]
 Chapter 2.
 
-Overfull \hbox (52.92235pt too wide) in paragraph at lines 4--13
+Overfull \hbox (52.92235pt too wide) in paragraph at lines 8--17
 [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-16.
+20.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (18.16815pt too wide) in paragraph at lines 18--19
+Overfull \hbox (18.16815pt too wide) in paragraph at lines 22--23
 \OT1/cmss/m/n/10.95 Bioin-for-ma-tion. 2020;16(2):145-148. Pub-lished 2020 Feb 
 29. doi:10.6026/97320630016145 
  []
 
-<figures/path.png, id=314, 1011.78pt x 272.01625pt>
-File: figures/path.png Graphic file (type png)
-<use figures/path.png>
-Package pdftex.def Info: figures/path.png  used on input line 29.
-(pdftex.def)             Requested size: 303.53633pt x 81.6055pt.
 [3
 
-]
-Overfull \hbox (19.18202pt too wide) in paragraph at lines 32--32
-[]\OT1/cmss/bx/n/12 (Probability/Statistics)ST1PS-18-9A: Prob-a-bil-ity and Sta
-tis-tics (2018/19) 
- []
-
-LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 33.
-) (./chapters/3-The Users Perspective.tex [4 <./figures/path.png>] [5]
+]) (./chapters/3A-Requirement Analysis.tex [4]
 Chapter 3.
-) (./chapters/4-Abstracted View Of The System.tex [6
+) (./chapters/3B-The Entity Relation Analysis.tex [5
 
 ]
 Chapter 4.
-<figures/system-overview.png, id=340, 653.44125pt x 273.02pt>
+
+Overfull \hbox (40.38727pt too wide) in paragraph at lines 10--19
+ [] 
+ []
+
+
+Overfull \hbox (34.03017pt too wide) in paragraph at lines 25--35
+ [] 
+ []
+
+[6
+
+]
+<figures/Entity-Relation-Fig.png, id=329, 412.54124pt x 101.37875pt>
+File: figures/Entity-Relation-Fig.png Graphic file (type png)
+<use figures/Entity-Relation-Fig.png>
+Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 82
+.
+(pdftex.def)             Requested size: 206.27011pt x 50.68924pt.
+) (./chapters/3C-The Users Perspective.tex [7 <./figures/Entity-Relation-Fig.pn
+g>]
+Chapter 5.
+) (./chapters/4-Abstracted View Of The System.tex [8
+
+]
+Chapter 6.
+<figures/system-overview.png, id=350, 653.44125pt x 273.02pt>
 File: figures/system-overview.png Graphic file (type png)
 <use figures/system-overview.png>
 Package pdftex.def Info: figures/system-overview.png  used on input line 9.
 (pdftex.def)             Requested size: 196.03387pt x 81.90663pt.
-<figures/frontend-actor.png, id=341, 413.545pt x 197.73875pt>
+<figures/frontend-actor.png, id=351, 413.545pt x 197.73875pt>
 File: figures/frontend-actor.png Graphic file (type png)
 <use figures/frontend-actor.png>
 Package pdftex.def Info: figures/frontend-actor.png  used on input line 18.
 (pdftex.def)             Requested size: 124.06445pt x 59.32208pt.
-[7
+[9
 
  <./figures/system-overview.png> <./figures/frontend-actor.png>])
-(./chapters/5-The Frontend.tex [8]
-Chapter 5.
+(./chapters/5-The Frontend.tex [10]
+Chapter 7.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
-[9
 
-]) (./chapters/6-The Backend.tex [10]
-Chapter 6.
-) (./chapters/7-The Service.tex [11
+Package natbib Warning: Citation `gudeliauskas_2019' on page 11 undefined on in
+put line 18.
 
-]
-Chapter 7.
-) (./chapters/8-Discussion Conclusion and Future work.tex [12
 
-]
+Package natbib Warning: Citation `morris_2020' on page 11 undefined on input li
+ne 23.
+
+[11
+
+]) (./chapters/6-The Backend.tex [12]
 Chapter 8.
-) (./chapters/9-Reflection.tex [13
+) (./chapters/7-The Service.tex [13
 
 ]
 Chapter 9.
-) (./final-report.bbl [14
-
-]) [15
+) (./chapters/8-Discussion Conclusion and Future work.tex [14
 
 ]
-(./chapters/11-Appendix B: Technology Stack.tex
-Appendix A.
-) [16
-
+Chapter 10.
+) (./chapters/9-Reflection.tex [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Chapter 11.
+) (./final-report.bbl [16
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+[17
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./final-report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `final-report.out' has not changed.
-(rerunfilecheck)             Checksum: 21352D4AB7E925C05F1E31731A3582CE;3416.
+(rerunfilecheck)             Checksum: 9B77CEFF93D76E4F45222265CDC50C3A;2741.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 22167 strings out of 480608
- 405853 string characters out of 5903630
- 748206 words of memory out of 5000000
- 37491 multiletter control sequences out of 15000+600000
- 541658 words of font info for 57 fonts, out of 8000000 for 9000
+ 22206 strings out of 480608
+ 406523 string characters out of 5903630
+ 747525 words of memory out of 5000000
+ 37516 multiletter control sequences out of 15000+600000
+ 544754 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,548b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,60p,548b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
 /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on final-report.pdf (21 pages, 191408 bytes).
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on final-report.pdf (22 pages, 202192 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
