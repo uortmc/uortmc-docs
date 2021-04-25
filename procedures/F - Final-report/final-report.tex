@@ -36,8 +36,11 @@
 \usepackage[cmex10]{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
+\usepackage{mdframed}
+\usepackage{lipsum}
+\newmdtheoremenv{note}{Note}
 \newtheorem{mydef}{Definition}
-\newtheorem{mytherm}{Theorem}
+%\newtheorem{mytherm}{Note}
 
 %%-------------------------------------
 %% Algorithms/Code Listing environment settings  - 
@@ -182,7 +185,7 @@
     % Abstract and Acknowledgement
     % -------------------------------------------------------------------
     
-    \input{chapters/0A-Abstract.tex}
+    \input{chapters/Abstract.tex}
     % -------------------------------------------------------------------
 	% Acknowledgement
 	% -------------------------------------------------------------------
@@ -206,19 +209,23 @@
     % Lamport, L. (1986), LATEX: A Document Preparation System, Addison-Wesley.
     
     
-    \input{chapters/0B-Acknowledgments.tex}
-    \input{chapters/1-Introduction.tex}
-    \input{chapters/2-Literature Review.tex}
-    \input{chapters/3A-Requirement Analysis.tex}
-    \input{chapters/3B-The Entity Relation Analysis.tex}
-    \input{chapters/3C-The Users Perspective.tex}
-    \input{chapters/4-System Architecture.tex}
-    \input{chapters/5A-The Frontend.tex}
-    \input{chapters/5B-The Application Programming Interface.tex}
-    \input{chapters/6-The Backend.tex}
-    \input{chapters/7-The Prediction Service}
-    \input{chapters/8-Discussion Conclusion and Future work.tex}
-    \input{chapters/9-Reflection.tex}
+    \input{chapters/Acknowledgments.tex}
+    \input{chapters/Introduction.tex}
+    \input{chapters/Literature Review.tex}
+    \input{chapters/Requirement Analysis.tex}
+    \input{chapters/The Entity Relation Analysis.tex}
+    \input{chapters/The Users Perspective.tex}
+    \input{chapters/System Architecture.tex}
+    \input{chapters/The Administrators Perspective.tex}
+    \input{chapters/The Researchers Perspective.tex}
+    \input{chapters/The Frontend.tex}
+    \input{chapters/The Application Programming Interface.tex}
+    \input{chapters/The Backend.tex}
+    \input{chapters/The Prediction Service}
+    \input{chapters/CICD-Versioning-Deployment.tex}
+    \input{chapters/Starting the Application Locally.tex}
+    \input{chapters/Discussion Conclusion and Future work.tex}
+    \input{chapters/Reflection.tex}
     
     
     % -------------------------------------------------------------------

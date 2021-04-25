@@ -31,35 +31,75 @@
 \BOOKMARK [2][-]{subsection.5.5.4}{New Scan}{section.5.5}% 31
 \BOOKMARK [0][-]{chapter.6}{System Architecture}{}% 32
 \BOOKMARK [1][-]{section.6.1}{Overview}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.2}{Frontend Web App}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.3}{Backend}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.3.1}{Information Backend}{section.6.3}% 36
-\BOOKMARK [2][-]{subsection.6.3.2}{Task Backend}{section.6.3}% 37
-\BOOKMARK [1][-]{section.6.4}{Benefits from microservice-inspired architectures}{chapter.6}% 38
-\BOOKMARK [2][-]{subsection.6.4.1}{Separation of conserns}{section.6.4}% 39
-\BOOKMARK [2][-]{subsection.6.4.2}{Enchanced Security}{section.6.4}% 40
-\BOOKMARK [2][-]{subsection.6.4.3}{Flexible scalability factor}{section.6.4}% 41
-\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 42
-\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 43
-\BOOKMARK [0][-]{chapter.8}{The Frontend}{}% 44
-\BOOKMARK [1][-]{subsection.8.0.1}{Technology Stack}{chapter.8}% 45
-\BOOKMARK [0][-]{chapter.9}{The Backend}{}% 46
-\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 47
-\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 48
-\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 49
-\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 50
-\BOOKMARK [0][-]{chapter.10}{The Prediction Service}{}% 51
-\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 52
-\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 53
-\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 54
-\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 55
-\BOOKMARK [0][-]{chapter.11}{Discussion, Conclusion and Future work}{}% 56
-\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 57
-\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 58
-\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 59
-\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 60
-\BOOKMARK [0][-]{chapter.12}{Reflection}{}% 61
-\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 62
-\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 63
-\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 64
-\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 65
+\BOOKMARK [2][-]{subsection.6.1.1}{Maintainability}{section.6.1}% 34
+\BOOKMARK [2][-]{subsection.6.1.2}{Loosely coupled logic}{section.6.1}% 35
+\BOOKMARK [2][-]{subsection.6.1.3}{Indepedently deployable services}{section.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.1.4}{No single point of failure}{section.6.1}% 37
+\BOOKMARK [2][-]{subsection.6.1.5}{Flexible scaleability factor}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.6}{Enchanced security}{section.6.1}% 39
+\BOOKMARK [1][-]{section.6.2}{Frontend Web App}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.3}{Backend}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.3.1}{Information Backend}{section.6.3}% 42
+\BOOKMARK [2][-]{subsection.6.3.2}{Task Backend}{section.6.3}% 43
+\BOOKMARK [0][-]{chapter.7}{The Administrators Perspective}{}% 44
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 45
+\BOOKMARK [1][-]{section.7.2}{Administrator Panel}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.2.1}{Admin Panel Login}{section.7.2}% 47
+\BOOKMARK [2][-]{subsection.7.2.2}{Admin Panel Features}{section.7.2}% 48
+\BOOKMARK [0][-]{chapter.8}{The Researchers Perspective}{}% 49
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.2}{Researcher Panel}{chapter.8}% 51
+\BOOKMARK [2][-]{subsection.8.2.1}{Login screen}{section.8.2}% 52
+\BOOKMARK [2][-]{subsection.8.2.2}{Researcher Panel Features}{section.8.2}% 53
+\BOOKMARK [0][-]{chapter.9}{The Frontend Application}{}% 54
+\BOOKMARK [1][-]{section.9.1}{Introduction}{chapter.9}% 55
+\BOOKMARK [1][-]{section.9.2}{Technology Stack}{chapter.9}% 56
+\BOOKMARK [2][-]{subsection.9.2.1}{React}{section.9.2}% 57
+\BOOKMARK [0][-]{chapter.10}{The Frontend}{}% 58
+\BOOKMARK [1][-]{subsection.10.0.1}{Technology Stack}{chapter.10}% 59
+\BOOKMARK [0][-]{chapter.11}{The Backend}{}% 60
+\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 61
+\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 62
+\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 63
+\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 64
+\BOOKMARK [0][-]{chapter.12}{The Prediction Service}{}% 65
+\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 66
+\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 67
+\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 68
+\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 69
+\BOOKMARK [0][-]{chapter.13}{CICD-Versioning-Deployment}{}% 70
+\BOOKMARK [1][-]{section.13.1}{Introduction}{chapter.13}% 71
+\BOOKMARK [1][-]{section.13.2}{Login and Authentication}{chapter.13}% 72
+\BOOKMARK [1][-]{section.13.3}{Home}{chapter.13}% 73
+\BOOKMARK [1][-]{section.13.4}{Navigation bar}{chapter.13}% 74
+\BOOKMARK [2][-]{subsection.13.4.1}{Profile}{section.13.4}% 75
+\BOOKMARK [2][-]{subsection.13.4.2}{Notifications}{section.13.4}% 76
+\BOOKMARK [2][-]{subsection.13.4.3}{About}{section.13.4}% 77
+\BOOKMARK [1][-]{section.13.5}{Action Bar}{chapter.13}% 78
+\BOOKMARK [2][-]{subsection.13.5.1}{My Patients}{section.13.5}% 79
+\BOOKMARK [2][-]{subsection.13.5.2}{New Patient}{section.13.5}% 80
+\BOOKMARK [2][-]{subsection.13.5.3}{My Scans}{section.13.5}% 81
+\BOOKMARK [2][-]{subsection.13.5.4}{New Scan}{section.13.5}% 82
+\BOOKMARK [0][-]{chapter.14}{Starting The Application Locally}{}% 83
+\BOOKMARK [1][-]{section.14.1}{Introduction}{chapter.14}% 84
+\BOOKMARK [1][-]{section.14.2}{Login and Authentication}{chapter.14}% 85
+\BOOKMARK [1][-]{section.14.3}{Home}{chapter.14}% 86
+\BOOKMARK [1][-]{section.14.4}{Navigation bar}{chapter.14}% 87
+\BOOKMARK [2][-]{subsection.14.4.1}{Profile}{section.14.4}% 88
+\BOOKMARK [2][-]{subsection.14.4.2}{Notifications}{section.14.4}% 89
+\BOOKMARK [2][-]{subsection.14.4.3}{About}{section.14.4}% 90
+\BOOKMARK [1][-]{section.14.5}{Action Bar}{chapter.14}% 91
+\BOOKMARK [2][-]{subsection.14.5.1}{My Patients}{section.14.5}% 92
+\BOOKMARK [2][-]{subsection.14.5.2}{New Patient}{section.14.5}% 93
+\BOOKMARK [2][-]{subsection.14.5.3}{My Scans}{section.14.5}% 94
+\BOOKMARK [2][-]{subsection.14.5.4}{New Scan}{section.14.5}% 95
+\BOOKMARK [0][-]{chapter.15}{Discussion, Conclusion and Future work}{}% 96
+\BOOKMARK [1][-]{section.15.1}{...}{chapter.15}% 97
+\BOOKMARK [1][-]{section.15.2}{...}{chapter.15}% 98
+\BOOKMARK [2][-]{subsection.15.2.1}{...}{section.15.2}% 99
+\BOOKMARK [1][-]{section.15.3}{Summary}{chapter.15}% 100
+\BOOKMARK [0][-]{chapter.16}{Reflection}{}% 101
+\BOOKMARK [1][-]{section.16.1}{...}{chapter.16}% 102
+\BOOKMARK [1][-]{section.16.2}{...}{chapter.16}% 103
+\BOOKMARK [2][-]{subsection.16.2.1}{...}{section.16.2}% 104
+\BOOKMARK [1][-]{section.16.3}{Summary}{chapter.16}% 105
