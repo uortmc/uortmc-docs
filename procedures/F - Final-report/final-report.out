@@ -6,43 +6,52 @@
 \BOOKMARK [1][-]{section.2.3}{Brief Table of papers}{chapter.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Requirement Analysis}{}% 7
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 8
-\BOOKMARK [0][-]{chapter.4}{Entity Relation Analysis}{}% 9
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.2}{Entities}{chapter.4}% 11
-\BOOKMARK [2][-]{subsection.4.2.1}{Scan}{section.4.2}% 12
-\BOOKMARK [2][-]{subsection.4.2.2}{Patient}{section.4.2}% 13
-\BOOKMARK [2][-]{subsection.4.2.3}{Doctor}{section.4.2}% 14
-\BOOKMARK [2][-]{subsection.4.2.4}{Notification}{section.4.2}% 15
-\BOOKMARK [1][-]{section.4.3}{Entity Relations}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{Users Perspective}{}% 17
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 18
-\BOOKMARK [1][-]{section.5.2}{Our Users}{chapter.5}% 19
-\BOOKMARK [1][-]{section.5.3}{Our Users}{chapter.5}% 20
-\BOOKMARK [0][-]{chapter.6}{Abstracted View of the System}{}% 21
-\BOOKMARK [1][-]{section.6.1}{Frontend Web App}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.2}{Backend}{chapter.6}% 23
-\BOOKMARK [2][-]{subsection.6.2.1}{Information Backend}{section.6.2}% 24
-\BOOKMARK [2][-]{subsection.6.2.2}{Task Backend}{section.6.2}% 25
-\BOOKMARK [2][-]{subsection.6.2.3}{Classification Backend}{section.6.2}% 26
-\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 27
-\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 28
-\BOOKMARK [0][-]{chapter.8}{The Backend}{}% 29
-\BOOKMARK [1][-]{section.8.1}{...}{chapter.8}% 30
-\BOOKMARK [1][-]{section.8.2}{...}{chapter.8}% 31
-\BOOKMARK [2][-]{subsection.8.2.1}{...}{section.8.2}% 32
-\BOOKMARK [1][-]{section.8.3}{Summary}{chapter.8}% 33
-\BOOKMARK [0][-]{chapter.9}{The Service}{}% 34
-\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 35
-\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 36
-\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 37
-\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 38
-\BOOKMARK [0][-]{chapter.10}{Discussion, Conclusion and Future work}{}% 39
-\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 40
-\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 41
-\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 42
-\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 43
-\BOOKMARK [0][-]{chapter.11}{Reflection}{}% 44
-\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 45
-\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 46
-\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 47
-\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 48
+\BOOKMARK [1][-]{section.3.2}{Functional Requirements}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Non Functional Requirements}{chapter.3}% 10
+\BOOKMARK [0][-]{chapter.4}{Entity Relation Analysis}{}% 11
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.2}{Entities}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.2.1}{Scan}{section.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.2.2}{Patient}{section.4.2}% 15
+\BOOKMARK [2][-]{subsection.4.2.3}{Doctor}{section.4.2}% 16
+\BOOKMARK [2][-]{subsection.4.2.4}{Notification}{section.4.2}% 17
+\BOOKMARK [1][-]{section.4.3}{Entity Relations}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Users Perspective}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.2}{Login and Authentication}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.3}{Home}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.4}{Navigation bar}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.4.1}{Profile}{section.5.4}% 24
+\BOOKMARK [2][-]{subsection.5.4.2}{Notifications}{section.5.4}% 25
+\BOOKMARK [2][-]{subsection.5.4.3}{About}{section.5.4}% 26
+\BOOKMARK [1][-]{section.5.5}{Action Bar}{chapter.5}% 27
+\BOOKMARK [2][-]{subsection.5.5.1}{My Patients}{section.5.5}% 28
+\BOOKMARK [2][-]{subsection.5.5.2}{New Patient}{section.5.5}% 29
+\BOOKMARK [0][-]{chapter.6}{Abstracted View of the System}{}% 30
+\BOOKMARK [1][-]{section.6.1}{Frontend Web App}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{Backend}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.2.1}{Information Backend}{section.6.2}% 33
+\BOOKMARK [2][-]{subsection.6.2.2}{Task Backend}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.3}{Classification Backend}{section.6.2}% 35
+\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 36
+\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 37
+\BOOKMARK [0][-]{chapter.8}{The Backend}{}% 38
+\BOOKMARK [1][-]{section.8.1}{...}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.2}{...}{chapter.8}% 40
+\BOOKMARK [2][-]{subsection.8.2.1}{...}{section.8.2}% 41
+\BOOKMARK [1][-]{section.8.3}{Summary}{chapter.8}% 42
+\BOOKMARK [0][-]{chapter.9}{The Service}{}% 43
+\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 44
+\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 45
+\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 46
+\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 47
+\BOOKMARK [0][-]{chapter.10}{Discussion, Conclusion and Future work}{}% 48
+\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 49
+\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 50
+\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 51
+\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 52
+\BOOKMARK [0][-]{chapter.11}{Reflection}{}% 53
+\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 54
+\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 55
+\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 56
+\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 57

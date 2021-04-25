@@ -28,9 +28,19 @@ Manber, U.  \harvardyearleft 1996\harvardyearright , `A simple scheme to make
 {\em National Insurance Manual}  \harvardyearleft 2021\harvardyearright .
 \newline\harvardurl{https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110}
 
+\harvarditem{Rescorla}{2000}{rfc2818}
+Rescorla, E.  \harvardyearleft 2000\harvardyearright , `{HTTP Over TLS}',
+  Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc2818}
+
 \harvarditem{Rivest}{1992}{rfc1321}
 Rivest, R.  \harvardyearleft 1992\harvardyearright , `{The MD5 Message-Digest
   Algorithm}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc1321}
+
+\harvarditem{Yergeau}{2003}{rfc3629}
+Yergeau, F.  \harvardyearleft 2003\harvardyearright , `{UTF-8, a transformation
+  format of ISO 10646}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc3629}
 
 \end{thebibliography}

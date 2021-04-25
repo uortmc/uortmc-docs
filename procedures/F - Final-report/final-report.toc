@@ -8,48 +8,57 @@
 \contentsline {section}{\numberline {2.3}Brief Table of papers}{3}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Requirement Analysis}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{5}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Entity Relation Analysis}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Entities}{6}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Scan}{6}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Patient}{6}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Doctor}{7}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Notification}{7}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Entity Relations}{7}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Users Perspective}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Our Users}{8}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Our Users}{8}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Abstracted View of the System}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Frontend Web App}{9}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Backend}{9}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Information Backend}{10}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Task Backend}{10}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Classification Backend}{10}{subsection.6.2.3}%
-\contentsline {chapter}{\numberline {7}The Frontend}{11}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Technology Stack}{11}{subsection.7.0.1}%
-\contentsline {subsubsection}{HTML5}{11}{section*.11}%
-\contentsline {subsubsection}{CSS3}{11}{section*.12}%
-\contentsline {subsubsection}{Javascript}{11}{section*.13}%
-\contentsline {subsubsection}{React}{11}{section*.14}%
-\contentsline {subsubsection}{Boostrap}{12}{section*.15}%
-\contentsline {chapter}{\numberline {8}The Backend}{13}{chapter.8}%
-\contentsline {section}{\numberline {8.1}...}{13}{section.8.1}%
-\contentsline {section}{\numberline {8.2}...}{13}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}...}{13}{subsection.8.2.1}%
-\contentsline {section}{\numberline {8.3}Summary}{13}{section.8.3}%
-\contentsline {chapter}{\numberline {9}The Service}{14}{chapter.9}%
-\contentsline {section}{\numberline {9.1}...}{14}{section.9.1}%
-\contentsline {section}{\numberline {9.2}...}{14}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}...}{14}{subsection.9.2.1}%
-\contentsline {section}{\numberline {9.3}Summary}{14}{section.9.3}%
-\contentsline {chapter}{\numberline {10}Discussion, Conclusion and Future work}{15}{chapter.10}%
-\contentsline {section}{\numberline {10.1}...}{15}{section.10.1}%
-\contentsline {section}{\numberline {10.2}...}{15}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}...}{15}{subsection.10.2.1}%
-\contentsline {section}{\numberline {10.3}Summary}{15}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Reflection}{16}{chapter.11}%
-\contentsline {section}{\numberline {11.1}...}{16}{section.11.1}%
-\contentsline {section}{\numberline {11.2}...}{16}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}...}{16}{subsection.11.2.1}%
-\contentsline {section}{\numberline {11.3}Summary}{16}{section.11.3}%
+\contentsline {section}{\numberline {3.2}Functional Requirements}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Non Functional Requirements}{6}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Entity Relation Analysis}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Entities}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Scan}{7}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Patient}{7}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Doctor}{8}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Notification}{8}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Entity Relations}{8}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Users Perspective}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{9}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Login and Authentication}{9}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Home}{10}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Navigation bar}{10}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Profile}{11}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Notifications}{11}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}About}{12}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}Action Bar}{12}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}My Patients}{12}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}New Patient}{13}{subsection.5.5.2}%
+\contentsline {chapter}{\numberline {6}Abstracted View of the System}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Frontend Web App}{15}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Backend}{15}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Information Backend}{16}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Task Backend}{16}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Classification Backend}{16}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}The Frontend}{17}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Technology Stack}{17}{subsection.7.0.1}%
+\contentsline {subsubsection}{HTML5}{17}{section*.21}%
+\contentsline {subsubsection}{CSS3}{17}{section*.22}%
+\contentsline {subsubsection}{Javascript}{17}{section*.23}%
+\contentsline {subsubsection}{React}{17}{section*.24}%
+\contentsline {subsubsection}{Boostrap}{18}{section*.25}%
+\contentsline {chapter}{\numberline {8}The Backend}{19}{chapter.8}%
+\contentsline {section}{\numberline {8.1}...}{19}{section.8.1}%
+\contentsline {section}{\numberline {8.2}...}{19}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}...}{19}{subsection.8.2.1}%
+\contentsline {section}{\numberline {8.3}Summary}{19}{section.8.3}%
+\contentsline {chapter}{\numberline {9}The Service}{20}{chapter.9}%
+\contentsline {section}{\numberline {9.1}...}{20}{section.9.1}%
+\contentsline {section}{\numberline {9.2}...}{20}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}...}{20}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Summary}{20}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Discussion, Conclusion and Future work}{21}{chapter.10}%
+\contentsline {section}{\numberline {10.1}...}{21}{section.10.1}%
+\contentsline {section}{\numberline {10.2}...}{21}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}...}{21}{subsection.10.2.1}%
+\contentsline {section}{\numberline {10.3}Summary}{21}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Reflection}{22}{chapter.11}%
+\contentsline {section}{\numberline {11.1}...}{22}{section.11.1}%
+\contentsline {section}{\numberline {11.2}...}{22}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}...}{22}{subsection.11.2.1}%
+\contentsline {section}{\numberline {11.3}Summary}{22}{section.11.3}%

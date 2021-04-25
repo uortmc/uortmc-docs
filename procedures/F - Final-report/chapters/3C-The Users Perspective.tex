@@ -1,29 +1,122 @@
 \chapter{Users Perspective}
 \label{users_perspective}
 	\section{Introduction}
-		In this section, we will start our exploration of the application and its infrastructure and features. As the nature of the requirements of this
+		In this section, we will start our exploration of the application and its features. As the nature of the requirements of this
 		the system is complicated. Unavoidably the system will be complex as well. Taking this into a consideration, we will follow a natural top-to-bottom
-		approach explaining its internals, starting as our end-users and seeing the system as a black box. In this section, we will analyze its 
-		functionality from the user's perspective. Our definitions will be rigorous as we will use UML Case diagrams for that purpose.
-		on 
-	\section{Our Users}
-		In Chapter  we briefly mentioned our system's purpose as ...
-		\begin{mydef}
-			An AI-assisted decision making system for thyroid nodule classification.
-		\end{mydef}
-		As we are going to see later, various scientific methods are applied, taking into account 
-		multiple parameters, in order to produce a probabilistic result. This fact implies that the
-		end-user will be an expert on Radiology, to understand the terms, and carefully interpret the 
-		results. From now on we assume that our system users will be experianced Radiologists
-	\section{Our Users}
-		In Chapter we briefly mentioned our system's purpose as ...
-		\begin{mydef}
-			An AI-assisted decision making system for thyroid nodule classification.
-		\end{mydef}
-		As we are going to see later, various scientific methods are applied, taking into account 
-		multiple parameters, in order to produce a probabilistic result. This fact implies that the
-		end-user will be an expert on Radiology, to understand the terms, and carefully interpret the 
-		results. From now on we assume that our system users will be experianced Radiologists
+		approach explaining its internals, starting as end-users and seeing the system as a black box. In this section, we will analyze its 
+		functionality from the user's perspective. This section may also serve as a instruction manual for the end user as it contains everything needed
+		for an inexpierianced user to start working with the software.
+	\section{Login and Authentication}
+		\begin{figure}[H]
+			\iftrue
+			\centering
+			\caption{Login Screen}
+			\includegraphics[scale=0.3]{figures/login}
+			\fi
+		\end{figure}
+		The login screen is the first screen that our end-users will encounter. Here a username and a password is required to be given by the 
+		user to log in. The Credentials of the user remain encrypted during the proccess of login, as the system utilizes an HTTPS[\cite{rfc2818}] 
+		protocol for its connection, this is essential for the first non-functional requirement about security (see \ref{non-functional-requirements}).
+		The username and the password may be requested by the system administrator or the NOC\footnote{Network Operations Center} of the hospital.
+	\section{Home}
+		\begin{figure}[H]
+			\iftrue
+			\centering
+			\caption{Home Screen}
+			\includegraphics[scale=0.3]{figures/home}
+			\fi
+		\end{figure}
+		After the login proccess is completed. The user encounters the 'home' screen. From here it is possible to navigate to the features of the software
+		as well as learn about how the software can be utilised, through detailed guides and videos. The UI/UX\footnote{User Interface-User Expieriance} 
+		has been designed to be as user-friendly as possible. Some areas of interest are
+		\begin{center}
+			\begin{tabular}{ |c|c| } 
+				\hline
+				Action bar & The Actions that can be performed using the software can be accesed from here\\
+				Navigation bar & General information and notification bar \\
+				\hline
+			\end{tabular}
+		\end{center}
+	\section{Navigation bar}
+		In this section we will briefly look the options under the Navigation bar
+		\subsection{Profile}
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/profile}
+				\fi
+			\end{figure}
+			In the profile section, the user is capable of seeing its ascosiated information, saved on registration date. The information for security
+			reasons cannot be altered by the user itself, but only after a request to the system administrator or NOC\footnote{Network Operations Center}.
+		\subsection{Notifications}
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/notifications}
+				\fi
+			\end{figure}
+			In the notification section, useful information about events that may interest the end user can be found, such as the fact that
+			a uploaded scan results are ready to view. 
+		\subsection{About}
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/about}
+				\fi
+			\end{figure}
+			From here, a user may found useful information about the software, such as the current version.
+	\section{Action Bar}
+		In this section we will briefly look the options under the Action Bar
+		\subsection{My Patients}
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/mypatients}
+				\fi
+			\end{figure}
+			This page will show us a list of the currently registered patients. Each end-user(doctor) may only see its own patients and not others.
+			The end-user is able to search the list based on NiNo[\cite{nino-format}] of the given patient for convinience. The end-user is also
+			capable of viewing the details of a given patient, and record various notes/comments for that patient by clicking the 'Details' button
+			on his selected patient, as seen below. Finally by clicking the button 'View Scans' is able to see the specific patient history of uploaded
+			scans.
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/mypatients2}
+				\fi
+			\end{figure}
+		\subsection{New Patient}
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/newpatient}
+				\fi
+			\end{figure}
+			By clicking the 'New Patient' action on Action Bar, the user is capable of registering a new patient on the system. The following
+			conditions need to be met for the operation to be successful
+			\begin{itemize}
+				\item First name length should be more than 2 characters, encoded as UTF-8[\cite{rfc3629}]
+				\item Last name length should be more than 2 characters, encoded as UTF-8[\cite{rfc3629}]
+				\item NiNo should be at standard format [\cite{nino-format}], encoded as UTF-8[\cite{rfc3629}]
+			\end{itemize}
+			Failing to fulfill this constraints should lead to an error, as shown below.
+			\begin{figure}[H]
+				\iftrue
+				\centering
+				\caption{Home Screen}
+				\includegraphics[scale=0.3]{figures/newpatient-error}
+				\fi
+			\end{figure}
+			
+			
+			
+			
 		
 	
 
