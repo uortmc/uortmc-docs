@@ -5,45 +5,45 @@ The style file: agsm.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "gudeliauskas_2019"
 Warning--I didn't find a database entry for "morris_2020"
-You've used 8 entries,
+You've used 13 entries,
             2909 wiz_defined-function locations,
-            695 strings with 6008 characters,
-and the built_in function-call counts, 16479 in all, are:
-= -- 2643
-> -- 144
+            722 strings with 6690 characters,
+and the built_in function-call counts, 32360 in all, are:
+= -- 5259
+> -- 264
 < -- 0
-+ -- 1139
-- -- 42
-* -- 1305
-:= -- 3474
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 100
-chr.to.int$ -- 8
-cite$ -- 8
-duplicate$ -- 97
-empty$ -- 215
-format.name$ -- 54
-if$ -- 2959
++ -- 2348
+- -- 77
+* -- 2595
+:= -- 6759
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 169
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 157
+empty$ -- 348
+format.name$ -- 99
+if$ -- 5784
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 35
-num.names$ -- 60
-pop$ -- 62
+missing$ -- 3
+newline$ -- 53
+num.names$ -- 110
+pop$ -- 103
 preamble$ -- 1
-purify$ -- 110
+purify$ -- 185
 quote$ -- 0
-skip$ -- 85
+skip$ -- 135
 stack$ -- 0
-substring$ -- 3534
-swap$ -- 22
-text.length$ -- 92
+substring$ -- 7211
+swap$ -- 27
+text.length$ -- 162
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 50
 warning$ -- 0
-while$ -- 135
+while$ -- 240
 width$ -- 0
-write$ -- 101
+write$ -- 164
 (There were 2 warnings)

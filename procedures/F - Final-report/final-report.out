@@ -27,31 +27,39 @@
 \BOOKMARK [1][-]{section.5.5}{Action Bar}{chapter.5}% 27
 \BOOKMARK [2][-]{subsection.5.5.1}{My Patients}{section.5.5}% 28
 \BOOKMARK [2][-]{subsection.5.5.2}{New Patient}{section.5.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Abstracted View of the System}{}% 30
-\BOOKMARK [1][-]{section.6.1}{Frontend Web App}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Backend}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.2.1}{Information Backend}{section.6.2}% 33
-\BOOKMARK [2][-]{subsection.6.2.2}{Task Backend}{section.6.2}% 34
-\BOOKMARK [2][-]{subsection.6.2.3}{Classification Backend}{section.6.2}% 35
-\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 36
-\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 37
-\BOOKMARK [0][-]{chapter.8}{The Backend}{}% 38
-\BOOKMARK [1][-]{section.8.1}{...}{chapter.8}% 39
-\BOOKMARK [1][-]{section.8.2}{...}{chapter.8}% 40
-\BOOKMARK [2][-]{subsection.8.2.1}{...}{section.8.2}% 41
-\BOOKMARK [1][-]{section.8.3}{Summary}{chapter.8}% 42
-\BOOKMARK [0][-]{chapter.9}{The Service}{}% 43
-\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 44
-\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 45
-\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 46
-\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 47
-\BOOKMARK [0][-]{chapter.10}{Discussion, Conclusion and Future work}{}% 48
-\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 49
-\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 50
-\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 51
-\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 52
-\BOOKMARK [0][-]{chapter.11}{Reflection}{}% 53
-\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 54
-\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 55
-\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 56
-\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 57
+\BOOKMARK [2][-]{subsection.5.5.3}{My Scans}{section.5.5}% 30
+\BOOKMARK [2][-]{subsection.5.5.4}{New Scan}{section.5.5}% 31
+\BOOKMARK [0][-]{chapter.6}{System Architecture}{}% 32
+\BOOKMARK [1][-]{section.6.1}{Overview}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.2}{Frontend Web App}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.3}{Backend}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.3.1}{Information Backend}{section.6.3}% 36
+\BOOKMARK [2][-]{subsection.6.3.2}{Task Backend}{section.6.3}% 37
+\BOOKMARK [1][-]{section.6.4}{Benefits from microservice-inspired architectures}{chapter.6}% 38
+\BOOKMARK [2][-]{subsection.6.4.1}{Separation of conserns}{section.6.4}% 39
+\BOOKMARK [2][-]{subsection.6.4.2}{Enchanced Security}{section.6.4}% 40
+\BOOKMARK [2][-]{subsection.6.4.3}{Flexible scalability factor}{section.6.4}% 41
+\BOOKMARK [0][-]{chapter.7}{The Frontend}{}% 42
+\BOOKMARK [1][-]{subsection.7.0.1}{Technology Stack}{chapter.7}% 43
+\BOOKMARK [0][-]{chapter.8}{The Frontend}{}% 44
+\BOOKMARK [1][-]{subsection.8.0.1}{Technology Stack}{chapter.8}% 45
+\BOOKMARK [0][-]{chapter.9}{The Backend}{}% 46
+\BOOKMARK [1][-]{section.9.1}{...}{chapter.9}% 47
+\BOOKMARK [1][-]{section.9.2}{...}{chapter.9}% 48
+\BOOKMARK [2][-]{subsection.9.2.1}{...}{section.9.2}% 49
+\BOOKMARK [1][-]{section.9.3}{Summary}{chapter.9}% 50
+\BOOKMARK [0][-]{chapter.10}{The Prediction Service}{}% 51
+\BOOKMARK [1][-]{section.10.1}{...}{chapter.10}% 52
+\BOOKMARK [1][-]{section.10.2}{...}{chapter.10}% 53
+\BOOKMARK [2][-]{subsection.10.2.1}{...}{section.10.2}% 54
+\BOOKMARK [1][-]{section.10.3}{Summary}{chapter.10}% 55
+\BOOKMARK [0][-]{chapter.11}{Discussion, Conclusion and Future work}{}% 56
+\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 57
+\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 58
+\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 59
+\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 60
+\BOOKMARK [0][-]{chapter.12}{Reflection}{}% 61
+\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 62
+\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 63
+\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 64
+\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 65

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  25 APR 2021 08:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  25 APR 2021 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,12 +785,6 @@ LaTeX Warning: Label `ch:lit_rev' multiply defined.
 
 LaTeX Warning: Label `ch:lit_rev' multiply defined.
 
-
-LaTeX Warning: Label `ch:lit_rev' multiply defined.
-
-
-LaTeX Warning: Label `ch:lit_rev' multiply defined.
-
 )
 \openout1 = `final-report.aux'.
 
@@ -909,7 +903,7 @@ Package lipsum Warning: \setlipsumdefault on line 121
 (lipsum)                \setlipsumdefault  should be substituted by
 (lipsum)                \SetLipsumDefault .
 
-<figures/uorlogo.png, id=236, 513.92pt x 513.92pt>
+<figures/uorlogo.png, id=268, 513.92pt x 513.92pt>
 File: figures/uorlogo.png Graphic file (type png)
 <use figures/uorlogo.png>
 Package pdftex.def Info: figures/uorlogo.png  used on input line 127.
@@ -983,7 +977,7 @@ Overfull \hbox (18.16815pt too wide) in paragraph at lines 22--23
 
 ]) (./chapters/3A-Requirement Analysis.tex [4]
 Chapter 3.
-<figures/use-case.png, id=353, 795.97375pt x 783.92876pt>
+<figures/use-case.png, id=393, 795.97375pt x 783.92876pt>
 File: figures/use-case.png Graphic file (type png)
 <use figures/use-case.png>
 Package pdftex.def Info: figures/use-case.png  used on input line 26.
@@ -1006,7 +1000,7 @@ Overfull \hbox (34.03017pt too wide) in paragraph at lines 25--35
 [7
 
 ]
-<figures/Entity-Relation-Fig.png, id=381, 412.54124pt x 101.37875pt>
+<figures/Entity-Relation-Fig.png, id=421, 412.54124pt x 101.37875pt>
 File: figures/Entity-Relation-Fig.png Graphic file (type png)
 <use figures/Entity-Relation-Fig.png>
 Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 82
@@ -1015,12 +1009,12 @@ Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 82
 ) (./chapters/3C-The Users Perspective.tex [8 <./figures/Entity-Relation-Fig.pn
 g>]
 Chapter 5.
-<figures/login.png, id=396, 1133.23375pt x 586.19pt>
+<figures/login.png, id=436, 1133.23375pt x 586.19pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 14.
 (pdftex.def)             Requested size: 339.97275pt x 175.85835pt.
-<figures/home.png, id=401, 1131.22626pt x 870.25125pt>
+<figures/home.png, id=441, 1131.22626pt x 870.25125pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 26.
@@ -1028,125 +1022,174 @@ Package pdftex.def Info: figures/home.png  used on input line 26.
 [9
 
  <./figures/login.png>]
-Overfull \hbox (36.34189pt too wide) in paragraph at lines 33--39
+Overfull \hbox (39.38356pt too wide) in paragraph at lines 33--39
  [] 
  []
 
-<figures/profile.png, id=411, 1126.2075pt x 731.73375pt>
+<figures/profile.png, id=451, 1126.2075pt x 731.73375pt>
 File: figures/profile.png Graphic file (type png)
 <use figures/profile.png>
 Package pdftex.def Info: figures/profile.png  used on input line 47.
 (pdftex.def)             Requested size: 337.86487pt x 219.52182pt.
 [10 <./figures/home.png>]
-<figures/notifications.png, id=420, 1127.21124pt x 687.56876pt>
+<figures/notifications.png, id=460, 1127.21124pt x 687.56876pt>
 File: figures/notifications.png Graphic file (type png)
 <use figures/notifications.png>
-Package pdftex.def Info: figures/notifications.png  used on input line 57.
+Package pdftex.def Info: figures/notifications.png  used on input line 58.
 (pdftex.def)             Requested size: 338.16599pt x 206.27222pt.
-<figures/about.png, id=421, 1129.21875pt x 396.48125pt>
+<figures/about.png, id=461, 1129.21875pt x 396.48125pt>
 File: figures/about.png Graphic file (type png)
 <use figures/about.png>
-Package pdftex.def Info: figures/about.png  used on input line 67.
+Package pdftex.def Info: figures/about.png  used on input line 68.
 (pdftex.def)             Requested size: 338.76823pt x 118.94528pt.
  [11 <./figures/profile.png> <./figures/notifications.png>]
-<figures/mypatients.png, id=431, 1142.2675pt x 391.4625pt>
+<figures/mypatients.png, id=472, 1142.2675pt x 391.4625pt>
 File: figures/mypatients.png Graphic file (type png)
 <use figures/mypatients.png>
-Package pdftex.def Info: figures/mypatients.png  used on input line 78.
+Package pdftex.def Info: figures/mypatients.png  used on input line 79.
 (pdftex.def)             Requested size: 342.68289pt x 117.43965pt.
-<figures/mypatients2.png, id=434, 1134.2375pt x 703.62875pt>
+<figures/mypatients2.png, id=475, 1134.2375pt x 703.62875pt>
 File: figures/mypatients2.png Graphic file (type png)
 <use figures/mypatients2.png>
-Package pdftex.def Info: figures/mypatients2.png  used on input line 90.
+Package pdftex.def Info: figures/mypatients2.png  used on input line 91.
 (pdftex.def)             Requested size: 340.27388pt x 211.09026pt.
  [12 <./figures/about.png> <./figures/mypatients.png>]
-<figures/newpatient.png, id=443, 1140.26pt x 635.37375pt>
+<figures/newpatient.png, id=485, 1140.26pt x 635.37375pt>
 File: figures/newpatient.png Graphic file (type png)
 <use figures/newpatient.png>
-Package pdftex.def Info: figures/newpatient.png  used on input line 98.
+Package pdftex.def Info: figures/newpatient.png  used on input line 99.
 (pdftex.def)             Requested size: 342.08064pt x 190.61359pt.
-<figures/newpatient-error.png, id=452, 1145.27875pt x 613.29124pt>
+<figures/newpatient-error.png, id=494, 1145.27875pt x 613.29124pt>
 File: figures/newpatient-error.png Graphic file (type png)
 <use figures/newpatient-error.png>
-Package pdftex.def Info: figures/newpatient-error.png  used on input line 113.
+Package pdftex.def Info: figures/newpatient-error.png  used on input line 114.
 (pdftex.def)             Requested size: 343.58627pt x 183.98878pt.
- [13 <./figures/mypatients2.png> <./figures/newpatient.png>])
-(./chapters/4-Abstracted View Of The System.tex [14 <./figures/newpatient-error
-.png>]
+ [13 <./figures/mypatients2.png> <./figures/newpatient.png>]
+<figures/myscans.png, id=504, 1129.21875pt x 550.055pt>
+File: figures/myscans.png Graphic file (type png)
+<use figures/myscans.png>
+Package pdftex.def Info: figures/myscans.png  used on input line 122.
+(pdftex.def)             Requested size: 338.76823pt x 165.01776pt.
+<figures/myscans-details.png, id=505, 1123.19624pt x 949.5475pt>
+File: figures/myscans-details.png Graphic file (type png)
+<use figures/myscans-details.png>
+Package pdftex.def Info: figures/myscans-details.png  used on input line 132.
+(pdftex.def)             Requested size: 336.96147pt x 284.86644pt.
+ [14 <./figures/newpatient-error.png> <./figures/myscans.png>]
+<figures/newscan.png, id=515, 1179.40625pt x 630.355pt>
+File: figures/newscan.png Graphic file (type png)
+<use figures/newscan.png>
+Package pdftex.def Info: figures/newscan.png  used on input line 140.
+(pdftex.def)             Requested size: 353.8246pt x 189.10796pt.
+ [15 <./figures/myscans-details.png> <./figures/newscan.png>]
+<figures/newscan-error.png, id=533, 1136.245pt x 603.25375pt>
+File: figures/newscan-error.png Graphic file (type png)
+<use figures/newscan-error.png>
+Package pdftex.def Info: figures/newscan-error.png  used on input line 156.
+(pdftex.def)             Requested size: 340.87613pt x 180.97751pt.
+) (./chapters/4-System Architecture.tex [16 <./figures/newscan-error.png>]
 Chapter 6.
-<figures/system-overview.png, id=470, 653.44125pt x 273.02pt>
-File: figures/system-overview.png Graphic file (type png)
-<use figures/system-overview.png>
-Package pdftex.def Info: figures/system-overview.png  used on input line 9.
-(pdftex.def)             Requested size: 196.03387pt x 81.90663pt.
-<figures/frontend-actor.png, id=471, 413.545pt x 197.73875pt>
-File: figures/frontend-actor.png Graphic file (type png)
-<use figures/frontend-actor.png>
-Package pdftex.def Info: figures/frontend-actor.png  used on input line 18.
-(pdftex.def)             Requested size: 124.06445pt x 59.32208pt.
-[15
+<figures/system-architecture.png, id=545, 474.77374pt x 402.50375pt>
+File: figures/system-architecture.png Graphic file (type png)
+<use figures/system-architecture.png>
+Package pdftex.def Info: figures/system-architecture.png  used on input line 14
+.
+(pdftex.def)             Requested size: 237.38629pt x 201.25137pt.
+<figures/frontend.png, id=547, 250.9375pt x 217.81375pt>
+File: figures/frontend.png Graphic file (type png)
+<use figures/frontend.png>
+Package pdftex.def Info: figures/frontend.png  used on input line 27.
+(pdftex.def)             Requested size: 75.28181pt x 65.34462pt.
+[17
 
- <./figures/system-overview.png> <./figures/frontend-actor.png>])
-(./chapters/5-The Frontend.tex [16]
+ <./figures/system-architecture.png>]
+<figures/infobe.png, id=565, 290.08376pt x 221.82875pt>
+File: figures/infobe.png Graphic file (type png)
+<use figures/infobe.png>
+Package pdftex.def Info: figures/infobe.png  used on input line 44.
+(pdftex.def)             Requested size: 87.02579pt x 66.54912pt.
+<figures/taskbe.png, id=567, 373.395pt x 239.89626pt>
+File: figures/taskbe.png Graphic file (type png)
+<use figures/taskbe.png>
+Package pdftex.def Info: figures/taskbe.png  used on input line 56.
+(pdftex.def)             Requested size: 112.01936pt x 71.96942pt.
+ [18 <./figures/frontend.png> <./figures/infobe.png>]) (./chapters/5A-The Front
+end.tex [19 <./figures/taskbe.png>]
 Chapter 7.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 3.
 
 
-Package natbib Warning: Citation `gudeliauskas_2019' on page 17 undefined on in
+Package natbib Warning: Citation `gudeliauskas_2019' on page 20 undefined on in
 put line 18.
 
 
-Package natbib Warning: Citation `morris_2020' on page 17 undefined on input li
+Package natbib Warning: Citation `morris_2020' on page 20 undefined on input li
 ne 23.
 
-[17
+[20
 
-]) (./chapters/6-The Backend.tex [18]
+]) (./chapters/5B-The Application Programming Interface.tex [21]
 Chapter 8.
-) (./chapters/7-The Service.tex [19
 
-]
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+
+Package natbib Warning: Citation `gudeliauskas_2019' on page 22 undefined on in
+put line 18.
+
+
+Package natbib Warning: Citation `morris_2020' on page 22 undefined on input li
+ne 23.
+
+[22
+
+]) (./chapters/6-The Backend.tex [23]
 Chapter 9.
-) (./chapters/8-Discussion Conclusion and Future work.tex [20
+) (./chapters/7-The Prediction Service.tex [24
 
 ]
 Chapter 10.
-) (./chapters/9-Reflection.tex [21
+) (./chapters/8-Discussion Conclusion and Future work.tex [25
 
 ]
 Chapter 11.
-) (./final-report.bbl [22
+) (./chapters/9-Reflection.tex [26
+
+]
+Chapter 12.
+) (./final-report.bbl [27
+
+] [28
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[23
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
  (./final-report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `final-report.out' has not changed.
-(rerunfilecheck)             Checksum: C2F9267549CB106BAB9FF7452CF3D17D;3330.
+(rerunfilecheck)             Checksum: 5F9E6DEF4ACF3D854D0D996E221E2551;3884.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 22329 strings out of 480608
- 408896 string characters out of 5903630
- 748633 words of memory out of 5000000
- 37601 multiletter control sequences out of 15000+600000
+ 22439 strings out of 480608
+ 411071 string characters out of 5903630
+ 748994 words of memory out of 5000000
+ 37671 multiletter control sequences out of 15000+600000
  544754 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,60p,548b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,60p,548b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
@@ -1158,10 +1201,10 @@ local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 /local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr
 /local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on final-report.pdf (28 pages, 723671 bytes).
+Output written on final-report.pdf (34 pages, 1136315 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 509 compressed objects within 6 object streams
- 122 named destinations out of 1000 (max. 500000)
- 539 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 633 words of extra memory for PDF output out of 10000 (max. 10000000)
 

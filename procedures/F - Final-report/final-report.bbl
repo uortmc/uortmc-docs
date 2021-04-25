@@ -1,5 +1,10 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Barth}{2011}{session-rfc6265}
+Barth, A.  \harvardyearleft 2011\harvardyearright , `{HTTP State Management
+  Mechanism}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc6265}
+
 \harvarditem{Eun Ju~Ha}{2021}{ai-applications}
 Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
   applications of machine learning and deep learning to thyroid imaging: where
@@ -12,6 +17,13 @@ Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
 {\em Fine Needle Aspiration Biopsy of Thyroid Nodules}  \harvardyearleft
   2019\harvardyearright .
 \newline\harvardurl{https://www.thyroid.org/fna-thyroid-nodules/>}
+
+\harvarditem{{International Organization for
+  Standardization}}{1994}{jpeg-iso10918-1}
+{International Organization for Standardization}  \harvardyearleft
+  1994\harvardyearright , `Information technology --- digital compression and
+  coding of continuous-tone still images: Requirements and guidelines', ISO/IEC
+  10918-1.
 
 \harvarditem{Leach}{2005}{rfc4122}
 Leach, P.  \harvardyearleft 2005\harvardyearright , `{A Universally Unique
@@ -28,6 +40,16 @@ Manber, U.  \harvardyearleft 1996\harvardyearright , `A simple scheme to make
 {\em National Insurance Manual}  \harvardyearleft 2021\harvardyearright .
 \newline\harvardurl{https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110}
 
+\harvarditem{Newman}{2020}{newman_2020}
+Newman, S.  \harvardyearleft 2020\harvardyearright , {\em Monolith to
+  microservices: evolutionary patterns to transform your monolith}, O'Reilly
+  Media, Inc.
+
+\harvarditem{R.~Fielding}{2014}{restful-rfc7231}
+R.~Fielding, E.  \harvardyearleft 2014\harvardyearright , `{Hypertext Transfer
+  Protocol (HTTP/1.1): Semantics and Content}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc7231}
+
 \harvarditem{Rescorla}{2000}{rfc2818}
 Rescorla, E.  \harvardyearleft 2000\harvardyearright , `{HTTP Over TLS}',
   Internet Requests for Comments.
@@ -37,6 +59,11 @@ Rescorla, E.  \harvardyearleft 2000\harvardyearright , `{HTTP Over TLS}',
 Rivest, R.  \harvardyearleft 1992\harvardyearright , `{The MD5 Message-Digest
   Algorithm}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc1321}
+
+\harvarditem{T.~Bray}{2014}{json-rfc7159}
+T.~Bray, E.  \harvardyearleft 2014\harvardyearright , `{The JavaScript Object
+  Notation (JSON) Data Interchange Format}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc7159}
 
 \harvarditem{Yergeau}{2003}{rfc3629}
 Yergeau, F.  \harvardyearleft 2003\harvardyearright , `{UTF-8, a transformation

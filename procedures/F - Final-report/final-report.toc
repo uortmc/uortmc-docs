@@ -29,36 +29,49 @@
 \contentsline {section}{\numberline {5.5}Action Bar}{12}{section.5.5}%
 \contentsline {subsection}{\numberline {5.5.1}My Patients}{12}{subsection.5.5.1}%
 \contentsline {subsection}{\numberline {5.5.2}New Patient}{13}{subsection.5.5.2}%
-\contentsline {chapter}{\numberline {6}Abstracted View of the System}{15}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Frontend Web App}{15}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Backend}{15}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Information Backend}{16}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Task Backend}{16}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Classification Backend}{16}{subsection.6.2.3}%
-\contentsline {chapter}{\numberline {7}The Frontend}{17}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Technology Stack}{17}{subsection.7.0.1}%
-\contentsline {subsubsection}{HTML5}{17}{section*.21}%
-\contentsline {subsubsection}{CSS3}{17}{section*.22}%
-\contentsline {subsubsection}{Javascript}{17}{section*.23}%
-\contentsline {subsubsection}{React}{17}{section*.24}%
-\contentsline {subsubsection}{Boostrap}{18}{section*.25}%
-\contentsline {chapter}{\numberline {8}The Backend}{19}{chapter.8}%
-\contentsline {section}{\numberline {8.1}...}{19}{section.8.1}%
-\contentsline {section}{\numberline {8.2}...}{19}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}...}{19}{subsection.8.2.1}%
-\contentsline {section}{\numberline {8.3}Summary}{19}{section.8.3}%
-\contentsline {chapter}{\numberline {9}The Service}{20}{chapter.9}%
-\contentsline {section}{\numberline {9.1}...}{20}{section.9.1}%
-\contentsline {section}{\numberline {9.2}...}{20}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}...}{20}{subsection.9.2.1}%
-\contentsline {section}{\numberline {9.3}Summary}{20}{section.9.3}%
-\contentsline {chapter}{\numberline {10}Discussion, Conclusion and Future work}{21}{chapter.10}%
-\contentsline {section}{\numberline {10.1}...}{21}{section.10.1}%
-\contentsline {section}{\numberline {10.2}...}{21}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}...}{21}{subsection.10.2.1}%
-\contentsline {section}{\numberline {10.3}Summary}{21}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Reflection}{22}{chapter.11}%
-\contentsline {section}{\numberline {11.1}...}{22}{section.11.1}%
-\contentsline {section}{\numberline {11.2}...}{22}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}...}{22}{subsection.11.2.1}%
-\contentsline {section}{\numberline {11.3}Summary}{22}{section.11.3}%
+\contentsline {subsection}{\numberline {5.5.3}My Scans}{14}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.4}New Scan}{15}{subsection.5.5.4}%
+\contentsline {chapter}{\numberline {6}System Architecture}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Overview}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Frontend Web App}{18}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Backend}{18}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Information Backend}{18}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Task Backend}{19}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Benefits from microservice-inspired architectures}{19}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Separation of conserns}{19}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Enchanced Security}{19}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Flexible scalability factor}{19}{subsection.6.4.3}%
+\contentsline {chapter}{\numberline {7}The Frontend}{20}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Technology Stack}{20}{subsection.7.0.1}%
+\contentsline {subsubsection}{HTML5}{20}{section*.27}%
+\contentsline {subsubsection}{CSS3}{20}{section*.28}%
+\contentsline {subsubsection}{Javascript}{20}{section*.29}%
+\contentsline {subsubsection}{React}{20}{section*.30}%
+\contentsline {subsubsection}{Boostrap}{21}{section*.31}%
+\contentsline {chapter}{\numberline {8}The Frontend}{22}{chapter.8}%
+\contentsline {subsection}{\numberline {8.0.1}Technology Stack}{22}{subsection.8.0.1}%
+\contentsline {subsubsection}{HTML5}{22}{section*.32}%
+\contentsline {subsubsection}{CSS3}{22}{section*.33}%
+\contentsline {subsubsection}{Javascript}{22}{section*.34}%
+\contentsline {subsubsection}{React}{22}{section*.35}%
+\contentsline {subsubsection}{Boostrap}{23}{section*.36}%
+\contentsline {chapter}{\numberline {9}The Backend}{24}{chapter.9}%
+\contentsline {section}{\numberline {9.1}...}{24}{section.9.1}%
+\contentsline {section}{\numberline {9.2}...}{24}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}...}{24}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Summary}{24}{section.9.3}%
+\contentsline {chapter}{\numberline {10}The Prediction Service}{25}{chapter.10}%
+\contentsline {section}{\numberline {10.1}...}{25}{section.10.1}%
+\contentsline {section}{\numberline {10.2}...}{25}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}...}{25}{subsection.10.2.1}%
+\contentsline {section}{\numberline {10.3}Summary}{25}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Discussion, Conclusion and Future work}{26}{chapter.11}%
+\contentsline {section}{\numberline {11.1}...}{26}{section.11.1}%
+\contentsline {section}{\numberline {11.2}...}{26}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}...}{26}{subsection.11.2.1}%
+\contentsline {section}{\numberline {11.3}Summary}{26}{section.11.3}%
+\contentsline {chapter}{\numberline {12}Reflection}{27}{chapter.12}%
+\contentsline {section}{\numberline {12.1}...}{27}{section.12.1}%
+\contentsline {section}{\numberline {12.2}...}{27}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}...}{27}{subsection.12.2.1}%
+\contentsline {section}{\numberline {12.3}Summary}{27}{section.12.3}%
