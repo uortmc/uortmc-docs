@@ -29,6 +29,16 @@ Hewitt, C.  \harvardyearleft 2015\harvardyearright , `Actor model of
   coding of continuous-tone still images: Requirements and guidelines', ISO/IEC
   10918-1.
 
+\harvarditem{Jacques}{2018}{jacques_2018}
+Jacques, N.  \harvardyearleft 2018\harvardyearright , `Introducing axios, a
+  popular, promise-based http client'.
+\newline\harvardurl{https://www.sitepoint.com/axios-beginner-guide/}
+
+\harvarditem{Kaplan}{2014}{sessionID-rfc7329}
+Kaplan, H.  \harvardyearleft 2014\harvardyearright , `{A Session Identifier for
+  the Session Initiation Protocol (SIP)}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc7329}
+
 \harvarditem{Leach}{2005}{rfc4122}
 Leach, P.  \harvardyearleft 2005\harvardyearright , `{A Universally Unique
   IDentifier (UUID) URN Namespace}', Internet Requests for Comments.
