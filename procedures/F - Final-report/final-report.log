@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  28 APR 2021 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  28 APR 2021 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,7 +994,7 @@ Package lipsum Warning: \setlipsumdefault on line 122
 (lipsum)                \setlipsumdefault  should be substituted by
 (lipsum)                \SetLipsumDefault .
 
-<figures/uorlogo.png, id=449, 513.92pt x 513.92pt>
+<figures/uorlogo.png, id=445, 513.92pt x 513.92pt>
 File: figures/uorlogo.png Graphic file (type png)
 <use figures/uorlogo.png>
 Package pdftex.def Info: figures/uorlogo.png  used on input line 128.
@@ -1068,7 +1068,7 @@ Overfull \hbox (18.16815pt too wide) in paragraph at lines 22--23
 
 ]) (./chapters/Requirement Analysis.tex [4]
 Chapter 3.
-<figures/use-case.png, id=623, 795.97375pt x 783.92876pt>
+<figures/use-case.png, id=618, 795.97375pt x 783.92876pt>
 File: figures/use-case.png Graphic file (type png)
 <use figures/use-case.png>
 Package pdftex.def Info: figures/use-case.png  used on input line 26.
@@ -1090,7 +1090,7 @@ Overfull \hbox (34.03017pt too wide) in paragraph at lines 27--37
 [7
 
 ]
-<figures/Entity-Relation-Fig.png, id=653, 412.54124pt x 101.37875pt>
+<figures/Entity-Relation-Fig.png, id=647, 412.54124pt x 101.37875pt>
 File: figures/Entity-Relation-Fig.png Graphic file (type png)
 <use figures/Entity-Relation-Fig.png>
 Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 84
@@ -1099,12 +1099,12 @@ Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 84
 ) (./chapters/The Users Perspective.tex [8 <./figures/Entity-Relation-Fig.png>]
 
 Chapter 5.
-<figures/login.png, id=667, 1133.23375pt x 586.19pt>
+<figures/login.png, id=662, 1133.23375pt x 586.19pt>
 File: figures/login.png Graphic file (type png)
 <use figures/login.png>
 Package pdftex.def Info: figures/login.png  used on input line 14.
 (pdftex.def)             Requested size: 339.97275pt x 175.85835pt.
-<figures/home.png, id=672, 1131.22626pt x 870.25125pt>
+<figures/home.png, id=667, 1131.22626pt x 870.25125pt>
 File: figures/home.png Graphic file (type png)
 <use figures/home.png>
 Package pdftex.def Info: figures/home.png  used on input line 26.
@@ -1116,70 +1116,70 @@ Overfull \hbox (39.38356pt too wide) in paragraph at lines 33--39
  [] 
  []
 
-<figures/profile.png, id=682, 1126.2075pt x 731.73375pt>
+<figures/profile.png, id=677, 1126.2075pt x 731.73375pt>
 File: figures/profile.png Graphic file (type png)
 <use figures/profile.png>
 Package pdftex.def Info: figures/profile.png  used on input line 48.
 (pdftex.def)             Requested size: 337.86487pt x 219.52182pt.
 [10 <./figures/home.png>]
-<figures/notifications.png, id=691, 1127.21124pt x 687.56876pt>
+<figures/notifications.png, id=686, 1127.21124pt x 687.56876pt>
 File: figures/notifications.png Graphic file (type png)
 <use figures/notifications.png>
 Package pdftex.def Info: figures/notifications.png  used on input line 60.
 (pdftex.def)             Requested size: 338.16599pt x 206.27222pt.
-<figures/about.png, id=692, 1129.21875pt x 396.48125pt>
+<figures/about.png, id=687, 1129.21875pt x 396.48125pt>
 File: figures/about.png Graphic file (type png)
 <use figures/about.png>
 Package pdftex.def Info: figures/about.png  used on input line 70.
 (pdftex.def)             Requested size: 338.76823pt x 118.94528pt.
  [11 <./figures/profile.png> <./figures/notifications.png>]
-<figures/mypatients.png, id=702, 1142.2675pt x 391.4625pt>
+<figures/mypatients.png, id=697, 1142.2675pt x 391.4625pt>
 File: figures/mypatients.png Graphic file (type png)
 <use figures/mypatients.png>
 Package pdftex.def Info: figures/mypatients.png  used on input line 82.
 (pdftex.def)             Requested size: 342.68289pt x 117.43965pt.
-<figures/mypatients2.png, id=705, 1134.2375pt x 703.62875pt>
+<figures/mypatients2.png, id=700, 1134.2375pt x 703.62875pt>
 File: figures/mypatients2.png Graphic file (type png)
 <use figures/mypatients2.png>
 Package pdftex.def Info: figures/mypatients2.png  used on input line 94.
 (pdftex.def)             Requested size: 340.27388pt x 211.09026pt.
  [12 <./figures/about.png> <./figures/mypatients.png>]
-<figures/newpatient.png, id=715, 1140.26pt x 635.37375pt>
+<figures/newpatient.png, id=710, 1140.26pt x 635.37375pt>
 File: figures/newpatient.png Graphic file (type png)
 <use figures/newpatient.png>
 Package pdftex.def Info: figures/newpatient.png  used on input line 103.
 (pdftex.def)             Requested size: 342.08064pt x 190.61359pt.
-<figures/newpatient-error.png, id=724, 1145.27875pt x 613.29124pt>
+<figures/newpatient-error.png, id=719, 1145.27875pt x 613.29124pt>
 File: figures/newpatient-error.png Graphic file (type png)
 <use figures/newpatient-error.png>
 Package pdftex.def Info: figures/newpatient-error.png  used on input line 118.
 (pdftex.def)             Requested size: 343.58627pt x 183.98878pt.
  [13 <./figures/mypatients2.png> <./figures/newpatient.png>]
-<figures/myscans.png, id=735, 1129.21875pt x 550.055pt>
+<figures/myscans.png, id=730, 1129.21875pt x 550.055pt>
 File: figures/myscans.png Graphic file (type png)
 <use figures/myscans.png>
 Package pdftex.def Info: figures/myscans.png  used on input line 127.
 (pdftex.def)             Requested size: 338.76823pt x 165.01776pt.
-<figures/myscans-details.png, id=736, 1123.19624pt x 949.5475pt>
+<figures/myscans-details.png, id=731, 1123.19624pt x 949.5475pt>
 File: figures/myscans-details.png Graphic file (type png)
 <use figures/myscans-details.png>
 Package pdftex.def Info: figures/myscans-details.png  used on input line 137.
 (pdftex.def)             Requested size: 336.96147pt x 284.86644pt.
  [14 <./figures/newpatient-error.png> <./figures/myscans.png>]
-<figures/newscan.png, id=745, 1179.40625pt x 630.355pt>
+<figures/newscan.png, id=740, 1179.40625pt x 630.355pt>
 File: figures/newscan.png Graphic file (type png)
 <use figures/newscan.png>
 Package pdftex.def Info: figures/newscan.png  used on input line 146.
 (pdftex.def)             Requested size: 353.8246pt x 189.10796pt.
  [15 <./figures/myscans-details.png> <./figures/newscan.png>]
-<figures/newscan-error.png, id=763, 1136.245pt x 603.25375pt>
+<figures/newscan-error.png, id=758, 1136.245pt x 603.25375pt>
 File: figures/newscan-error.png Graphic file (type png)
 <use figures/newscan-error.png>
 Package pdftex.def Info: figures/newscan-error.png  used on input line 162.
 (pdftex.def)             Requested size: 340.87613pt x 180.97751pt.
 ) (./chapters/System Architecture.tex [16 <./figures/newscan-error.png>]
 Chapter 6.
-<figures/system-architecture.png, id=775, 474.77374pt x 402.50375pt>
+<figures/system-architecture.png, id=770, 474.77374pt x 402.50375pt>
 File: figures/system-architecture.png Graphic file (type png)
 <use figures/system-architecture.png>
 Package pdftex.def Info: figures/system-architecture.png  used on input line 13
@@ -1188,18 +1188,18 @@ Package pdftex.def Info: figures/system-architecture.png  used on input line 13
 [17
 
  <./figures/system-architecture.png>] [18]
-<figures/frontend.png, id=798, 250.9375pt x 217.81375pt>
+<figures/frontend.png, id=793, 250.9375pt x 217.81375pt>
 File: figures/frontend.png Graphic file (type png)
 <use figures/frontend.png>
 Package pdftex.def Info: figures/frontend.png  used on input line 67.
 (pdftex.def)             Requested size: 125.46843pt x 108.9066pt.
-<figures/infobe.png, id=809, 290.08376pt x 221.82875pt>
+<figures/infobe.png, id=804, 290.08376pt x 221.82875pt>
 File: figures/infobe.png Graphic file (type png)
 <use figures/infobe.png>
 Package pdftex.def Info: figures/infobe.png  used on input line 84.
 (pdftex.def)             Requested size: 145.04152pt x 110.9141pt.
  [19 <./figures/frontend.png> <./figures/infobe.png>]
-<figures/taskbe.png, id=823, 373.395pt x 239.89626pt>
+<figures/taskbe.png, id=818, 373.395pt x 239.89626pt>
 File: figures/taskbe.png Graphic file (type png)
 <use figures/taskbe.png>
 Package pdftex.def Info: figures/taskbe.png  used on input line 96.
@@ -1218,7 +1218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<figures/admin-panel-login.png, id=834, 843.15pt x 485.815pt>
+<figures/admin-panel-login.png, id=829, 843.15pt x 485.815pt>
 File: figures/admin-panel-login.png Graphic file (type png)
 <use figures/admin-panel-login.png>
 Package pdftex.def Info: figures/admin-panel-login.png  used on input line 31.
@@ -1226,18 +1226,18 @@ Package pdftex.def Info: figures/admin-panel-login.png  used on input line 31.
 [21
 
 ]
-<figures/admin-panel-home.png, id=848, 943.525pt x 548.0475pt>
+<figures/admin-panel-home.png, id=843, 943.525pt x 548.0475pt>
 File: figures/admin-panel-home.png Graphic file (type png)
 <use figures/admin-panel-home.png>
 Package pdftex.def Info: figures/admin-panel-home.png  used on input line 42.
 (pdftex.def)             Requested size: 283.05968pt x 164.41551pt.
-<figures/admin-panel-example-1.png, id=849, 760.8425pt x 489.83pt>
+<figures/admin-panel-example-1.png, id=844, 760.8425pt x 489.83pt>
 File: figures/admin-panel-example-1.png Graphic file (type png)
 <use figures/admin-panel-example-1.png>
 Package pdftex.def Info: figures/admin-panel-example-1.png  used on input line 
 53.
 (pdftex.def)             Requested size: 228.2545pt x 146.95012pt.
-<figures/admin-panel-example-2.png, id=850, 977.6525pt x 798.985pt>
+<figures/admin-panel-example-2.png, id=845, 977.6525pt x 798.985pt>
 File: figures/admin-panel-example-2.png Graphic file (type png)
 <use figures/admin-panel-example-2.png>
 Package pdftex.def Info: figures/admin-panel-example-2.png  used on input line 
@@ -1259,7 +1259,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<figures/research-panel-login.png, id=870, 592.2125pt x 422.57875pt>
+<figures/research-panel-login.png, id=865, 592.2125pt x 422.57875pt>
 File: figures/research-panel-login.png Graphic file (type png)
 <use figures/research-panel-login.png>
 Package pdftex.def Info: figures/research-panel-login.png  used on input line 3
@@ -1268,19 +1268,19 @@ Package pdftex.def Info: figures/research-panel-login.png  used on input line 3
 [24
 
 ]
-<figures/research-panel-home.png, id=883, 939.51pt x 441.65pt>
+<figures/research-panel-home.png, id=878, 939.51pt x 441.65pt>
 File: figures/research-panel-home.png Graphic file (type png)
 <use figures/research-panel-home.png>
 Package pdftex.def Info: figures/research-panel-home.png  used on input line 44
 .
 (pdftex.def)             Requested size: 281.85518pt x 132.49602pt.
-<figures/research-panel-scan-list.png, id=884, 767.86874pt x 488.82625pt>
+<figures/research-panel-scan-list.png, id=879, 767.86874pt x 488.82625pt>
 File: figures/research-panel-scan-list.png Graphic file (type png)
 <use figures/research-panel-scan-list.png>
 Package pdftex.def Info: figures/research-panel-scan-list.png  used on input li
 ne 54.
 (pdftex.def)             Requested size: 230.3624pt x 146.649pt.
-<figures/research-panel-scan-view.png, id=885, 1179.40625pt x 892.33376pt>
+<figures/research-panel-scan-view.png, id=880, 1179.40625pt x 892.33376pt>
 File: figures/research-panel-scan-view.png Graphic file (type png)
 <use figures/research-panel-scan-view.png>
 Package pdftex.def Info: figures/research-panel-scan-view.png  used on input li
@@ -1297,7 +1297,7 @@ Package pdftex.def Info: figures/frontend.png  used on input line 8.
 [27
 
 ]
-<figures/react-components-example.png, id=918, 1529.715pt x 754.82pt>
+<figures/react-components-example.png, id=913, 1529.715pt x 754.82pt>
 File: figures/react-components-example.png Graphic file (type png)
 <use figures/react-components-example.png>
 Package pdftex.def Info: figures/react-components-example.png  used on input li
@@ -1308,23 +1308,23 @@ Overfull \hbox (34.85771pt too wide) in paragraph at lines 57--59
  [][] 
  []
 
-<figures/tmc-runs-chrome.png, id=919, 1431.3475pt x 754.82pt>
+<figures/tmc-runs-chrome.png, id=914, 1431.3475pt x 754.82pt>
 File: figures/tmc-runs-chrome.png Graphic file (type png)
 <use figures/tmc-runs-chrome.png>
 Package pdftex.def Info: figures/tmc-runs-chrome.png  used on input line 78.
 (pdftex.def)             Requested size: 190.82585pt x 100.62936pt.
-<figures/tmc-runs-safari.png, id=920, 1325.95375pt x 875.27pt>
+<figures/tmc-runs-safari.png, id=915, 1325.95375pt x 875.27pt>
 File: figures/tmc-runs-safari.png Graphic file (type png)
 <use figures/tmc-runs-safari.png>
 Package pdftex.def Info: figures/tmc-runs-safari.png  used on input line 83.
 (pdftex.def)             Requested size: 190.82585pt x 125.95598pt.
-<figures/tmc-runs-firefox.png, id=921, 1542.76375pt x 829.0975pt>
+<figures/tmc-runs-firefox.png, id=916, 1542.76375pt x 829.0975pt>
 File: figures/tmc-runs-firefox.png Graphic file (type png)
 <use figures/tmc-runs-firefox.png>
 Package pdftex.def Info: figures/tmc-runs-firefox.png  used on input line 87.
 (pdftex.def)             Requested size: 190.82585pt x 102.54895pt.
 [28 <./figures/react-components-example.png>]
-<figures/hansontable-example.png, id=930, 1125.20375pt x 544.0325pt>
+<figures/hansontable-example.png, id=925, 1125.20375pt x 544.0325pt>
 File: figures/hansontable-example.png Graphic file (type png)
 <use figures/hansontable-example.png>
 Package pdftex.def Info: figures/hansontable-example.png  used on input line 10
@@ -1335,7 +1335,7 @@ Package pdftex.def Info: figures/hansontable-example.png  used on input line 10
 (./chapters/The Application Programming Interface.tex [30 <./figures/hansontabl
 e-example.png>]
 Chapter 10.
-<figures/sessionID.png, id=958, 526.96875pt x 632.3625pt>
+<figures/sessionID.png, id=953, 526.96875pt x 632.3625pt>
 File: figures/sessionID.png Graphic file (type png)
 <use figures/sessionID.png>
 Package pdftex.def Info: figures/sessionID.png  used on input line 21.
@@ -1343,17 +1343,17 @@ Package pdftex.def Info: figures/sessionID.png  used on input line 21.
 [31
 
  <./figures/sessionID.png>]
-<figures/json.png, id=969, 1106.1325pt x 840.13875pt>
+<figures/json.png, id=964, 1106.1325pt x 840.13875pt>
 File: figures/json.png Graphic file (type png)
 <use figures/json.png>
 Package pdftex.def Info: figures/json.png  used on input line 35.
 (pdftex.def)             Requested size: 331.84232pt x 252.04356pt.
-<figures/http.png, id=972, 1186.4325pt x 498.86375pt>
+<figures/http.png, id=967, 1186.4325pt x 498.86375pt>
 File: figures/http.png Graphic file (type png)
 <use figures/http.png>
 Package pdftex.def Info: figures/http.png  used on input line 49.
 (pdftex.def)             Requested size: 355.9325pt x 149.66028pt.
-<figures/https.png, id=973, 1175.39125pt x 564.1075pt>
+<figures/https.png, id=968, 1175.39125pt x 564.1075pt>
 File: figures/https.png Graphic file (type png)
 <use figures/https.png>
 Package pdftex.def Info: figures/https.png  used on input line 56.
@@ -1371,7 +1371,7 @@ Overfull \hbox (26.38574pt too wide) in paragraph at lines 932--941
 
 [49] [50] [51]) (./chapters/The Backend.tex [52]
 Chapter 11.
-<figures/backend.png, id=1672, 391.4625pt x 486.81876pt>
+<figures/backend.png, id=1667, 391.4625pt x 486.81876pt>
 File: figures/backend.png Graphic file (type png)
 <use figures/backend.png>
 Package pdftex.def Info: figures/backend.png  used on input line 8.
@@ -1379,7 +1379,7 @@ Package pdftex.def Info: figures/backend.png  used on input line 8.
 [53
 
  <./figures/backend.png>]
-<figures/InformationServiceArchitecture.png, id=1683, 2067.725pt x 681.54625pt>
+<figures/InformationServiceArchitecture.png, id=1678, 2067.725pt x 681.54625pt>
 
 File: figures/InformationServiceArchitecture.png Graphic file (type png)
 <use figures/InformationServiceArchitecture.png>
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: figures/InformationServiceArchitecture.png  used on in
 put line 40.
 (pdftex.def)             Requested size: 2067.71999pt x 681.54459pt.
  [54] [55 <./figures/InformationServiceArchitecture.png>]
-<figures/InformationServiceDatabaseDiagram.png, id=1700, 854.19125pt x 422.5787
+<figures/InformationServiceDatabaseDiagram.png, id=1696, 854.19125pt x 422.5787
 5pt>
 File: figures/InformationServiceDatabaseDiagram.png Graphic file (type png)
 <use figures/InformationServiceDatabaseDiagram.png>
@@ -1408,16 +1408,16 @@ Overfull \vbox (33.75464pt too high) has occurred while \output is active []
 File: figures/InformationServiceArchitecture.png Graphic file (type png)
 <use figures/InformationServiceArchitecture.png>
 Package pdftex.def Info: figures/InformationServiceArchitecture.png  used on in
-put line 110.
+put line 128.
 (pdftex.def)             Requested size: 2067.71999pt x 681.54459pt.
  [58] [59]
 File: figures/InformationServiceDatabaseDiagram.png Graphic file (type png)
 <use figures/InformationServiceDatabaseDiagram.png>
 Package pdftex.def Info: figures/InformationServiceDatabaseDiagram.png  used on
- input line 158.
+ input line 176.
 (pdftex.def)             Requested size: 854.18918pt x 422.57771pt.
 
-Overfull \hbox (7.0055pt too wide) in paragraph at lines 151--160
+Overfull \hbox (7.0055pt too wide) in paragraph at lines 169--178
 \OT1/cmss/m/n/10.95 The In-for-ma-tion Ser-vice uses an RDBMS(Relational Databa
 se Man-ag-ment Sys-tem)[[]Friedrichsen[]
  []
@@ -1455,7 +1455,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `final-report.out' has not changed.
-(rerunfilecheck)             Checksum: 5D4B0ECC66257DB540075342F9F29DD5;7084.
+(rerunfilecheck)             Checksum: 985D9C19D33AD1863A9FC14ADEC913F2;7003.
 
 
 LaTeX Warning: There were undefined references.
@@ -1519,10 +1519,10 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \iftrue on line 140 was incomplete)
 (\end occurred when \iftrue on line 130 was incomplete) 
 Here is how much of TeX's memory you used:
- 24628 strings out of 480608
- 447779 string characters out of 5903630
- 895348 words of memory out of 5000000
- 39126 multiletter control sequences out of 15000+600000
+ 24634 strings out of 480608
+ 447864 string characters out of 5903630
+ 895368 words of memory out of 5000000
+ 39128 multiletter control sequences out of 15000+600000
  545089 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,60p,834b,1267s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1539,10 +1539,10 @@ dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on final-report.pdf (74 pages, 2520091 bytes).
+Output written on final-report.pdf (74 pages, 2521438 bytes).
 PDF statistics:
- 1983 PDF objects out of 2073 (max. 8388607)
- 1798 compressed objects within 18 object streams
- 835 named destinations out of 1000 (max. 500000)
- 1093 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1991 PDF objects out of 2073 (max. 8388607)
+ 1805 compressed objects within 19 object streams
+ 839 named destinations out of 1000 (max. 500000)
+ 1085 words of extra memory for PDF output out of 10000 (max. 10000000)
 

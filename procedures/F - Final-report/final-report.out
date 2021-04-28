@@ -76,35 +76,34 @@
 \BOOKMARK [1][-]{section.11.1}{Introduction}{chapter.11}% 76
 \BOOKMARK [1][-]{section.11.2}{Information Service}{chapter.11}% 77
 \BOOKMARK [2][-]{subsection.11.2.1}{Technology Stack}{section.11.2}% 78
-\BOOKMARK [2][-]{subsection.11.2.2}{psycopg2 database driver}{section.11.2}% 79
-\BOOKMARK [2][-]{subsection.11.2.3}{Code Architecture}{section.11.2}% 80
-\BOOKMARK [2][-]{subsection.11.2.4}{Database Medium}{section.11.2}% 81
-\BOOKMARK [1][-]{section.11.3}{Prediction Service}{chapter.11}% 82
-\BOOKMARK [2][-]{subsection.11.3.1}{Technology Stack}{section.11.3}% 83
-\BOOKMARK [2][-]{subsection.11.3.2}{Code Architecture}{section.11.3}% 84
-\BOOKMARK [2][-]{subsection.11.3.3}{Database Medium}{section.11.3}% 85
-\BOOKMARK [0][-]{chapter.12}{The Prediction Proccess}{}% 86
-\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 87
-\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 88
-\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 89
-\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 90
-\BOOKMARK [0][-]{chapter.13}{CICD-Versioning-Deployment}{}% 91
-\BOOKMARK [1][-]{section.13.1}{...}{chapter.13}% 92
-\BOOKMARK [1][-]{section.13.2}{...}{chapter.13}% 93
-\BOOKMARK [2][-]{subsection.13.2.1}{...}{section.13.2}% 94
-\BOOKMARK [1][-]{section.13.3}{Summary}{chapter.13}% 95
-\BOOKMARK [0][-]{chapter.14}{Starting The Application Locally}{}% 96
-\BOOKMARK [1][-]{section.14.1}{...}{chapter.14}% 97
-\BOOKMARK [1][-]{section.14.2}{...}{chapter.14}% 98
-\BOOKMARK [2][-]{subsection.14.2.1}{...}{section.14.2}% 99
-\BOOKMARK [1][-]{section.14.3}{Summary}{chapter.14}% 100
-\BOOKMARK [0][-]{chapter.15}{Discussion, Conclusion and Future work}{}% 101
-\BOOKMARK [1][-]{section.15.1}{...}{chapter.15}% 102
-\BOOKMARK [1][-]{section.15.2}{...}{chapter.15}% 103
-\BOOKMARK [2][-]{subsection.15.2.1}{...}{section.15.2}% 104
-\BOOKMARK [1][-]{section.15.3}{Summary}{chapter.15}% 105
-\BOOKMARK [0][-]{chapter.16}{Reflection}{}% 106
-\BOOKMARK [1][-]{section.16.1}{...}{chapter.16}% 107
-\BOOKMARK [1][-]{section.16.2}{...}{chapter.16}% 108
-\BOOKMARK [2][-]{subsection.16.2.1}{...}{section.16.2}% 109
-\BOOKMARK [1][-]{section.16.3}{Summary}{chapter.16}% 110
+\BOOKMARK [2][-]{subsection.11.2.2}{Code Architecture}{section.11.2}% 79
+\BOOKMARK [2][-]{subsection.11.2.3}{Database Medium}{section.11.2}% 80
+\BOOKMARK [1][-]{section.11.3}{Prediction Service}{chapter.11}% 81
+\BOOKMARK [2][-]{subsection.11.3.1}{Technology Stack}{section.11.3}% 82
+\BOOKMARK [2][-]{subsection.11.3.2}{Code Architecture}{section.11.3}% 83
+\BOOKMARK [2][-]{subsection.11.3.3}{Database Medium}{section.11.3}% 84
+\BOOKMARK [0][-]{chapter.12}{The Prediction Proccess}{}% 85
+\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 86
+\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 87
+\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 88
+\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 89
+\BOOKMARK [0][-]{chapter.13}{CICD-Versioning-Deployment}{}% 90
+\BOOKMARK [1][-]{section.13.1}{...}{chapter.13}% 91
+\BOOKMARK [1][-]{section.13.2}{...}{chapter.13}% 92
+\BOOKMARK [2][-]{subsection.13.2.1}{...}{section.13.2}% 93
+\BOOKMARK [1][-]{section.13.3}{Summary}{chapter.13}% 94
+\BOOKMARK [0][-]{chapter.14}{Starting The Application Locally}{}% 95
+\BOOKMARK [1][-]{section.14.1}{...}{chapter.14}% 96
+\BOOKMARK [1][-]{section.14.2}{...}{chapter.14}% 97
+\BOOKMARK [2][-]{subsection.14.2.1}{...}{section.14.2}% 98
+\BOOKMARK [1][-]{section.14.3}{Summary}{chapter.14}% 99
+\BOOKMARK [0][-]{chapter.15}{Discussion, Conclusion and Future work}{}% 100
+\BOOKMARK [1][-]{section.15.1}{...}{chapter.15}% 101
+\BOOKMARK [1][-]{section.15.2}{...}{chapter.15}% 102
+\BOOKMARK [2][-]{subsection.15.2.1}{...}{section.15.2}% 103
+\BOOKMARK [1][-]{section.15.3}{Summary}{chapter.15}% 104
+\BOOKMARK [0][-]{chapter.16}{Reflection}{}% 105
+\BOOKMARK [1][-]{section.16.1}{...}{chapter.16}% 106
+\BOOKMARK [1][-]{section.16.2}{...}{chapter.16}% 107
+\BOOKMARK [2][-]{subsection.16.2.1}{...}{section.16.2}% 108
+\BOOKMARK [1][-]{section.16.3}{Summary}{chapter.16}% 109

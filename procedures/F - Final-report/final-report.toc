@@ -94,11 +94,14 @@
 \contentsline {section}{\numberline {11.2}Information Service}{53}{section.11.2}%
 \contentsline {subsection}{\numberline {11.2.1}Technology Stack}{54}{subsection.11.2.1}%
 \contentsline {subsubsection}{Django Framework}{54}{section*.115}%
-\contentsline {subsection}{\numberline {11.2.2}psycopg2 database driver}{54}{subsection.11.2.2}%
-\contentsline {subsection}{\numberline {11.2.3}Code Architecture}{54}{subsection.11.2.3}%
-\contentsline {subsection}{\numberline {11.2.4}Database Medium}{56}{subsection.11.2.4}%
+\contentsline {subsubsection}{psycopg2 database driver}{54}{section*.116}%
+\contentsline {subsection}{\numberline {11.2.2}Code Architecture}{54}{subsection.11.2.2}%
+\contentsline {subsection}{\numberline {11.2.3}Database Medium}{56}{subsection.11.2.3}%
 \contentsline {section}{\numberline {11.3}Prediction Service}{58}{section.11.3}%
 \contentsline {subsection}{\numberline {11.3.1}Technology Stack}{58}{subsection.11.3.1}%
+\contentsline {subsubsection}{base64 decoder}{58}{section*.119}%
+\contentsline {subsubsection}{imghdr image library}{58}{section*.120}%
+\contentsline {subsubsection}{Pykka Actors library}{58}{section*.121}%
 \contentsline {subsection}{\numberline {11.3.2}Code Architecture}{58}{subsection.11.3.2}%
 \contentsline {subsection}{\numberline {11.3.3}Database Medium}{60}{subsection.11.3.3}%
 \contentsline {chapter}{\numberline {12}The Prediction Proccess}{62}{chapter.12}%

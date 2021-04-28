@@ -49,7 +49,7 @@
 			The actor model allows, in combination with the microservice model, our services to act as a distributed system with 
 			multiple nodes; this allows us to scale different services when demand changes dynamically and automatically, ensuring 
 			the performance non-functional requirement we set back in \ref{non-functional-requirements}. An example of this can be 
-			when multiple users simultaneously use the most advanced and CPU-Intensive algorithm, the ResNet(see \ref{prediction-service}). 
+			when multiple users simultaneously use the most advanced and CPU-Intensive algorithm, the ResNet(see \ref{prediction-process}). 
 			If the system determines that the load is beyond some threshold, it can spin multiple instances of the same service. 
 			The instances will coordinate themselfs automatically and split the work that needs to be done into equal amounts, 
 			reducing the response time. This is implemented using the Heroku-autoscale feature and will be discussed in chapter \ref{backend}
