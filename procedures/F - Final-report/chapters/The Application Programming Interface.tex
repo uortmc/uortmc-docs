@@ -1,15 +1,19 @@
 \chapter{The Application Programming Interface}
 \label{API}
 	\section{Introduction}
-		In this section we will briefly discuss the commnunication protocol used by the application to its internal components. The protocol used as mentioned
-		already in the previous chapters, is a designed stateful[\cite{session-rfc6265}], Json-based[\cite{json-rfc7159}] Https[\cite{rfc2818}] RESTFull[\cite{restful-rfc7231}]
-		protocol. Let us explain briefly what those techical terms mean.
+		In this section, we will briefly discuss the communication protocol used by the application to its internal components. 
+		As mentioned already in the previous chapters, the protocol used is a designed to be a stateful[\cite{session-rfc6265}], 
+		JSON-based[\cite{json-rfc7159}], Https[\cite{rfc2818}], restful [\cite{restful-rfc7231}]protocol. Let us explain briefly 
+		what those technical terms mean.
 		\subsection{Stateful Protocol}
-			Stateful protocol[\cite{session-rfc6265}] is a protocol capable of recognising and distinquishing between the different requests made by the same host machine. 
-			In our application this is essential because the authentication functionality would be impossible otherwise. An authenticated user is 
-			always ascosiated with a sessionID. The sessionID[\cite{sessionID-rfc7329}] is a character string that is returned after the authentication is 
-			complete and should be attached to every subsequent request for user authentication to work. Our application protocol uses the cookie mechanism
-			to attach the sessionID to every request, ensuring that the Services will recognise the sender. The following image provides an example
+			
+			
+			A stateful protocol[\cite{session-rfc6265}] is a protocol capable of recognizing and distinguishing between the different requests made by the 
+			same host machine.  In our application, this is essential because the authentication functionality would be impossible 
+			otherwise. An authenticated user is always associated with a session. The session id[\cite{sessionID-rfc7329}] is a character string that is returned 
+			after the authentication is complete and should be attached to every subsequent request for user authentication to work. 
+			Our application protocol uses the cookie mechanism to attach the sessionID to every request, ensuring that the Services 
+			will recognize the sender. The following image provides an example.
 			\begin{figure}[H]
 				\iftrue
 				\caption{Session ID Attached to Notifications Request, captured using Firefox-Tools}
@@ -17,12 +21,13 @@
 				\includegraphics[scale=0.3]{figures/sessionID}
 				\fi
 			\end{figure} 
-			Here, the Session ID is attached to a request from the Frontend Application into the Information Service, for the retrieval of new notifications
+			Here, the Session ID is attached to a request from the Frontend Application into the Information Service for the retrieval of new notifications.
 		\subsection{Json}
-			The JavaScript Object Notation (or JSON) Data Interchange Format[\cite{json-rfc7159}] is a text-based, lightweight, human-readable language-indepedent
-			data exchange format. We use JSON extensively to design our communication protocol, mainly because of his widely adopted use and availability of
-			decoders. Additionally, both languages involved in the data transaction(javascript for the frontend, python for the backend services) are supporting
-			JSON natively.
+		
+			The JavaScript Object Notation (or JSON) Data Interchange Format[\cite{json-rfc7159}] is a text-based, lightweight, human-readable language-independent 
+			data exchange format. We use JSON extensively to design our communication protocol, mainly because of its widely adopted use and availability 
+			of decoders. Additionally, both languages involved in the data transaction(javascript for the frontend, python for the backend services) 
+			support JSON natively.
 			\begin{figure}[H]
 				\iftrue
 				\caption{Capturing the Information service's JSON-Based responce using Postman}
@@ -31,9 +36,12 @@
 				\fi
 			\end{figure} 
 		\subsection{HTTPS}
-			HTTPS or HyperText Transfer Protocol Secure version, is a updated version of classic HTTP protocol, using TLS as an additional security layer. TLS 
-			encrypts all the underlying data to provide unparallel protection against various malicious attacks. The following images shown the login packages as
-			they sent from the Frontend Application to the Information Service using the WireShark packet analyser.
+		
+		
+			HTTPS[\cite{rfc2818}] or HyperText Transfer Protocol Secure version is an updated version of the classic HTTP protocol, using TLS as an additional security layer. 
+			TLS  encrypts all the underlying data to provide unparallel protection against various malicious attacks. The following images showed the login 
+			packages as they were sent from the Frontend Application to the Information Service using the WireShark packet analyzer.
+
 			\begin{figure}[H]
 				\iftrue
 				\caption{Unecrupted Credentials (HTTPS disabled)}
@@ -48,16 +56,15 @@
 				\includegraphics[scale=0.3]{figures/https}
 				\fi
 			\end{figure}
-			Becomes evident that, by using HTTPS we increase our system security, as credentials and personal information are encrupted before sent over the
-			internet.
+			It becomes evident that, by using HTTPS, we increase our system security, as credentials and personal information are encrypted before sent over the internet.
 		\subsection{RESTFull protocol}
-			a protocol is REpresentational State Transfer (REST) \cite{pautasso_zimmermann_leymann_2008}Full when its design enables the following criteria to be fullfiled.
+			A protocol is REpresentational State Transfer (REST) \cite{pautasso_zimmermann_leymann_2008}Full when its design enables the following criteria to be fullfiled.
 			\subsubsection{Resource identification through URI.}
-				A protocol is RESTFul if it exposes a number of resources whitch idenntify the targets of the interaction with its clients. An example
-				of this may be a contacts repository. The resources(contact repository) are identified via URIs[\cite{uri-rfc3986}].
+				A protocol is RESTFul if it exposes several resources which identify the targets of the interaction with its clients. 
+				An example of this may be a contacts repository. The resources(contact repository) are identified via URIs[\cite{uri-rfc3986}].
 			\subsection{Uniform Interface}
-				A protocol is restFul if the exposed resources are manipulated through a fixed set of four operations. Those operations have been encoded
-				to the HTTP/HTTPS protocols themselfs, making the creation of RESTFul apis easier. The operations are
+				A protocol is restFul if the exposed resources are manipulated through a fixed set of four operations. Those operations 
+				have been encoded to the HTTP/HTTPS protocols themselves, making the creation of RESTFul APIs easier. The operations are
 				\begin{itemize}
 					\item PUT
 					\item GET
@@ -65,35 +72,38 @@
 					\item DELETE
 				\end{itemize}
 			\subsection{Self-descriptive messages}
-				A protocol is RestFul if the underlying resource is decoupled of its representation, making the access of the resource possible using 
-				a variety of different formats, such as JSON,XML,plain text,PDF etc.
+				A protocol is RestFul if the underlying resource is decoupled of its representation, making the access of the resource possible 
+				using a variety of different formats, such as JSON, XML, plain text, PDF, and others.
 			\subsection{Stateful interactions through hyperlinks}
-				A protocol is Restful if every interaction between the server and a client is stateless i.e the request messages are self-contained, hence
-				any stateful interaction should be explicit and based on the contents of the message itself.
+				A protocol is Restful if every interaction between the server and a client is stateless i.e., the request messages 
+				are self-contained; hence any stateful interaction should be explicit and based on the contents of the message itself.
 		\section{Protocol Specification}
-			From now onwards, we will define and explain the various calls and responces that define our application protocol. This may section may be referenced
-			by the future developer as a complete documetation.
+			From now onwards, we will define and explain the various calls and responses that define our application protocol. This section 
+			may be referenced by future development as complete documentation.
 			\subsection{Definitions}
-				Before we procceed with the full specification, we need to define some techical terms
+				Before we proceed with the complete specification, we need to define some technical terms.
 				\subsubsection{Session}
 					\label{session}
-					A session[\cite{session-rfc6265}] is a mechanism, unilized by all the stateful protocols relying on a stateless protocol for application transmission.
-					HTTP/HTTPS is the main protocol for web communication, and our protocol relies on HTTP/HTTPS for data transmission. HTTP/HTTPS is a stateless protocol
-					meaning that it doesnt have any explicit mechanism for maintaining state between requests. Our protocol needs to be stateful as it needs to support
-					multiple users(doctors) and their actions. Knowing that a given request comes from a authorized source is essential to our application. A session in our
-					application is implemented using session cookies. session cookies keep a token, an unique identifier that is sent to our services with each request, then we
-					can determine if an action is authorized based on that token. A request comes from an authenticated user if it contains a valid authenticated token.
+					
+					A session[\cite{session-rfc6265}] is a mechanism utilized by all the stateful protocols relying on a stateless protocol for application transmission. 
+					HTTP/HTTPS is the primary protocol for web communication, and our protocol relies on HTTP/HTTPS for data transmission. HTTP/HTTPS 
+					is a stateless protocol meaning that it does not have any explicit mechanism for maintaining state between requests. Our protocol 
+					needs to be stateful as it needs to support multiple users(doctors) and their actions. Knowing that a given request comes from an 
+					authorized source is essential to our application. A session in our application is implemented using session cookies. Session cookies 
+					keep a token; a unique identifier sent to our services with each request, then we can determine if an action is authorized based on that 
+					token. A request comes from an authenticated user if it contains a valid authenticated token.
+
 			\subsection{Frontend application to Information Service Requests}
-				In this section we will list the interactions between the frontend application and the information service. The interactions as split in two 
-				main categories.
+				In this section, we will list the interactions between the frontend application and the information service. The interactions 
+				as split into two main categories.
 				\begin{itemize}
-					\item Authenticated Endpoints : Endpoints that require a valid and authenticated session token(see \ref{session}).
-					\item Non-Authenticated Endpoints : Endpoints that do not require a valid and authenticated session token(see \ref{session}).
+					\item \textbf{Authenticated Endpoints}: Endpoints that require a valid and authenticated session token(see \ref{session}).
+					\item \textbf{Non-Authenticated Endpoints}: Endpoints that do not require a valid and authenticated session token(see \ref{session}).
 				\end{itemize}
 				\subsubsection{Login endpoint}
-					The first request that we will briefly disquss is the Login endpoint. The login endpoint authenticates the user based on its username
-					and password, and if those credentials are correct, it returns a session cookie, to be used in the rest of the endpoints. The Login
-					endpoint is a Non-Autenticated Endpoint.\par
+					The first request that we will briefly discuss is the login endpoint. The login endpoint authenticates the 
+					user based on its username and password, and if those credentials are correct, it returns a session cookie 
+					to be used in the rest of the endpoints. The Login endpoint is a Non-Authenticated Endpoint.\par
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -125,14 +135,14 @@
 }
 						\end{lstlisting}
 					\end{figure}
-					It also returns a session cookie for subsequent requests
+					It also returns a session cookie for subsequent requests.
 					\begin{figure}[H]
 					\iftrue
 						\begin{lstlisting}[]
 sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GMT; HttpOnly; Max-Age=1209600; Path=/
 						\end{lstlisting}
 					\end{figure}
-					If the request is not properly formed, then the following responce will be returned
+					If the request is not correctly formed, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -143,7 +153,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					Finally, if the credentials are not recognised, the following responce should be expected
+					Finally, if the credentials are not recognized, the following response should be expected.
 										\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -154,10 +164,10 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-				\subsubsection{Signup endpoint}
-					The Signup endpoint allows for a creation of an end-user(doctor). This endpoint is meant to be called only by the network operator application
-					(see \ref{admin_perspective}).The Signup Endpoint is an non-authenticated endpoint
-					endpoint is a Non-Autenticated Endpoint.\par
+				\subsubsection{Signup endpoint}				
+					The Signup endpoint allows for the creation of an end-user(doctor). This endpoint is meant to be 
+					called only by the network operator application(see \ref{admin_perspective}). The Signup Endpoint 
+					is a non-authenticated endpoint.
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -205,7 +215,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the user already exists, then the responce is...
+					Finally, if the request is not formed correctly, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -216,7 +226,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					and finaly, if the request is not properly formed, then the following responce will be returned
+					
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -228,9 +238,10 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Doctor profile endpoint}
-					The Doctor profile endpoint, informs the frontend about the doctors(end-users) details. It is called when the profile section
-					is selected on the frontend application(see \ref{profile-screen}). The Doctor Profile endpoint is an
-					authenticated endpoint, needing an valid and authenticated session token, belonging to an end-user(not root).
+				
+					The Doctor profile endpoint informs the front end about the doctor's (end-users) details. It is called when the 
+					profile section is selected on the frontend application(see \ref{profile-screen}). The Doctor Profile endpoint is authenticated, needing 
+					a valid and authenticated session token belonging to an end-user(not root).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -267,8 +278,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but is belonging to a root user instead of an end-user, 
+					the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -280,7 +291,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 					Where if the incoming request is not authenticated, then the following request will be returned.
-										\begin{figure}[H]
+					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
 {
@@ -302,10 +313,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Doctor notifications endpoint}
-					The doctor notifications endpoint, informs the frontend about the doctors(end-users) available notifications. 
-					It is called when the notification section is selected on the frontend application(see \ref{notification-screen}). 
-					The Doctor Profile endpoint is an authenticated endpoint, needing an valid and authenticated session token, 
-					belonging to an end-user(not root).
+				
+					The doctor notifications endpoint informs the front end about the doctor's (end-users) available notifications.  
+					It is called when the notification section is selected on the frontend application(see \ref{notification-screen}).  
+					The Doctor Profile endpoint is authenticated, needing a valid and authenticated session token belonging to an 
+					end-user(not root).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -346,8 +358,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but is belonging to a root user instead of an end-user, 
+					the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -369,7 +381,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					Finally, if a field is missing or the specification of the request is not met, then the following responce will be returned
+					Finally, if a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -381,10 +393,12 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Add patient endpoint}
-					The add patient endpoint, makes possible the creation of new patient records though the frontend application. It
-					is activated when we submit the patient submission form(see \ref{patient-submission}). Add Patient Endpoint is an 
-					authenticated endpoint, meaning that requires an valid session token, to procceed. The session token should belong
-					to an end-user(doctor) and not root(administrator).
+				
+					The add patient endpoint makes possible the creation of new patient records through the frontend application. 
+					It is activated when we submit the patient submission form(see \ref{patient-submission}). Add Patient Endpoint 
+					is an authenticated endpoint, meaning that it requires a valid session token to proceed. The session token should 
+					belong to an end-user(doctor) and not root(administrator).
+
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -436,8 +450,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but is belonging to a root user instead of an end-user, 
+					the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -459,7 +473,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					if the NiNo[\cite{nino-format}] already exists, the following responce should be expected
+					if the Nino[\cite{nino-format}] already exists, the following response should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -470,7 +484,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					Finally, if a field is missing or the specification of the request is not met, then the following responce will be returned
+					Finally, if a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -482,10 +496,13 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Set patient comment endpoint}
-					The set patient comment endpoint, makes possible the end-user(doctor) to keep notes about a specific patient case.
-					Is activated when we change the comments for a specific patient (see \ref{patient-comment-submission}). Set Patient 
-					Comment Endpoint is an authenticated endpoint, meaning that requires an valid session token, to procceed. The session token 
-					should belong to an end-user(doctor) and not root(administrator).
+				
+				
+					The set patient comment endpoint makes it possible for the end-user(doctor) to keep notes about a specific patient 
+					case. It is activated when we change the comments for a specific patient(see \ref{patient-comment-submission}). Set Patient  Comment Endpoint is 
+					an authenticated endpoint, meaning that it requires a valid session token to proceed. The session token should 
+					belong to an end-user(doctor) and not root(administrator).
+
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
