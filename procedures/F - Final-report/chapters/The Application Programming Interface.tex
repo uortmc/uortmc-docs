@@ -534,8 +534,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id, but as belonging to a root user instead of an 
+					end-user, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -557,7 +557,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the given nino is not ascosiated to any patient, the following responce will be returned.
+					If the given Nino is not associated with any patient, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -568,7 +568,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					Finally, if a field is missing or the specification of the request is not met, then the following responce will be returned
+					Finally, if a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -580,10 +580,10 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Get patients endpoint}
-					The get patients endpoint, makes possible the end-user(doctor) to retrieve its list of ascosiated patients. It is 
-					activated when the end-user(Doctor) selects the MyPatients page (see \ref{my-patients}). Get Patients Endpoint 
-					is an authenticaticated endpoint, meaning that requires an valid session token, to procceed. The session token 
-					should belong to an end-user(doctor) and not root(administrator).
+					The get patients endpoint makes it possible for the end-user(doctor) to retrieve its list of 
+					associated patients. It is activated when the end-user(Doctor) selects the MyPatients page(see \ref{my-patients}). 
+					Get Patients Endpoint is an authenticaticated endpoint, meaning that it requires a valid session token to proceed. 
+					The session token should belong to an end-user(doctor)  and not root(administrator).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -627,8 +627,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but belongs to a root user instead of an end-user, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -650,7 +649,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -662,12 +661,13 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Add scan endpoint}
-					The add scan endpoint, makes possible the end-user(doctor) to submit scans on its ascosiated patients. It is 
-					activated when the end-user(Doctor) submits the scan submission form (see \ref{new-scan}). Add Scan Endpoint 
-					is an authenticaticated endpoint, meaning that requires an valid session token, to procceed. The session token 
-					should belong to an end-user(doctor) and not root(administrator). Please note that this is the first request
-					in a series of 2 needed to properly initiate a scan task, the second one can be found at paragraph \ref{add-scan-taskbe} 
-					and more information about the procedure can be found in chapter \ref{backend}
+				
+					
+					The add scan endpoint makes it possible for the end-user(doctor) to submit scans on its associated patients. It is activated when 
+					the end-user(Doctor) submits the scan submission form(see \ref{new-scan}). Add Scan Endpoint is an authenticaticated endpoint, meaning that it requires a 
+					valid session token to proceed. The session token should belong to an end-user(doctor) and not root(administrator). Please note that 
+					this is the first request in a series of 2 needed to initiate a scan task correctly, the second one can be found in at paragraph\ref{add-scan-taskbe} , and 
+					more information about the procedure can be found in chapter\ref{backend}.
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -720,8 +720,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but as belonging to a root user instead of an end-user, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -743,7 +742,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -755,6 +754,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Scan update comment endpoint}
+					
+					The scan update comment endpoint makes it possible for the end-user(doctor) to submit feedback on a specific scan for the researcher to use. 
+					It is activated when the end-user(Doctor) submits disagrees on a scan result. Scan Update Comment Endpoint is an authenticaticated endpoint, 
+					meaning that requires an valid session token, to procceed.  The session token should belong to an end-user(doctor) and not root(administrator).
+				
 					The scan update comment endpoint, makes possible the end-user(doctor) to submit feedback on a specific scan for the 
 					researcher to use. It is activated when the end-user(Doctor) submits disagrees on a scan result (see \ref{my-scans}). 
 					Scan Update Comment Endpoint is an authenticaticated endpoint, meaning that requires an valid session token, to procceed. 
