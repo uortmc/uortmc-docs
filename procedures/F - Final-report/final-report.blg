@@ -3,44 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: final-report.aux
 The style file: agsm.bst
 Database file #1: references.bib
-You've used 19 entries,
+I was expecting a `,' or a `}'---line 41 of file references.bib
+ : 
+ : @article{oop,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in friedrichsen_ruffolo_monk_starks_pratt_last_1995
+You've used 21 entries,
             2909 wiz_defined-function locations,
-            758 strings with 7507 characters,
-and the built_in function-call counts, 47851 in all, are:
-= -- 7721
-> -- 454
+            770 strings with 7693 characters,
+and the built_in function-call counts, 52780 in all, are:
+= -- 8498
+> -- 502
 < -- 0
-+ -- 3470
-- -- 133
-* -- 3834
-:= -- 10058
-add.period$ -- 19
-call.type$ -- 19
-change.case$ -- 253
-chr.to.int$ -- 19
-cite$ -- 19
-duplicate$ -- 227
-empty$ -- 504
-format.name$ -- 168
-if$ -- 8525
++ -- 3816
+- -- 147
+* -- 4227
+:= -- 11108
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 280
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 259
+empty$ -- 568
+format.name$ -- 186
+if$ -- 9398
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 75
-num.names$ -- 171
-pop$ -- 149
+missing$ -- 7
+newline$ -- 81
+num.names$ -- 191
+pop$ -- 162
 preamble$ -- 1
-purify$ -- 275
+purify$ -- 305
 quote$ -- 0
-skip$ -- 200
+skip$ -- 222
 stack$ -- 0
-substring$ -- 10588
-swap$ -- 34
-text.length$ -- 246
+substring$ -- 11667
+swap$ -- 38
+text.length$ -- 274
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
-warning$ -- 0
-while$ -- 366
+type$ -- 80
+warning$ -- 1
+while$ -- 409
 width$ -- 0
-write$ -- 240
+write$ -- 263
+(There was 1 error message)

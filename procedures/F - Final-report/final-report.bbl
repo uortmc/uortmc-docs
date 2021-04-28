@@ -23,6 +23,10 @@ Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
   2019\harvardyearright .
 \newline\harvardurl{https://www.thyroid.org/fna-thyroid-nodules/>}
 
+\harvarditem{Friedrichsen}{1995}{friedrichsen_ruffolo_monk_starks_pratt_last_1995}
+Friedrichsen  \harvardyearleft 1995\harvardyearright , {\em Concepts of
+  database management}.
+
 \harvarditem{Hewitt}{2015}{hewitt2015actor}
 Hewitt, C.  \harvardyearleft 2015\harvardyearright , `Actor model of
   computation: Scalable robust information systems'.
@@ -89,6 +93,10 @@ Rescorla, E.  \harvardyearleft 2000\harvardyearright , `{HTTP Over TLS}',
 Rivest, R.  \harvardyearleft 1992\harvardyearright , `{The MD5 Message-Digest
   Algorithm}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc1321}
+
+\harvarditem{Stroustrup}{1988}{oop}
+Stroustrup, B.  \harvardyearleft 1988\harvardyearright , `What is
+  “object-oriented programming”?', {\em Software, IEEE} {\bf 5},~10 -- 20.
 
 \harvarditem{T.~Bray}{2014}{json-rfc7159}
 T.~Bray, E.  \harvardyearleft 2014\harvardyearright , `{The JavaScript Object

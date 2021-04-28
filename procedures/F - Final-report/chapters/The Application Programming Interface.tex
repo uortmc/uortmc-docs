@@ -756,13 +756,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				\subsubsection{Scan update comment endpoint}
 					
 					The scan update comment endpoint makes it possible for the end-user(doctor) to submit feedback on a specific scan for the researcher to use. 
-					It is activated when the end-user(Doctor) submits disagrees on a scan result. Scan Update Comment Endpoint is an authenticaticated endpoint, 
+					It is activated when the end-user(Doctor) submit comments scan result(see \ref{my-scans}). Scan Update Comment Endpoint is an authenticaticated endpoint, 
 					meaning that requires an valid session token, to procceed.  The session token should belong to an end-user(doctor) and not root(administrator).
-				
-					The scan update comment endpoint, makes possible the end-user(doctor) to submit feedback on a specific scan for the 
-					researcher to use. It is activated when the end-user(Doctor) submits disagrees on a scan result (see \ref{my-scans}). 
-					Scan Update Comment Endpoint is an authenticaticated endpoint, meaning that requires an valid session token, to procceed. 
-					The session token should belong to an end-user(doctor) and not root(administrator).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -794,8 +789,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but is belonging to a root user instead of an end-user, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -817,7 +811,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the request specification is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -828,7 +822,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }					
 						\end{lstlisting}
 					\end{figure}
-					If the given token is not ascosiated with a given scan, then the following request should be expected
+					If the given token is not associated with a given scan, the following request should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -841,10 +835,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\end{figure}
 					
 				\subsubsection{Get scans endpoint}
-					The get scans  endpoint, makes possible the end-user(doctor) to view its ascosiated scans. It is activated when the 
-					end-user(Doctor) selects the MyScans page (see \ref{my-scans}). 
-					Get Scans Endpoint is an authenticaticated endpoint, meaning that requires an valid session token, to procceed. 
-					The session token should belong to an end-user(doctor) and not root(administrator).
+				
+					The get scans endpoint makes it possible for the end-user(doctor) to view its associated scans. It is activated 
+					when the end-user(Doctor) selects the MyScans page(see \ref{my-scans}). Get Scans Endpoint is an authenticaticated endpoint, meaning 
+					that it requires a valid session token to proceed. The session token should belong to an end-user(doctor) and 
+					not root(administrator).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -893,8 +888,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 },
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a authenticated session id, but is belonging to a root user instead of an end-user, the
-					following responce will be returned
+					If the request contains an authenticated session-id but as belonging to a root user instead of an end-user, the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -916,7 +910,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }						
 						\end{lstlisting}
 					\end{figure}
-					If a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the request specification is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -929,11 +923,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\end{figure}
 					
 			\subsection{Frontend application to Prediction Service Requests}
-				In this section we will list the interactions between the frontend application and the prediction service. 
+				In this section, we will list the interactions between the frontend application and the prediction service. 
 				\subsubsection{Add scan endpoint}
 					\label{add-scan-taskbe}
-					The Add scan  endpoint, makes possible the end-user(doctor) to submit a new scan task for its ascosiated patients.
-					Add Scan Endpoint is an non authenticaticated endpoint.
+					The Add scan endpoint makes it the end-user(doctor) possible to submit a new scan task for its associated 
+					patients. Add Scan Endpoint is a non-authenticaticated endpoint.
 					\begin{center}
 						\begin{tabular}{ |c|c|c| } 
 							\hline
@@ -974,7 +968,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If the request contains a invalid algorithm field, then the following responce will be returned
+					If the request contains an invalid algorithm field, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -985,7 +979,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					Where if the incoming request is not authenticated, then the following responce will be returned.
+					Where if the incoming request is not authenticated, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -996,7 +990,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						}						
 						\end{lstlisting}
 					\end{figure}
-					If the scan token already exists, then the following responce will be returned
+					If the scan token already exists, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1007,8 +1001,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }						
 						\end{lstlisting}
 					\end{figure}
-					If the image given is corrupted or encoded in a wrong specification(example, PNG), then the following responce
-					will be returned
+					If the image given is corrupted or encoded in a wrong specification(example, PNG), the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1019,7 +1012,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }						
 						\end{lstlisting}
 					\end{figure}
-					Finally, if a field is missing or the specification of the request is not met, then the following responce will be returned
+					Finally, if a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1031,8 +1024,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Get scan endpoint}
-					The get scan  endpoint, makes possible for the end-user(doctor) to view the status and the prediction of the scan task.
-					Add Scan Endpoint is an non authenticaticated endpoint.
+					The get scan endpoint makes it possible for the end-user(doctor) to view the status and the prediction of the scan task. Add Scan Endpoint is a non-authenticaticated endpoint.
 					\begin{center}
 						\begin{tabular}{ |c|c|c| } 
 							\hline
@@ -1050,7 +1042,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 							\hline
 						\end{tabular}
 					\end{center}
-					JSON Responce example with 1 scan
+					JSON Responce example
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1067,7 +1059,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					if a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1078,7 +1070,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }					
 						\end{lstlisting}
 					\end{figure}
-					Where if the given token is not exist, the following responce should be expected
+					Where if the given token does not exist, the following response should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1090,12 +1082,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 			\subsection{Prediction Service to Information Service requests}
-				In this section we will have a brief look at the requests from the prediction to information services. The requests under
-				this category are non-authenticated requests as they exchanged sorely on background between services, the internal network
-				is assumed to be trusted in this version of the software.
+				In this section, we will briefly look at the requests from the prediction to information services. The requests under this category are non-authenticated 
+				as they are exchanged sorely in the background between services; the internal network is assumed to be trusted in this version of the software.
 				\subsubsection{Declare scan complete endpoint}
-					The Declare scan complete endpoint is triggered when the Prediction Service finishes the prediction of a given scan, informing
-					the Information service about the event, and generating a notification for the end user to see.
+					The Declare scan complete endpoint is triggered when the Prediction Service finishes the prediction of a given scan, informing 
+					the Information service about the event and generating a notification for the end-user to see.
 					\begin{center}
 						\begin{tabular}{ |c|c|c| } 
 							\hline
@@ -1139,7 +1130,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					if a field is missing or the specification of the request is not met, then the following responce will be returned
+					If a field is missing or the specification of the request is not met, then the following responce will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1150,7 +1141,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }					
 						\end{lstlisting}
 					\end{figure}
-					Where if the given token is not exist, the following responce should be expected
+					Where if the given token does not exist, the following response should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
