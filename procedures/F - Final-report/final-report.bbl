@@ -5,6 +5,11 @@ Barth, A.  \harvardyearleft 2011\harvardyearright , `{HTTP State Management
   Mechanism}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc6265}
 
+\harvarditem{Berners-Lee}{2005}{uri-rfc3986}
+Berners-Lee, T.  \harvardyearleft 2005\harvardyearright , `{Uniform Resource
+  Identifier (URI): Generic Syntax}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc3986}
+
 \harvarditem{Eun Ju~Ha}{2021}{ai-applications}
 Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
   applications of machine learning and deep learning to thyroid imaging: where
@@ -34,6 +39,11 @@ Jacques, N.  \harvardyearleft 2018\harvardyearright , `Introducing axios, a
   popular, promise-based http client'.
 \newline\harvardurl{https://www.sitepoint.com/axios-beginner-guide/}
 
+\harvarditem{Josefsson}{2006}{base64-4648}
+Josefsson, S.  \harvardyearleft 2006\harvardyearright , `{The Base16, Base32,
+  and Base64 Data Encodings}', Internet Requests for Comments.
+\newline\harvardurl{https://tools.ietf.org/html/rfc4648}
+
 \harvarditem{Kaplan}{2014}{sessionID-rfc7329}
 Kaplan, H.  \harvardyearleft 2014\harvardyearright , `{A Session Identifier for
   the Session Initiation Protocol (SIP)}', Internet Requests for Comments.
@@ -58,6 +68,12 @@ Manber, U.  \harvardyearleft 1996\harvardyearright , `A simple scheme to make
 Newman, S.  \harvardyearleft 2020\harvardyearright , {\em Monolith to
   microservices: evolutionary patterns to transform your monolith}, O'Reilly
   Media, Inc.
+
+\harvarditem[Pautasso et~al.]{Pautasso, Zimmermann \harvardand\
+  Leymann}{2008}{pautasso_zimmermann_leymann_2008}
+Pautasso, C., Zimmermann, O. \harvardand\ Leymann, F.  \harvardyearleft
+  2008\harvardyearright , `Restful web services vs. "big" web services', {\em
+  Proceeding of the 17th international conference on World Wide Web - WWW 08} .
 
 \harvarditem{R.~Fielding}{2014}{restful-rfc7231}
 R.~Fielding, E.  \harvardyearleft 2014\harvardyearright , `{Hypertext Transfer

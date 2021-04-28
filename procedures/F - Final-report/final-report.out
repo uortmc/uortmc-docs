@@ -64,33 +64,41 @@
 \BOOKMARK [2][-]{subsection.10.1.2}{Json}{section.10.1}% 64
 \BOOKMARK [2][-]{subsection.10.1.3}{HTTPS}{section.10.1}% 65
 \BOOKMARK [2][-]{subsection.10.1.4}{RESTFull protocol}{section.10.1}% 66
-\BOOKMARK [0][-]{chapter.11}{The Backend}{}% 67
-\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 68
-\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 69
-\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 70
-\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 71
-\BOOKMARK [0][-]{chapter.12}{The Prediction Service}{}% 72
-\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 73
-\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 74
-\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 75
-\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 76
-\BOOKMARK [0][-]{chapter.13}{CICD-Versioning-Deployment}{}% 77
-\BOOKMARK [1][-]{section.13.1}{...}{chapter.13}% 78
-\BOOKMARK [1][-]{section.13.2}{...}{chapter.13}% 79
-\BOOKMARK [2][-]{subsection.13.2.1}{...}{section.13.2}% 80
-\BOOKMARK [1][-]{section.13.3}{Summary}{chapter.13}% 81
-\BOOKMARK [0][-]{chapter.14}{Starting The Application Locally}{}% 82
-\BOOKMARK [1][-]{section.14.1}{...}{chapter.14}% 83
-\BOOKMARK [1][-]{section.14.2}{...}{chapter.14}% 84
-\BOOKMARK [2][-]{subsection.14.2.1}{...}{section.14.2}% 85
-\BOOKMARK [1][-]{section.14.3}{Summary}{chapter.14}% 86
-\BOOKMARK [0][-]{chapter.15}{Discussion, Conclusion and Future work}{}% 87
-\BOOKMARK [1][-]{section.15.1}{...}{chapter.15}% 88
-\BOOKMARK [1][-]{section.15.2}{...}{chapter.15}% 89
-\BOOKMARK [2][-]{subsection.15.2.1}{...}{section.15.2}% 90
-\BOOKMARK [1][-]{section.15.3}{Summary}{chapter.15}% 91
-\BOOKMARK [0][-]{chapter.16}{Reflection}{}% 92
-\BOOKMARK [1][-]{section.16.1}{...}{chapter.16}% 93
-\BOOKMARK [1][-]{section.16.2}{...}{chapter.16}% 94
-\BOOKMARK [2][-]{subsection.16.2.1}{...}{section.16.2}% 95
-\BOOKMARK [1][-]{section.16.3}{Summary}{chapter.16}% 96
+\BOOKMARK [2][-]{subsection.10.1.5}{Uniform Interface}{section.10.1}% 67
+\BOOKMARK [2][-]{subsection.10.1.6}{Self-descriptive messages}{section.10.1}% 68
+\BOOKMARK [2][-]{subsection.10.1.7}{Stateful interactions through hyperlinks}{section.10.1}% 69
+\BOOKMARK [1][-]{section.10.2}{Protocol Specification}{chapter.10}% 70
+\BOOKMARK [2][-]{subsection.10.2.1}{Definitions}{section.10.2}% 71
+\BOOKMARK [2][-]{subsection.10.2.2}{Frontend application to Information Service Requests}{section.10.2}% 72
+\BOOKMARK [2][-]{subsection.10.2.3}{Frontend application to Prediction Service Requests}{section.10.2}% 73
+\BOOKMARK [2][-]{subsection.10.2.4}{Prediction Service to Information Service requests}{section.10.2}% 74
+\BOOKMARK [0][-]{chapter.11}{The Backend}{}% 75
+\BOOKMARK [1][-]{section.11.1}{...}{chapter.11}% 76
+\BOOKMARK [1][-]{section.11.2}{...}{chapter.11}% 77
+\BOOKMARK [2][-]{subsection.11.2.1}{...}{section.11.2}% 78
+\BOOKMARK [1][-]{section.11.3}{Summary}{chapter.11}% 79
+\BOOKMARK [0][-]{chapter.12}{The Prediction Service}{}% 80
+\BOOKMARK [1][-]{section.12.1}{...}{chapter.12}% 81
+\BOOKMARK [1][-]{section.12.2}{...}{chapter.12}% 82
+\BOOKMARK [2][-]{subsection.12.2.1}{...}{section.12.2}% 83
+\BOOKMARK [1][-]{section.12.3}{Summary}{chapter.12}% 84
+\BOOKMARK [0][-]{chapter.13}{CICD-Versioning-Deployment}{}% 85
+\BOOKMARK [1][-]{section.13.1}{...}{chapter.13}% 86
+\BOOKMARK [1][-]{section.13.2}{...}{chapter.13}% 87
+\BOOKMARK [2][-]{subsection.13.2.1}{...}{section.13.2}% 88
+\BOOKMARK [1][-]{section.13.3}{Summary}{chapter.13}% 89
+\BOOKMARK [0][-]{chapter.14}{Starting The Application Locally}{}% 90
+\BOOKMARK [1][-]{section.14.1}{...}{chapter.14}% 91
+\BOOKMARK [1][-]{section.14.2}{...}{chapter.14}% 92
+\BOOKMARK [2][-]{subsection.14.2.1}{...}{section.14.2}% 93
+\BOOKMARK [1][-]{section.14.3}{Summary}{chapter.14}% 94
+\BOOKMARK [0][-]{chapter.15}{Discussion, Conclusion and Future work}{}% 95
+\BOOKMARK [1][-]{section.15.1}{...}{chapter.15}% 96
+\BOOKMARK [1][-]{section.15.2}{...}{chapter.15}% 97
+\BOOKMARK [2][-]{subsection.15.2.1}{...}{section.15.2}% 98
+\BOOKMARK [1][-]{section.15.3}{Summary}{chapter.15}% 99
+\BOOKMARK [0][-]{chapter.16}{Reflection}{}% 100
+\BOOKMARK [1][-]{section.16.1}{...}{chapter.16}% 101
+\BOOKMARK [1][-]{section.16.2}{...}{chapter.16}% 102
+\BOOKMARK [2][-]{subsection.16.2.1}{...}{section.16.2}% 103
+\BOOKMARK [1][-]{section.16.3}{Summary}{chapter.16}% 104
