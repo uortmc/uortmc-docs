@@ -756,7 +756,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				\subsubsection{Scan update comment endpoint}
 					
 					The scan update comment endpoint makes it possible for the end-user(doctor) to submit feedback on a specific scan for the researcher to use. 
-					It is activated when the end-user(Doctor) submit comments on a specific scan result(see \ref{my-scans}). Scan Update Comment Endpoint is an authenticaticated endpoint, 
+					It is activated when the end-user(Doctor) submit comments on a specific scan result(see \ref{my-scans}). Scan update comment endpoint is an authenticaticated endpoint, 
 					meaning that requires an valid session token, to procceed.  The session token should belong to an end-user(doctor) and not root(administrator).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
@@ -822,7 +822,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }					
 						\end{lstlisting}
 					\end{figure}
-					If the given token is not associated with a given scan, the following request should be expected.
+					Finaly if the given token is not associated with a given scan, the following request should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -1099,11 +1099,11 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\end{center}
 					Example
 					\begin{center}
-						\begin{tabular}{ |c|c|c| } 
+						\begin{tabular}{ |c|c| } 
 							\hline
-							Endpoint & {{URL}}/app/scancomplete& \\
-							Parameter Type & www-form-urlencoded  &\\
-							Parameter 1 & token  & Scan token taken from Information Service\\
+							Endpoint & {{URL}}/app/scancomplete \\
+							Parameter Type & www-form-urlencoded  \\
+							Parameter 1 & c5fcd9c8-a138-4cb4-84e0-3af0d718a588 \\
 							\hline
 						\end{tabular}
 					\end{center}
@@ -1161,7 +1161,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 			\label{first-step}
 			
 			The first step to creating a new scan task involves calling the Information Service's Add scan endpoint(for specification, 
-			please refer to the paragraph\ref{add-scan-endpoint-infobe}). This will register the scan as information to the Information 
+			please refer to the paragraph \ref{add-scan-endpoint-infobe}). This will register the scan as information to the Information 
 			Service, and it will return us a UUID token[\cite{rfc4122}].
 
 			\begin{figure}[H]

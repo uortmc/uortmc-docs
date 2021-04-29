@@ -111,12 +111,11 @@
 				messages in base64 format. We use this library for the ultrasound image scan transmission from the frontend application 
 				into the predictor service.
 			\subsubsection{imghdr image library}
-				imghdr library provides the capability of the Prediction service to recognize if a given image is corrupted or not 
-				(for more information, please refer to the paragraph \ref{add-scan-taskbe}).
+				imghdr library provides the capability of the Prediction service to recognize if a given image is corrupted or not.
 			\subsubsection{Pykka Actors library}
-				'Pykka is a Python implementation of the actor model[\cite{hewitt2015actor}]. The actor model introduces some 
+				"Pykka is a Python implementation of the actor model[\cite{hewitt2015actor}]. The actor model introduces some 
 				simple rules to control the sharing of state and cooperation between execution units, making it easier to build 
-				concurrent applications.[\cite{magnus_2010}] Pykka actors are used extensively on the Prediction service, 
+				concurrent applications."[\cite{magnus_2010}] Pykka actors are used extensively on the Prediction service, 
 				especially on the prediction algorithms themselves, making the service capable of working as a distributed 
 				system with multiple nodes, working together when the workload is higher(for more information, please refer to 
 				paragraph \ref{flexible-scaleability-factor}).
