@@ -1,19 +1,37 @@
 \chapter{The Prediction Proccess}
 \label{prediction-process}
-
-...
-\section{...}
-....
-
-
-\section{...}
-...
-
-
-\subsection{...}
-
-
-\section{Summary}
-...
-
+	\section{Introduction}
+		In this section we are going to disquss the algorithms involved in the prediction proccess, a process running inside the Prediction
+		Service, as well as the libraries and the schematics of the predictors themselfs.\par
+		\subsection{Technology Stack}
+			The prediction proccess uses several libraries to achieve its goals; the most important ones are listed below.
+			\begin{itemize}
+				\item Numpy linear algebra library.
+				\item Scikit-learn machine learning library.
+				\item torch and torchvision deep learning library.
+			\end{itemize}
+			\subsubsection{Numpy}
+				Numpy is a python compatible library, adding support for matrices and multi-dimentional arrays, along with an 
+				extesive set of routines, for linear algebra operations. We use Numpy for various image transformations, spatial domain
+				image filters and dataset handling
+				
+			\subsubsection{Scikit-learn}
+				Scikit-learn is a open-source and free machine learning library compatible with python. Includes a rich ecosystem of
+				regression and clustering algorithms, including but not limited to, random forests,vector machines, gradient boosting, 
+				k-means and others. It is designed to interoperate with numerous Python numerical and scientific libraries such as NumPy 
+				and SciPy.
+			\subsection{pytorch and pytorchvision}
+				pytorch and pytorchvision are the python bindings of the famous torch library. Torch is anm free and open source deep 
+				learning and natural language processing library, developed by Facebook's AI Research Lab.
+		\subsection{Algorithms}
+			
+		
+		
+		
+		Our Application currently supports 2 algorithms for thuroid nodule classification, named
+		\begin{itemize}
+			\item C-Support Vector Machine, codenamed SVC v1.
+			\item Residual Deep Neural Network, codenamed RESNet v18
+		\end{itemize}
+	
 

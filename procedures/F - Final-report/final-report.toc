@@ -109,27 +109,29 @@
 \contentsline {subsection}{\numberline {11.3.2}Code Architecture}{60}{subsection.11.3.2}%
 \contentsline {subsection}{\numberline {11.3.3}Prediction Service Database}{62}{subsection.11.3.3}%
 \contentsline {chapter}{\numberline {12}The Prediction Proccess}{63}{chapter.12}%
-\contentsline {section}{\numberline {12.1}...}{63}{section.12.1}%
-\contentsline {section}{\numberline {12.2}...}{63}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}...}{63}{subsection.12.2.1}%
-\contentsline {section}{\numberline {12.3}Summary}{63}{section.12.3}%
-\contentsline {chapter}{\numberline {13}CICD-Versioning-Deployment}{64}{chapter.13}%
-\contentsline {section}{\numberline {13.1}...}{64}{section.13.1}%
-\contentsline {section}{\numberline {13.2}...}{64}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}...}{64}{subsection.13.2.1}%
-\contentsline {section}{\numberline {13.3}Summary}{64}{section.13.3}%
-\contentsline {chapter}{\numberline {14}Starting The Application Locally}{65}{chapter.14}%
-\contentsline {section}{\numberline {14.1}...}{65}{section.14.1}%
-\contentsline {section}{\numberline {14.2}...}{65}{section.14.2}%
-\contentsline {subsection}{\numberline {14.2.1}...}{65}{subsection.14.2.1}%
-\contentsline {section}{\numberline {14.3}Summary}{65}{section.14.3}%
-\contentsline {chapter}{\numberline {15}Discussion, Conclusion and Future work}{66}{chapter.15}%
-\contentsline {section}{\numberline {15.1}...}{66}{section.15.1}%
-\contentsline {section}{\numberline {15.2}...}{66}{section.15.2}%
-\contentsline {subsection}{\numberline {15.2.1}...}{66}{subsection.15.2.1}%
-\contentsline {section}{\numberline {15.3}Summary}{66}{section.15.3}%
-\contentsline {chapter}{\numberline {16}Reflection}{67}{chapter.16}%
-\contentsline {section}{\numberline {16.1}...}{67}{section.16.1}%
-\contentsline {section}{\numberline {16.2}...}{67}{section.16.2}%
-\contentsline {subsection}{\numberline {16.2.1}...}{67}{subsection.16.2.1}%
-\contentsline {section}{\numberline {16.3}Summary}{67}{section.16.3}%
+\contentsline {section}{\numberline {12.1}Introduction}{63}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}Technology Stack}{63}{subsection.12.1.1}%
+\contentsline {subsubsection}{Numpy}{63}{section*.128}%
+\contentsline {subsubsection}{Scikit-learn}{63}{section*.129}%
+\contentsline {subsection}{\numberline {12.1.2}pytorch and pytorchvision}{63}{subsection.12.1.2}%
+\contentsline {subsection}{\numberline {12.1.3}Algorithms}{64}{subsection.12.1.3}%
+\contentsline {chapter}{\numberline {13}CICD-Versioning-Deployment}{65}{chapter.13}%
+\contentsline {section}{\numberline {13.1}...}{65}{section.13.1}%
+\contentsline {section}{\numberline {13.2}...}{65}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}...}{65}{subsection.13.2.1}%
+\contentsline {section}{\numberline {13.3}Summary}{65}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Starting The Application Locally}{66}{chapter.14}%
+\contentsline {section}{\numberline {14.1}...}{66}{section.14.1}%
+\contentsline {section}{\numberline {14.2}...}{66}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}...}{66}{subsection.14.2.1}%
+\contentsline {section}{\numberline {14.3}Summary}{66}{section.14.3}%
+\contentsline {chapter}{\numberline {15}Discussion, Conclusion and Future work}{67}{chapter.15}%
+\contentsline {section}{\numberline {15.1}...}{67}{section.15.1}%
+\contentsline {section}{\numberline {15.2}...}{67}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}...}{67}{subsection.15.2.1}%
+\contentsline {section}{\numberline {15.3}Summary}{67}{section.15.3}%
+\contentsline {chapter}{\numberline {16}Reflection}{68}{chapter.16}%
+\contentsline {section}{\numberline {16.1}...}{68}{section.16.1}%
+\contentsline {section}{\numberline {16.2}...}{68}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}...}{68}{subsection.16.2.1}%
+\contentsline {section}{\numberline {16.3}Summary}{68}{section.16.3}%
