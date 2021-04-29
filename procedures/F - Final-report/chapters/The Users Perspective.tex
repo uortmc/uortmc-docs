@@ -2,7 +2,7 @@
 \label{users_perspective}
 	\section{Introduction}
 		In this section, we will start our exploration of the application and its features. As the nature of the requirements of this
-		the system is complicated. Unavoidably the system will be complex as well. Taking this into consideration, we will follow a natural top-to-bottom
+		the system is complicated, unavoidably the system will be complex as well. Taking this into consideration, we will follow a natural top-to-bottom
 		approach explaining its internals, starting as end-users and seeing the system as a black box. In this section, we will analyze its 
 		functionality from the user's perspective. This section may also serve as an instruction manual for the end-user as it contains everything needed
 		for an inexperienced user to start working with the software.
@@ -16,8 +16,8 @@
 		\end{figure}
 		The login screen is the first screen that our end-users will encounter. Here a username and a password is required to be given by the 
 		user to log in. The Credentials of the user remain encrypted during the process of login, as the system utilizes an HTTPS[\cite{rfc2818}] 
-		protocol for its connection, this is essential for the first non-functional requirement about security (see \ref{non-functional-requirements}).
-		The username and the password may be requested by the system administrator or the NOC\footnote{Network Operations Center} of the hospital.
+		protocol for its connection, this is essential for the first non-functional requirement about security (paragraph \ref{non-functional-requirements}).
+		An end-user may request a username and the password by the system administrator or the NOC\footnote{Network Operations Center} of the hospital.
 	\section{Home}
 		\begin{figure}[H]
 			\iftrue
@@ -50,7 +50,7 @@
 			\end{figure}
 			In the profile section, the user can see its associated information, saved on the registration date. 
 			The information for security reasons cannot be altered by the user itself, but only after a request to 
-			the system administrator or NOC\footnote{Network Operations Center}.
+			the system administrator or NOC\footnote{Network Operations Center} of the hospital.
 		\subsection{Notifications}
 			\label{notification-screen}
 			\begin{figure}[H]

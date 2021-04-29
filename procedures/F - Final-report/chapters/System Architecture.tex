@@ -52,7 +52,7 @@
 			the performance non-functional requirement we set back in \ref{non-functional-requirements}. An example of this can be 
 			when multiple users simultaneously use the most advanced and CPU-Intensive algorithm, the ResNet(see \ref{prediction-process}). 
 			If the system determines that the load is beyond some threshold, it can spin multiple instances of the same service. 
-			The instances will coordinate themselfs automatically and split the work that needs to be done into equal amounts, 
+			The instances will coordinate themselves automatically and split the work that needs to be done into equal amounts, 
 			reducing the response time. This is implemented using the Heroku-autoscale feature and will be discussed in chapter \ref{backend}
 		\subsection{Enchanced security}
 			Having multiple and distinct microservice enhances security, as the malicious compromise of one microservice does not
@@ -69,7 +69,7 @@
 			\fi
 		\end{figure}
 		Every action from our end-users, will be channeled through the frontend application. Our frontend is a web-based application(for 
-		more information please see \ref{frontend}) and handles the application infastructure via a well designed stateful[\cite{session-rfc6265}],
+		more information please see chapter \ref{frontend}) handling the application infastructure via a well designed stateful[\cite{session-rfc6265}],
 		Json-based[\cite{json-rfc7159}] Https[\cite{rfc2818}] RESTFull[\cite{restful-rfc7231}]
 		protocol (for more information please see chapter \ref{API}).
 	\section{Backend}

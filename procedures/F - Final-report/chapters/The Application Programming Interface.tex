@@ -58,7 +58,7 @@
 			\end{figure}
 			It becomes evident that, by using HTTPS, we increase our system security, as credentials and personal information are encrypted before sent over the internet.
 		\subsection{RESTFull protocol}
-			A protocol is REpresentational State Transfer (REST) \cite{pautasso_zimmermann_leymann_2008}Full when its design enables the following criteria to be fullfiled.
+			A protocol is REpresentational State Transfer (REST)[\cite{pautasso_zimmermann_leymann_2008}]Full when its design enables the following criteria to be fullfiled.
 			\subsubsection{Resource identification through URI.}
 				A protocol is RESTFul if it exposes several resources which identify the targets of the interaction with its clients. 
 				An example of this may be a contacts repository. The resources(contact repository) are identified via URIs[\cite{uri-rfc3986}].
@@ -211,7 +211,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 		"last_seen": "2021-04-28T15:51:21.056Z",
 		"online_status": true,
 		"tasks": 0
-}
+	}
 }
 						\end{lstlisting}
 					\end{figure}
@@ -240,7 +240,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				\subsubsection{Doctor profile endpoint}
 				
 					The Doctor profile endpoint informs the front end about the doctor's (end-users) details. It is called when the 
-					profile section is selected on the frontend application(see \ref{profile-screen}). The Doctor Profile endpoint is authenticated, needing 
+					profile section is selected on the frontend application(see \ref{profile-screen}). The doctor profile endpoint is authenticated, needing 
 					a valid and authenticated session token belonging to an end-user(not root).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
@@ -316,7 +316,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\label{get-notification}
 					The doctor notifications endpoint informs the front end about the doctor's (end-users) available notifications.  
 					It is called when the notification section is selected on the frontend application(see \ref{notification-screen}).  
-					The Doctor Profile endpoint is authenticated, needing a valid and authenticated session token belonging to an 
+					The doctor notifications endpoint is authenticated, needing a valid and authenticated session token belonging to an 
 					end-user(not root).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
@@ -334,7 +334,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 							\hline
 						\end{tabular}
 					\end{center}
-					JSON Responce
+					JSON Responce with 1 notification returned
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -395,7 +395,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				\subsubsection{Add patient endpoint}
 				
 					The add patient endpoint makes possible the creation of new patient records through the frontend application. 
-					It is activated when we submit the patient submission form(see \ref{patient-submission}). Add Patient Endpoint 
+					It is activated when we submit the patient submission form(see \ref{patient-submission}). The add patient endpoint 
 					is an authenticated endpoint, meaning that it requires a valid session token to proceed. The session token should 
 					belong to an end-user(doctor) and not root(administrator).
 
@@ -473,7 +473,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					if the Nino[\cite{nino-format}] already exists, the following response should be expected.
+					If the Nino[\cite{nino-format}] already exists, the following response should be expected.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -499,7 +499,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				
 				
 					The set patient comment endpoint makes it possible for the end-user(doctor) to keep notes about a specific patient 
-					case. It is activated when we change the comments for a specific patient(see \ref{patient-comment-submission}). Set Patient  Comment Endpoint is 
+					case. It is activated when we change the comments for a specific patient(see \ref{my-patients}). The set patient  comment endpoint is 
 					an authenticated endpoint, meaning that it requires a valid session token to proceed. The session token should 
 					belong to an end-user(doctor) and not root(administrator).
 
@@ -666,8 +666,8 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					The add scan endpoint makes it possible for the end-user(doctor) to submit scans on its associated patients. It is activated when 
 					the end-user(Doctor) submits the scan submission form(see \ref{new-scan}). Add Scan Endpoint is an authenticaticated endpoint, meaning that it requires a 
 					valid session token to proceed. The session token should belong to an end-user(doctor) and not root(administrator). Please note that 
-					this is the first request in a series of 2 needed to initiate a scan task correctly, the second one can be found in at paragraph\ref{add-scan-taskbe} , and 
-					more information about the procedure can be found in chapter\ref{backend}.
+					this is the first request in a series of 2 needed to initiate a scan task correctly, the second one can be found in at paragraph \ref{add-scan-endpoint-taskbe} , and 
+					more information about the procedure can be found in paragraph \ref{scan-creation}.
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
 							\hline
@@ -742,7 +742,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }
 						\end{lstlisting}
 					\end{figure}
-					If a field is missing or the specification of the request is not met, then the following response will be returned.
+					Finally if a field is missing or the specification of the request is not met, then the following response will be returned.
 					\begin{figure}[H]
 						\iftrue
 						\begin{lstlisting}[]
@@ -756,7 +756,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				\subsubsection{Scan update comment endpoint}
 					
 					The scan update comment endpoint makes it possible for the end-user(doctor) to submit feedback on a specific scan for the researcher to use. 
-					It is activated when the end-user(Doctor) submit comments scan result(see \ref{my-scans}). Scan Update Comment Endpoint is an authenticaticated endpoint, 
+					It is activated when the end-user(Doctor) submit comments on a specific scan result(see \ref{my-scans}). Scan Update Comment Endpoint is an authenticaticated endpoint, 
 					meaning that requires an valid session token, to procceed.  The session token should belong to an end-user(doctor) and not root(administrator).
 					\begin{center}
 						\begin{tabular}{ |c|c| } 
@@ -1155,6 +1155,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\end{figure}
 	
 	\section{Scan task creation}
+		\label{scan-creation}
 		In this section will briefly look the Scan task creation sequence, as it is non-trivial and requires multiple steps.
 		\subsection{Scan registration}
 			\label{first-step}

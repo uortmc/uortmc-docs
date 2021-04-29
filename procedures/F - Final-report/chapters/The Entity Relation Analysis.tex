@@ -7,7 +7,8 @@
 	\section{Entities}
 	We will start our exploration by defining our entities for this project.
 	\subsection{Scan}
-	A scan is the result of an ultrasound scan performed in a specific patient(see [\ref{patient-definition})]. A scan entity has certain attributes
+	A scan is the result of an ultrasound scan performed in a specific patient(for further information refer to paragraph
+	 [\ref{patient-definition}]). A scan entity has certain attributes
 	\begin{center}
 		\begin{tabular}{ |c|c| } 
 			\hline
@@ -15,14 +16,15 @@
 			Prediction & The result of the prediction algorithm. Acceptable Values = {Maligrant, Benign}  \\
 			Results & The logs of the algorithm performed the prediction, Optional \\
 			Algorithm & The algorithm used to perform the prediction. Acceptable Values = {SVC,RES} \\
-			Token& The scan identifier across the application services. token type is UUID [\cite{rfc4122}] \\
+			Token& The scan identifier across the application services. Token type is UUID [\cite{rfc4122}] \\
 			\hline
 		\end{tabular}
 	\end{center}
 	\subsection{Patient}
 	\label{patient-definition}
 	A patient is a physical person that is suspected to have a thuroid nodule. A person may have 0 up to n scans, where n is the theoretical
-	maximum number of records(no limit is enforced by the database or the application). A patient has characteristics explaned below
+	maximum number of records(no limit is enforced by the database or the application). A patient has certai 
+	characteristics defined below
 	\begin{center}
 		\begin{tabular}{ |c|c| } 
 			\hline

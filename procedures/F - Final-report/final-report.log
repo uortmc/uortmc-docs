@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  29 APR 2021 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.27)  29 APR 2021 05:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,11 +872,7 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@ppsavesec=\count337
 \c@@ppsaveapp=\count338
 )
-(./final-report.aux
-
-LaTeX Warning: Label `ch:lit_rev' multiply defined.
-
-)
+(./final-report.aux)
 \openout1 = `final-report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
@@ -1078,12 +1074,12 @@ Package pdftex.def Info: figures/use-case.png  used on input line 26.
 ]) (./chapters/The Entity Relation Analysis.tex [6 <./figures/use-case.png>]
 Chapter 4.
 
-Overfull \hbox (40.38727pt too wide) in paragraph at lines 12--21
+Overfull \hbox (42.97267pt too wide) in paragraph at lines 13--22
  [] 
  []
 
 
-Overfull \hbox (34.03017pt too wide) in paragraph at lines 27--37
+Overfull \hbox (34.03017pt too wide) in paragraph at lines 29--39
  [] 
  []
 
@@ -1093,7 +1089,7 @@ Overfull \hbox (34.03017pt too wide) in paragraph at lines 27--37
 <figures/Entity-Relation-Fig.png, id=668, 412.54124pt x 101.37875pt>
 File: figures/Entity-Relation-Fig.png Graphic file (type png)
 <use figures/Entity-Relation-Fig.png>
-Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 84
+Package pdftex.def Info: figures/Entity-Relation-Fig.png  used on input line 86
 .
 (pdftex.def)             Requested size: 206.27011pt x 50.68924pt.
 ) (./chapters/The Users Perspective.tex [8 <./figures/Entity-Relation-Fig.png>]
@@ -1218,7 +1214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<figures/admin-panel-login.png, id=849, 843.15pt x 485.815pt>
+<figures/admin-panel-login.png, id=848, 843.15pt x 485.815pt>
 File: figures/admin-panel-login.png Graphic file (type png)
 <use figures/admin-panel-login.png>
 Package pdftex.def Info: figures/admin-panel-login.png  used on input line 31.
@@ -1226,18 +1222,18 @@ Package pdftex.def Info: figures/admin-panel-login.png  used on input line 31.
 [21
 
 ]
-<figures/admin-panel-home.png, id=863, 943.525pt x 548.0475pt>
+<figures/admin-panel-home.png, id=862, 943.525pt x 548.0475pt>
 File: figures/admin-panel-home.png Graphic file (type png)
 <use figures/admin-panel-home.png>
 Package pdftex.def Info: figures/admin-panel-home.png  used on input line 42.
 (pdftex.def)             Requested size: 283.05968pt x 164.41551pt.
-<figures/admin-panel-example-1.png, id=864, 760.8425pt x 489.83pt>
+<figures/admin-panel-example-1.png, id=863, 760.8425pt x 489.83pt>
 File: figures/admin-panel-example-1.png Graphic file (type png)
 <use figures/admin-panel-example-1.png>
 Package pdftex.def Info: figures/admin-panel-example-1.png  used on input line 
 53.
 (pdftex.def)             Requested size: 228.2545pt x 146.95012pt.
-<figures/admin-panel-example-2.png, id=865, 977.6525pt x 798.985pt>
+<figures/admin-panel-example-2.png, id=864, 977.6525pt x 798.985pt>
 File: figures/admin-panel-example-2.png Graphic file (type png)
 <use figures/admin-panel-example-2.png>
 Package pdftex.def Info: figures/admin-panel-example-2.png  used on input line 
@@ -1259,7 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<figures/research-panel-login.png, id=885, 592.2125pt x 422.57875pt>
+<figures/research-panel-login.png, id=883, 592.2125pt x 422.57875pt>
 File: figures/research-panel-login.png Graphic file (type png)
 <use figures/research-panel-login.png>
 Package pdftex.def Info: figures/research-panel-login.png  used on input line 3
@@ -1268,19 +1264,19 @@ Package pdftex.def Info: figures/research-panel-login.png  used on input line 3
 [24
 
 ]
-<figures/research-panel-home.png, id=898, 939.51pt x 441.65pt>
+<figures/research-panel-home.png, id=896, 939.51pt x 441.65pt>
 File: figures/research-panel-home.png Graphic file (type png)
 <use figures/research-panel-home.png>
 Package pdftex.def Info: figures/research-panel-home.png  used on input line 44
 .
 (pdftex.def)             Requested size: 281.85518pt x 132.49602pt.
-<figures/research-panel-scan-list.png, id=899, 767.86874pt x 488.82625pt>
+<figures/research-panel-scan-list.png, id=897, 767.86874pt x 488.82625pt>
 File: figures/research-panel-scan-list.png Graphic file (type png)
 <use figures/research-panel-scan-list.png>
 Package pdftex.def Info: figures/research-panel-scan-list.png  used on input li
 ne 54.
 (pdftex.def)             Requested size: 230.3624pt x 146.649pt.
-<figures/research-panel-scan-view.png, id=900, 1179.40625pt x 892.33376pt>
+<figures/research-panel-scan-view.png, id=898, 1179.40625pt x 892.33376pt>
 File: figures/research-panel-scan-view.png Graphic file (type png)
 <use figures/research-panel-scan-view.png>
 Package pdftex.def Info: figures/research-panel-scan-view.png  used on input li
@@ -1297,7 +1293,7 @@ Package pdftex.def Info: figures/frontend.png  used on input line 8.
 [27
 
 ]
-<figures/react-components-example.png, id=933, 1529.715pt x 754.82pt>
+<figures/react-components-example.png, id=931, 1529.715pt x 754.82pt>
 File: figures/react-components-example.png Graphic file (type png)
 <use figures/react-components-example.png>
 Package pdftex.def Info: figures/react-components-example.png  used on input li
@@ -1308,23 +1304,23 @@ Overfull \hbox (34.85771pt too wide) in paragraph at lines 57--59
  [][] 
  []
 
-<figures/tmc-runs-chrome.png, id=934, 1431.3475pt x 754.82pt>
+<figures/tmc-runs-chrome.png, id=932, 1431.3475pt x 754.82pt>
 File: figures/tmc-runs-chrome.png Graphic file (type png)
 <use figures/tmc-runs-chrome.png>
 Package pdftex.def Info: figures/tmc-runs-chrome.png  used on input line 78.
 (pdftex.def)             Requested size: 190.82585pt x 100.62936pt.
-<figures/tmc-runs-safari.png, id=935, 1325.95375pt x 875.27pt>
+<figures/tmc-runs-safari.png, id=933, 1325.95375pt x 875.27pt>
 File: figures/tmc-runs-safari.png Graphic file (type png)
 <use figures/tmc-runs-safari.png>
 Package pdftex.def Info: figures/tmc-runs-safari.png  used on input line 83.
 (pdftex.def)             Requested size: 190.82585pt x 125.95598pt.
-<figures/tmc-runs-firefox.png, id=936, 1542.76375pt x 829.0975pt>
+<figures/tmc-runs-firefox.png, id=934, 1542.76375pt x 829.0975pt>
 File: figures/tmc-runs-firefox.png Graphic file (type png)
 <use figures/tmc-runs-firefox.png>
 Package pdftex.def Info: figures/tmc-runs-firefox.png  used on input line 87.
 (pdftex.def)             Requested size: 190.82585pt x 102.54895pt.
 [28 <./figures/react-components-example.png>]
-<figures/hansontable-example.png, id=945, 1125.20375pt x 544.0325pt>
+<figures/hansontable-example.png, id=943, 1125.20375pt x 544.0325pt>
 File: figures/hansontable-example.png Graphic file (type png)
 <use figures/hansontable-example.png>
 Package pdftex.def Info: figures/hansontable-example.png  used on input line 10
@@ -1335,7 +1331,7 @@ Package pdftex.def Info: figures/hansontable-example.png  used on input line 10
 (./chapters/The Application Programming Interface.tex [30 <./figures/hansontabl
 e-example.png>]
 Chapter 10.
-<figures/sessionID.png, id=973, 526.96875pt x 632.3625pt>
+<figures/sessionID.png, id=971, 526.96875pt x 632.3625pt>
 File: figures/sessionID.png Graphic file (type png)
 <use figures/sessionID.png>
 Package pdftex.def Info: figures/sessionID.png  used on input line 21.
@@ -1343,32 +1339,23 @@ Package pdftex.def Info: figures/sessionID.png  used on input line 21.
 [31
 
  <./figures/sessionID.png>]
-<figures/json.png, id=984, 1106.1325pt x 840.13875pt>
+<figures/json.png, id=982, 1106.1325pt x 840.13875pt>
 File: figures/json.png Graphic file (type png)
 <use figures/json.png>
 Package pdftex.def Info: figures/json.png  used on input line 35.
 (pdftex.def)             Requested size: 331.84232pt x 252.04356pt.
-<figures/http.png, id=987, 1186.4325pt x 498.86375pt>
+<figures/http.png, id=985, 1186.4325pt x 498.86375pt>
 File: figures/http.png Graphic file (type png)
 <use figures/http.png>
 Package pdftex.def Info: figures/http.png  used on input line 49.
 (pdftex.def)             Requested size: 355.9325pt x 149.66028pt.
-<figures/https.png, id=988, 1175.39125pt x 564.1075pt>
+<figures/https.png, id=986, 1175.39125pt x 564.1075pt>
 File: figures/https.png Graphic file (type png)
 <use figures/https.png>
 Package pdftex.def Info: figures/https.png  used on input line 56.
 (pdftex.def)             Requested size: 352.6201pt x 169.23355pt.
  [32 <./figures/json.png>] [33 <./figures/http.png> <./figures/https.png>] [34]
- [35] [36] [37] [38] [39] [40]
-
-LaTeX Warning: Reference `patient-comment-submission' on page 41 undefined on i
-nput line 502.
-
-[41] [42] [43]
-
-LaTeX Warning: Reference `add-scan-taskbe' on page 44 undefined on input line 6
-69.
-
+ [35] [36] [37] [38] [39] [40] [41] [42] [43]
 [44] [45] [46] [47] [48]
 Overfull \hbox (26.38574pt too wide) in paragraph at lines 932--941
  [] 
@@ -1380,24 +1367,24 @@ Overfull \hbox (26.38574pt too wide) in paragraph at lines 932--941
 File: figures/sca-creation-sequence-1-Page-2.png Graphic file (type png)
 <use figures/sca-creation-sequence-1-Page-2.png>
 Package pdftex.def Info: figures/sca-creation-sequence-1-Page-2.png  used on in
-put line 1170.
+put line 1171.
 (pdftex.def)             Requested size: 284.86644pt x 96.96298pt.
 <figures/sca-creation-sequence-1-Page-2-2.png, id=1692, 444.66125pt x 232.87pt>
 
 File: figures/sca-creation-sequence-1-Page-2-2.png Graphic file (type png)
 <use figures/sca-creation-sequence-1-Page-2-2.png>
 Package pdftex.def Info: figures/sca-creation-sequence-1-Page-2-2.png  used on 
-input line 1182.
+input line 1183.
 (pdftex.def)             Requested size: 266.7988pt x 139.72307pt.
 <figures/sca-creation-sequence-1-Page-3-1.png, id=1694, 735.74875pt x 212.795pt
 >
 File: figures/sca-creation-sequence-1-Page-3-1.png Graphic file (type png)
 <use figures/sca-creation-sequence-1-Page-3-1.png>
 Package pdftex.def Info: figures/sca-creation-sequence-1-Page-3-1.png  used on 
-input line 1195.
+input line 1196.
 (pdftex.def)             Requested size: 441.45265pt x 127.67796pt.
 
-Overfull \hbox (17.39232pt too wide) in paragraph at lines 1195--1197
+Overfull \hbox (17.39232pt too wide) in paragraph at lines 1196--1198
  [][] 
  []
 
@@ -1408,7 +1395,7 @@ pt>
 File: figures/sca-creation-sequence-1-Page-3-2.png Graphic file (type png)
 <use figures/sca-creation-sequence-1-Page-3-2.png>
 Package pdftex.def Info: figures/sca-creation-sequence-1-Page-3-2.png  used on 
-input line 1206.
+input line 1207.
 (pdftex.def)             Requested size: 266.7988pt x 163.211pt.
 ) (./chapters/The Backend.tex [54 <./figures/sca-creation-sequence-1-Page-3-1.p
 ng> <./figures/sca-creation-sequence-1-Page-3-2.png>]
@@ -1480,44 +1467,47 @@ eDiagram.png>]
 Chapter 12.
 [63
 
-]) (./chapters/CICD-Versioning-Deployment.tex [64]
+]
+<figures/svc-process.png, id=1802, 1038.88126pt x 261.97874pt>
+File: figures/svc-process.png Graphic file (type png)
+<use figures/svc-process.png>
+Package pdftex.def Info: figures/svc-process.png  used on input line 43.
+(pdftex.def)             Requested size: 1038.87872pt x 261.9781pt.
+ [64]
+Overfull \vbox (77.61263pt too high) has occurred while \output is active []
+
+
+[65 <./figures/svc-process.png>]
+Overfull \hbox (6.2601pt too wide) in paragraph at lines 53--55
+[]\OT1/cmss/m/n/10.95 DismissRGBChannels : con-verts the numpy-array rep-re-sen
+-ta-tion of the im-age to grayscale,
+ []
+
+[66]) (./chapters/Starting the Application.tex [67]
 Chapter 13.
-) (./chapters/Starting the Application Locally.tex [65
+) (./chapters/Discussion Conclusion and Future work.tex [68
 
 ]
 Chapter 14.
-) (./chapters/Discussion Conclusion and Future work.tex [66
+) (./chapters/Reflection.tex [69
 
 ]
 Chapter 15.
-) (./chapters/Reflection.tex [67
+) (./final-report.bbl [70
 
-]
-Chapter 16.
-) (./final-report.bbl [68
+] [71
 
-] [69
-
-]) [70]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+]) [72]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./final-report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package rerunfilecheck Info: File `final-report.out' has not changed.
+(rerunfilecheck)             Checksum: 1BC237C646348BD6AADD3939C4355BA4;7745.
 
-
-Package rerunfilecheck Warning: File `final-report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `final-report.out':
-(rerunfilecheck)             Before: 9B70841931842ABF9E7139FAD6D3D481;7336
-(rerunfilecheck)             After:  C00A0AF351A8506D1FC7F270447EDF6C;7397.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred when \iftrue on line 1147 was incomplete)
@@ -1575,39 +1565,30 @@ LaTeX Warning: There were multiply-defined labels.
 (\end occurred when \iftrue on line 140 was incomplete)
 (\end occurred when \iftrue on line 130 was incomplete) 
 Here is how much of TeX's memory you used:
- 24708 strings out of 480608
- 450403 string characters out of 5903630
- 895719 words of memory out of 5000000
- 39181 multiletter control sequences out of 15000+600000
+ 24727 strings out of 480608
+ 450762 string characters out of 5903630
+ 895931 words of memory out of 5000000
+ 39197 multiletter control sequences out of 15000+600000
  545089 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,10n,60p,834b,1267s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): n
-ame{section.12.3} has been referenced but does not exist, replaced by a fixed o
-ne
-
-pdfTeX warning (dest): name{subsection.12.2.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.12.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on final-report.pdf (76 pages, 2609014 bytes).
+{/usr/local/texlive/2020
+/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on final-report.pdf (78 pages, 2647142 bytes).
 PDF statistics:
- 2051 PDF objects out of 2073 (max. 8388607)
- 1851 compressed objects within 19 object streams
- 854 named destinations out of 1000 (max. 500000)
- 1147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2074 PDF objects out of 2487 (max. 8388607)
+ 1871 compressed objects within 19 object streams
+ 859 named destinations out of 1000 (max. 500000)
+ 1152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

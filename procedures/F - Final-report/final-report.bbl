@@ -10,6 +10,10 @@ Berners-Lee, T.  \harvardyearleft 2005\harvardyearright , `{Uniform Resource
   Identifier (URI): Generic Syntax}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc3986}
 
+\harvarditem{Cortes \harvardand\ Vapnik}{2009}{support-vector-machines}
+Cortes, C. \harvardand\ Vapnik, V.  \harvardyearleft 2009\harvardyearright ,
+  `Support-vector networks', {\em Chem. Biol. Drug Des.} {\bf 297},~273--297.
+
 \harvarditem{Eun Ju~Ha}{2021}{ai-applications}
 Eun Ju~Ha, J. H.~B.  \harvardyearleft 2021\harvardyearright , `Ha ej, baek jh.
   applications of machine learning and deep learning to thyroid imaging: where
@@ -57,6 +61,12 @@ Kaplan, H.  \harvardyearleft 2014\harvardyearright , `{A Session Identifier for
 Leach, P.  \harvardyearleft 2005\harvardyearright , `{A Universally Unique
   IDentifier (UUID) URN Namespace}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc4122}
+
+\harvarditem[Li et~al.]{Li, Ma \harvardand\ Cui}{2018}{li_ma_cui_2018}
+Li, J., Ma, X. \harvardand\ Cui, K.  \harvardyearleft 2018\harvardyearright ,
+  `Re: “acr thyroid imaging, reporting and data system (ti-rads): White paper
+  of the acr ti-rads committee”', {\em Journal of the American College of
+  Radiology} {\bf 15}(3),~380--381.
 
 \harvarditem{Manber}{1996}{MANBER1996171}
 Manber, U.  \harvardyearleft 1996\harvardyearright , `A simple scheme to make
@@ -107,6 +117,10 @@ Stroustrup, B.  \harvardyearleft 1988\harvardyearright , `What is
 T.~Bray, E.  \harvardyearleft 2014\harvardyearright , `{The JavaScript Object
   Notation (JSON) Data Interchange Format}', Internet Requests for Comments.
 \newline\harvardurl{https://tools.ietf.org/html/rfc7159}
+
+\harvarditem{Vapnik}{2008}{vapnik_2008}
+Vapnik, V.~N.  \harvardyearleft 2008\harvardyearright , {\em The nature of
+  statistical learning theory}, Springer.
 
 \harvarditem{Yergeau}{2003}{rfc3629}
 Yergeau, F.  \harvardyearleft 2003\harvardyearright , `{UTF-8, a transformation
