@@ -122,6 +122,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}Indepedently deployable services}{18}{subsection.6.1.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.4}No single point of failure}{18}{subsection.6.1.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.5}Flexible scaleability factor}{18}{subsection.6.1.5}\protected@file@percent }
+\newlabel{flexible-scaleability-factor}{{6.1.5}{18}{Flexible scaleability factor}{subsection.6.1.5}{}}
 \citation{session-rfc6265}
 \citation{json-rfc7159}
 \citation{rfc2818}
@@ -230,94 +231,108 @@
 \@writefile{toc}{\contentsline {subsubsection}{Signup endpoint}{36}{section*.52}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Doctor profile endpoint}{37}{section*.56}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Doctor notifications endpoint}{38}{section*.61}\protected@file@percent }
+\newlabel{get-notification}{{10.2.2}{38}{Doctor notifications endpoint}{section*.61}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Add patient endpoint}{39}{section*.66}\protected@file@percent }
 \citation{nino-format}
 \@writefile{toc}{\contentsline {subsubsection}{Set patient comment endpoint}{41}{section*.72}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Get patients endpoint}{42}{section*.78}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Add scan endpoint}{44}{section*.83}\protected@file@percent }
+\newlabel{add-scan-endpoint-infobe}{{10.2.2}{44}{Add scan endpoint}{section*.83}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Scan update comment endpoint}{46}{section*.88}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Get scans endpoint}{47}{section*.94}\protected@file@percent }
 \citation{base64-4648}
 \@writefile{toc}{\contentsline {subsection}{\numberline {10.2.3}Frontend application to Prediction Service Requests}{49}{subsection.10.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Add scan endpoint}{49}{section*.99}\protected@file@percent }
-\newlabel{add-scan-taskbe}{{10.2.3}{49}{Add scan endpoint}{section*.99}{}}
+\newlabel{add-scan-endpoint-taskbe}{{10.2.3}{49}{Add scan endpoint}{section*.99}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Get scan endpoint}{51}{section*.106}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {10.2.4}Prediction Service to Information Service requests}{51}{subsection.10.2.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Declare scan complete endpoint}{52}{section*.110}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {11}The Backend}{53}{chapter.11}\protected@file@percent }
+\newlabel{declare-scan-complete-endpoint}{{10.2.4}{52}{Declare scan complete endpoint}{section*.110}{}}
+\citation{rfc4122}
+\@writefile{toc}{\contentsline {section}{\numberline {10.3}Scan task creation}{53}{section.10.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3.1}Scan registration}{53}{subsection.10.3.1}\protected@file@percent }
+\newlabel{first-step}{{10.3.1}{53}{Scan registration}{subsection.10.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10.5}{\ignorespaces First step\relax }}{53}{figure.caption.114}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3.2}Scan prediction task registration}{53}{subsection.10.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.6}{\ignorespaces Second Step\relax }}{53}{figure.caption.115}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.3.3}Rest of the process}{53}{subsection.10.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.7}{\ignorespaces Third Step\relax }}{54}{figure.caption.116}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10.8}{\ignorespaces Fourth Step\relax }}{54}{figure.caption.117}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {11}The Backend}{55}{chapter.11}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{backend}{{11}{53}{The Backend}{chapter.11}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {11.1}Introduction}{53}{section.11.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.1}{\ignorespaces Backend Services\relax }}{53}{figure.caption.114}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {11.2}Information Service}{53}{section.11.2}\protected@file@percent }
+\newlabel{backend}{{11}{55}{The Backend}{chapter.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {11.1}Introduction}{55}{section.11.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.1}{\ignorespaces Backend Services\relax }}{55}{figure.caption.118}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11.2}Information Service}{55}{section.11.2}\protected@file@percent }
 \citation{restful-rfc7231}
 \citation{oop}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.1}Technology Stack}{54}{subsection.11.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Django Framework}{54}{section*.115}\protected@file@percent }
-\newlabel{django}{{11.2.1}{54}{Django Framework}{section*.115}{}}
-\@writefile{toc}{\contentsline {subsubsection}{psycopg2 database driver}{54}{section*.116}\protected@file@percent }
-\newlabel{psycopg2}{{11.2.1}{54}{psycopg2 database driver}{section*.116}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.2}Code Architecture}{54}{subsection.11.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.2}{\ignorespaces OOP Diagram\relax }}{55}{figure.caption.117}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.1}Technology Stack}{56}{subsection.11.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Django Framework}{56}{section*.119}\protected@file@percent }
+\newlabel{django}{{11.2.1}{56}{Django Framework}{section*.119}{}}
+\@writefile{toc}{\contentsline {subsubsection}{psycopg2 database driver}{56}{section*.120}\protected@file@percent }
+\newlabel{psycopg2}{{11.2.1}{56}{psycopg2 database driver}{section*.120}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.2}Code Architecture}{56}{subsection.11.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.2}{\ignorespaces OOP Diagram\relax }}{57}{figure.caption.121}\protected@file@percent }
 \citation{friedrichsen_ruffolo_monk_starks_pratt_last_1995}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.3}Database Medium}{56}{subsection.11.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.3}{\ignorespaces E-R Diagram\relax }}{57}{figure.caption.118}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2.3}Information Service Database}{58}{subsection.11.2.3}\protected@file@percent }
+\newlabel{postgres}{{11.2.3}{58}{Information Service Database}{subsection.11.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11.3}{\ignorespaces E-R Diagram\relax }}{59}{figure.caption.122}\protected@file@percent }
 \citation{hewitt2015actor}
 \citation{magnus_2010}
 \citation{oop}
-\@writefile{toc}{\contentsline {section}{\numberline {11.3}Prediction Service}{58}{section.11.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.1}Technology Stack}{58}{subsection.11.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{base64 decoder}{58}{section*.119}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{imghdr image library}{58}{section*.120}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Pykka Actors library}{58}{section*.121}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.2}Code Architecture}{58}{subsection.11.3.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.4}{\ignorespaces OOP Diagram\relax }}{59}{figure.caption.122}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {11.3}Prediction Service}{60}{section.11.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.1}Technology Stack}{60}{subsection.11.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{base64 decoder}{60}{section*.123}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{imghdr image library}{60}{section*.124}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Pykka Actors library}{60}{section*.125}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.2}Code Architecture}{60}{subsection.11.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.4}{\ignorespaces OOP Diagram\relax }}{61}{figure.caption.126}\protected@file@percent }
 \citation{friedrichsen_ruffolo_monk_starks_pratt_last_1995}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.3}Database Medium}{60}{subsection.11.3.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11.5}{\ignorespaces E-R Diagram\relax }}{61}{figure.caption.123}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {12}The Prediction Proccess}{62}{chapter.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.3.3}Prediction Service Database}{62}{subsection.11.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11.5}{\ignorespaces E-R Diagram\relax }}{62}{figure.caption.127}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {12}The Prediction Proccess}{63}{chapter.12}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{prediction-process}{{12}{62}{The Prediction Proccess}{chapter.12}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {12.1}...}{62}{section.12.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {12.2}...}{62}{section.12.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.1}...}{62}{subsection.12.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {12.3}Summary}{62}{section.12.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {13}CICD-Versioning-Deployment}{63}{chapter.13}\protected@file@percent }
+\newlabel{prediction-process}{{12}{63}{The Prediction Proccess}{chapter.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {12.1}...}{63}{section.12.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {12.2}...}{63}{section.12.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {12.2.1}...}{63}{subsection.12.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {12.3}Summary}{63}{section.12.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {13}CICD-Versioning-Deployment}{64}{chapter.13}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{cicd-versioning-deployment}{{13}{63}{CICD-Versioning-Deployment}{chapter.13}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {13.1}...}{63}{section.13.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {13.2}...}{63}{section.13.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.1}...}{63}{subsection.13.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {13.3}Summary}{63}{section.13.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {14}Starting The Application Locally}{64}{chapter.14}\protected@file@percent }
+\newlabel{cicd-versioning-deployment}{{13}{64}{CICD-Versioning-Deployment}{chapter.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {13.1}...}{64}{section.13.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {13.2}...}{64}{section.13.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {13.2.1}...}{64}{subsection.13.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {13.3}Summary}{64}{section.13.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {14}Starting The Application Locally}{65}{chapter.14}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{start-stop-guide}{{14}{64}{Starting The Application Locally}{chapter.14}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {14.1}...}{64}{section.14.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {14.2}...}{64}{section.14.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.1}...}{64}{subsection.14.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {14.3}Summary}{64}{section.14.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {15}Discussion, Conclusion and Future work}{65}{chapter.15}\protected@file@percent }
+\newlabel{start-stop-guide}{{14}{65}{Starting The Application Locally}{chapter.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {14.1}...}{65}{section.14.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {14.2}...}{65}{section.14.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {14.2.1}...}{65}{subsection.14.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {14.3}Summary}{65}{section.14.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {15}Discussion, Conclusion and Future work}{66}{chapter.15}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:lit_rev}{{15}{65}{Discussion, Conclusion and Future work}{chapter.15}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {15.1}...}{65}{section.15.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {15.2}...}{65}{section.15.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.1}...}{65}{subsection.15.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {15.3}Summary}{65}{section.15.3}\protected@file@percent }
+\newlabel{ch:lit_rev}{{15}{66}{Discussion, Conclusion and Future work}{chapter.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {15.1}...}{66}{section.15.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {15.2}...}{66}{section.15.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {15.2.1}...}{66}{subsection.15.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {15.3}Summary}{66}{section.15.3}\protected@file@percent }
 \bibstyle{agsm}
 \bibdata{references}
-\@writefile{toc}{\contentsline {chapter}{\numberline {16}Reflection}{66}{chapter.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {16}Reflection}{67}{chapter.16}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:lit_rev}{{16}{66}{Reflection}{chapter.16}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {16.1}...}{66}{section.16.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {16.2}...}{66}{section.16.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.1}...}{66}{subsection.16.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {16.3}Summary}{66}{section.16.3}\protected@file@percent }
+\newlabel{ch:lit_rev}{{16}{67}{Reflection}{chapter.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {16.1}...}{67}{section.16.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {16.2}...}{67}{section.16.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {16.2.1}...}{67}{subsection.16.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {16.3}Summary}{67}{section.16.3}\protected@file@percent }
 \bibcite{session-rfc6265}{{1}{2011}{{Barth}}{{}}}
 \bibcite{uri-rfc3986}{{2}{2005}{{Berners-Lee}}{{}}}
 \bibcite{ai-applications}{{3}{2021}{{Eun Ju~Ha}}{{}}}

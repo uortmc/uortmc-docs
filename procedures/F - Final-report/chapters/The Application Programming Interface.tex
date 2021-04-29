@@ -313,7 +313,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 						\end{lstlisting}
 					\end{figure}
 				\subsubsection{Doctor notifications endpoint}
-				
+					\label{get-notification}
 					The doctor notifications endpoint informs the front end about the doctor's (end-users) available notifications.  
 					It is called when the notification section is selected on the frontend application(see \ref{notification-screen}).  
 					The Doctor Profile endpoint is authenticated, needing a valid and authenticated session token belonging to an 
@@ -662,7 +662,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 					\end{figure}
 				\subsubsection{Add scan endpoint}
 				
-					
+					\label{add-scan-endpoint-infobe}
 					The add scan endpoint makes it possible for the end-user(doctor) to submit scans on its associated patients. It is activated when 
 					the end-user(Doctor) submits the scan submission form(see \ref{new-scan}). Add Scan Endpoint is an authenticaticated endpoint, meaning that it requires a 
 					valid session token to proceed. The session token should belong to an end-user(doctor) and not root(administrator). Please note that 
@@ -925,7 +925,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 			\subsection{Frontend application to Prediction Service Requests}
 				In this section, we will list the interactions between the frontend application and the prediction service. 
 				\subsubsection{Add scan endpoint}
-					\label{add-scan-taskbe}
+					\label{add-scan-endpoint-taskbe}
 					The Add scan endpoint makes it the end-user(doctor) possible to submit a new scan task for its associated 
 					patients. Add Scan Endpoint is a non-authenticaticated endpoint.
 					\begin{center}
@@ -1085,6 +1085,7 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 				In this section, we will briefly look at the requests from the prediction to information services. The requests under this category are non-authenticated 
 				as they are exchanged sorely in the background between services; the internal network is assumed to be trusted in this version of the software.
 				\subsubsection{Declare scan complete endpoint}
+					\label{declare-scan-complete-endpoint}
 					The Declare scan complete endpoint is triggered when the Prediction Service finishes the prediction of a given scan, informing 
 					the Information service about the event and generating a notification for the end-user to see.
 					\begin{center}
@@ -1152,6 +1153,59 @@ sessionid=rlhr96oilrjvkt802dsw41zr6a2g6anp; expires=Wed, 12 May 2021 15:42:03 GM
 }		
 						\end{lstlisting}
 					\end{figure}
+	
+	\section{Scan task creation}
+		In this section will briefly look the Scan task creation sequence, as it is non-trivial and requires multiple steps.
+		\subsection{Scan registration}
+			\label{first-step}
+			
+			The first step to creating a new scan task involves calling the Information Service's Add scan endpoint(for specification, 
+			please refer to the paragraph\ref{add-scan-endpoint-infobe}). This will register the scan as information to the Information 
+			Service, and it will return us a UUID token[\cite{rfc4122}].
+
+			\begin{figure}[H]
+				\iftrue
+				\caption{First step}
+				\centering
+				\includegraphics[scale=0.6]{figures/sca-creation-sequence-1-Page-2}
+				\fi
+			\end{figure}
+		\subsection{Scan prediction task registration}
+			
+			The second step to create a new scan task involves the call of the Prediction Service's Add scan endpoint(for specification, 
+			please refer to the paragraph \ref{add-scan-endpoint-taskbe}) using the token received in the first step when calling Information Service 
+			(paragraph \ref{first-step}). This final step will trigger the Predictor.
+			\begin{figure}[H]
+				\iftrue
+				\caption{Second Step}
+				\centering
+				\includegraphics[scale=0.6]{figures/sca-creation-sequence-1-Page-2-2}
+				\fi
+			\end{figure}
+		\subsection{Rest of the process}
+		
+			After the Prediction task is completed, Predictor Service will call Information's Service Notification endpoint(for specification, 
+			please refer to paragraph \ref{declare-scan-complete-endpoint}), triggering the notification system to forward the event to 
+			the end-user.
+
+			\begin{figure}[H]
+				\iftrue
+				\caption{Third Step}
+				\centering
+				\includegraphics[scale=0.6]{figures/sca-creation-sequence-1-Page-3-1}
+				\fi
+			\end{figure}
+			
+			Finally, the Frontend app, at a specific interval, by calling the Information Service's get notification endpoint(for 
+			specification, please refer to paragraph  \ref{get-notification}), receives the notifications for the given end-user. 
+			When it detects the presence of a  new event, it notifies the end-user.
+			\begin{figure}[H]
+				\iftrue
+				\caption{Fourth Step}
+				\centering
+				\includegraphics[scale=0.6]{figures/sca-creation-sequence-1-Page-3-2}
+				\fi
+			\end{figure}
 				
 				
 				
